@@ -1,0 +1,238 @@
+Model,country,release_date,year,eci,eci_ci_low,eci_ci_high,accessibility
+Claude Opus 5.5,US,2026-09-22,2026,166.82,163.54,170.99,API access
+GPT-6 Astra,US,2026-09-03,2026,166.41,163.35,171.23,API access
+GPT-6.1 Sol,US,2026-09-29,2026,166.32,163.17,170.82,API access
+Claude Fable 5.1,US,2026-09-01,2026,164.65,161.92,168.48,API access
+Gemini 4 Argon,US,2026-09-30,2026,164.56,161.67,168.7,Limited access
+Claude Sonnet 5.5,US,2026-09-28,2026,164.45,161.35,168.26,API access
+Claude Opus 5,US,2026-07-24,2026,162.6,160.0,165.75,API access
+GPT-6 Sol,US,2026-09-22,2026,162.55,160.03,165.84,API access
+Claude Fable 5,US,2026-06-09,2026,162.13,159.53,166.32,API access
+GPT-5.5 Pro,US,2026-04-23,2026,161.97,158.97,165.09,API access
+GPT-5.6 Sol,US,2026-07-09,2026,161.73,159.47,165.04,API access
+GPT-5.6 Terra,US,2026-07-09,2026,159.43,156.79,162.18,API access
+GPT-5.4 Pro,US,2026-03-05,2026,159.0,156.48,161.69,API access
+Claude Haiku 5.5,US,2026-10-07,2026,158.98,156.59,162.07,API access
+GPT-5.5,US,2026-04-23,2026,158.95,156.4,161.92,API access
+Claude Opus 4.8,US,2026-05-28,2026,158.26,156.24,160.79,API access
+Kimi K3,China,2026-07-16,2026,157.42,155.1,160.11,Open weights (non-commercial)
+Gemini 3.7 Flash,US,2026-08-13,2026,157.22,155.33,159.68,API access
+Gemini 3.8 Flash,US,2026-09-02,2026,157.2,154.97,160.45,API access
+Qwen 3.8 Max,China,2026-08-02,2026,156.88,155.07,159.09,API access
+GPT-5.3 Codex,US,2026-02-05,2026,156.76,152.86,160.49,API access
+Muse Spark 1.3,US,2026-09-02,2026,156.76,154.89,158.88,API access
+GPT-5.4,US,2026-03-05,2026,156.72,155.04,158.94,API access
+Claude Sonnet 5,US,2026-06-30,2026,156.36,153.97,158.94,API access
+GPT-5.6 Luna,US,2026-07-09,2026,156.33,153.86,159.04,API access
+Claude Opus 4.7,US,2026-04-16,2026,156.32,154.58,158.49,API access
+GPT-6 Luna,US,2026-09-22,2026,156.31,153.91,158.75,API access
+Grok 4.6,US,2026-08-12,2026,156.31,154.54,158.67,API access
+GPT-5.2 Pro,US,2025-12-11,2025,156.03,153.84,159.56,API access
+GLM-5.3,China,2026-08-14,2026,155.91,154.04,158.39,API access
+DeepSeek V4.1 Flash,China,2026-09-09,2026,155.57,153.51,157.55,Open weights (unrestricted)
+DeepSeek V4 Pro 0813,China,2026-08-13,2026,155.29,153.53,157.63,Open weights (unrestricted)
+Claude Opus 4.6,US,2026-02-05,2026,155.27,153.59,157.05,API access
+Qwen3.8 Max (0902),China,2026-09-01,2026,154.91,153.11,156.7,API access
+Muse Spark 1.2,US,2026-08-05,2026,154.9,152.96,157.03,API access
+Gemini 3.1 Pro,US,2026-02-19,2026,154.67,152.48,157.11,API access
+DeepSeek V4 Flash 0731,China,2026-07-31,2026,154.49,152.12,156.37,Open weights (unrestricted)
+Gemini 3.5 Flash,US,2026-05-19,2026,154.38,152.41,156.5,API access
+Grok 4.7,US,2026-09-21,2026,154.37,152.73,156.49,API access
+Gemini 3.6 Flash,US,2026-07-21,2026,154.24,152.74,156.1,API access
+Muse Spark 1.1,US,2026-07-09,2026,154.0,151.66,156.27,API access
+Grok 4.5,US,2026-07-08,2026,153.93,152.47,155.89,API access
+Qwen3.7-Max,China,2026-05-19,2026,153.83,151.98,156.24,API access
+GPT-5.2,US,2025-12-11,2025,153.46,151.64,155.27,API access
+GLM-5.3-Flash,China,2026-08-20,2026,153.23,150.95,155.4,Open weights (unrestricted)
+Gemini 3 Pro,US,2025-11-18,2025,152.9,151.0,154.95,API access
+Claude Sonnet 4.6,US,2026-02-17,2026,152.39,150.04,154.65,API access
+Muse Spark,US,2026-04-08,2026,152.13,150.33,155.41,API access
+Grok 4.20,US,2026-02-17,2026,152.08,149.51,154.2,API access
+GLM-5.2,China,2026-06-16,2026,151.86,150.07,154.0,Open weights (unrestricted)
+Gemini 3 Flash,US,2025-12-17,2025,151.8,150.54,153.39,API access
+Qwen 3.8 27B,China,2026-08-14,2026,151.55,149.75,153.14,Open weights (unrestricted)
+Kimi K2.6,China,2026-04-20,2026,150.92,149.12,152.75,Open weights (unrestricted)
+GPT-5 Pro,US,2025-10-07,2025,150.74,148.91,154.0,API access
+Inkling-Small,US,2026-07-15,2026,150.18,147.31,152.05,Open weights (unrestricted)
+Claude Opus 4.5,US,2025-11-24,2025,150.17,147.95,152.82,API access
+GPT-5,US,2025-08-07,2025,150.0,,,API access
+GLM-5.1,China,2026-04-07,2026,149.99,148.05,151.77,Open weights (unrestricted)
+Kimi K2.7 Code,China,2026-06-12,2026,149.87,147.94,151.71,Open weights (unrestricted)
+GPT-5.1,US,2025-11-13,2025,149.76,148.47,151.47,API access
+Qwen 3.6 Max (Preview),China,2026-04-20,2026,149.24,147.49,152.17,Unknown
+DeepSeek-V4-Pro,China,2026-04-24,2026,149.19,147.41,150.72,Open weights (unrestricted)
+Grok 4.3 Beta,US,2026-04-17,2026,148.95,147.27,150.34,Hosted access (no API)
+GPT-5.4 Mini,US,2026-03-17,2026,148.77,147.08,150.5,API access
+Inkling,US,2026-07-15,2026,148.59,146.08,150.55,Open weights (unrestricted)
+Kimi K2.5,China,2026-01-27,2026,147.98,146.36,149.3,Open weights (unrestricted)
+Qwen 3.6 Plus,China,2026-03-31,2026,147.49,145.29,149.27,API access
+o3-pro,US,2025-06-10,2025,147.37,145.7,150.18,API access
+Qwen3.7-Plus,China,2026-06-02,2026,147.3,145.59,148.83,API access
+MiniMax-M3,China,2026-06-01,2026,147.13,142.79,150.0,Open weights (restricted use)
+o3,US,2025-04-16,2025,146.87,144.95,148.72,API access
+Claude Sonnet 4.5,US,2025-09-29,2025,146.83,145.2,148.4,API access
+MiniMax-M2.5,China,2026-02-12,2026,146.67,142.63,147.94,Open weights (unrestricted)
+Qwen3.5 397B-A17B,China,2026-02-13,2026,146.66,144.96,148.32,Open weights (unrestricted)
+Qwen3.6 27B,China,2026-04-22,2026,146.48,144.12,147.82,Open weights (unrestricted)
+Grok 4,US,2025-07-09,2025,146.43,144.57,148.15,API access
+Qwen 3.5 Plus (hosted 397B-A17B),China,2026-02-16,2026,146.32,143.7,147.65,Unknown
+GPT-5.4 Nano,US,2026-03-17,2026,146.12,143.63,148.51,API access
+DeepSeek-V3.2,China,2025-12-01,2025,146.11,144.41,147.27,Open weights (unrestricted)
+DeepSeek-V4-Flash,China,2026-04-24,2026,146.05,143.69,148.14,Open weights (unrestricted)
+Kimi K2 Thinking,China,2025-11-06,2025,145.96,143.39,147.34,Open weights (restricted use)
+MiniMax-M2.7,China,2026-03-18,2026,145.88,138.51,148.03,Open weights (non-commercial)
+GLM-5,China,2026-02-11,2026,145.78,143.79,147.65,Open weights (unrestricted)
+Nemotron 3 Ultra,US,2026-06-04,2026,145.77,143.39,147.55,Open weights (unrestricted)
+o4-mini,US,2025-04-16,2025,145.6,143.32,147.32,API access
+GPT-5 mini,US,2025-08-07,2025,145.43,143.53,146.9,API access
+Gemini 2.5 Pro (Jun 2025),US,2025-06-05,2025,145.31,143.54,146.92,API access
+Gemini 3.5 Flash-Lite,US,2026-07-21,2026,145.15,142.7,146.66,API access
+DeepSeek-V3.2-Exp,China,2025-09-29,2025,144.97,142.44,146.98,Open weights (unrestricted)
+Qwen3.7 Flash,China,2026-07-27,2026,144.64,142.62,147.19,API access
+Gemini 3.1 Flash-Lite,US,2026-03-03,2026,144.47,142.28,146.04,API access
+Grok 4 Fast,US,2025-09-19,2025,144.19,141.95,146.36,API access
+Gemini 2.5 Pro (Mar 2025),US,2025-03-31,2025,144.12,141.88,146.89,API access
+Qwen 3.6 35B-A3B,China,2026-04-14,2026,144.11,141.48,146.29,Open weights (unrestricted)
+Claude Opus 4.1,US,2025-08-05,2025,144.09,141.95,146.14,API access
+Qwen3-235B-A22B-Thinking (Jul 2025),China,2025-07-25,2025,143.81,142.08,145.33,Open weights (unrestricted)
+GLM-4.7,China,2025-12-22,2025,143.79,141.73,146.12,Open weights (unrestricted)
+Qwen 3.5 Flash (hosted 35B-A3B),China,2026-02-25,2026,143.77,141.51,145.3,Unknown
+Qwen 3.6 Flash,China,2026-04-27,2026,143.05,140.23,144.48,Unknown
+Gemini 2.5 Flash (Sep 2025),US,2025-09-25,2025,143.0,139.46,146.61,API access
+Gemma 4 31B IT,US,2026-04-02,2026,142.86,140.4,145.23,Open weights (restricted use)
+Claude Opus 4,US,2025-05-22,2025,142.65,140.44,144.14,API access
+Qwen3.5-35B-A3B,China,2026-02-24,2026,142.48,140.1,144.86,Open weights (unrestricted)
+GPT-5.5 Instant,US,2026-05-05,2026,142.45,140.09,145.27,API access
+Gemini 2.5 Pro (May 2025),US,2025-05-06,2025,142.44,139.02,145.04,API access
+Claude Haiku 4.5,US,2025-10-15,2025,142.4,139.33,144.11,API access
+Qwen3-Max,China,2025-09-24,2025,142.34,139.97,144.37,API access
+o1,US,2024-12-17,2024,141.84,139.51,142.88,API access
+Gemma 4 26B A4B,US,2026-04-02,2026,141.81,138.59,143.44,Open weights (unrestricted)
+Claude Sonnet 4,US,2025-05-22,2025,141.67,138.71,143.08,API access
+Gemini 2.5 Flash (May 2025),US,2025-05-20,2025,141.51,139.17,142.86,API access
+DeepSeek-R1 (May 2025),China,2025-05-28,2025,141.27,138.65,142.79,Open weights (unrestricted)
+Claude 3.7 Sonnet,US,2025-02-24,2025,141.14,138.45,142.83,API access
+Gemini 2.5 Flash (Jun 2025),US,2025-06-17,2025,140.77,138.55,142.3,API access
+o3-mini,US,2025-01-31,2025,140.33,137.23,141.9,API access
+Grok-3 mini,US,2025-06-24,2025,140.33,137.57,142.21,API access
+Kimi K2 (Jul 2025),China,2025-07-12,2025,140.12,136.23,142.16,Open weights (restricted use)
+gpt-oss-120b,US,2025-08-05,2025,140.0,135.89,142.38,Open weights (unrestricted)
+Gemini 2.5 Flash (Apr 2025),US,2025-04-17,2025,139.94,135.89,141.9,API access
+DeepSeek-V3.1,China,2025-08-21,2025,139.91,135.75,143.23,Open weights (unrestricted)
+Qwen3-30B-A3B-Thinking (Jul 2025),China,2025-07-30,2025,139.61,135.63,141.01,Open weights (unrestricted)
+Qwen3.5-9B,China,2026-02-24,2026,139.43,136.09,141.08,Open weights (restricted use)
+Qwen3-235B-A22B,China,2025-04-28,2025,139.35,135.17,140.83,Open weights (unrestricted)
+GPT-5 nano,US,2025-08-07,2025,139.33,134.79,141.4,API access
+DeepSeek-R1,China,2025-01-20,2025,138.96,136.14,140.43,Open weights (unrestricted)
+Qwen3-235B-A22B-Instruct (Jul 2025),China,2025-07-25,2025,138.92,135.11,140.81,Open weights (unrestricted)
+Qwen3-32B,China,2025-04-29,2025,138.49,134.82,140.44,Open weights (unrestricted)
+Grok 3,US,2025-04-09,2025,138.32,135.52,139.67,API access
+Qwen3-14B,China,2025-04-29,2025,138.22,133.81,140.04,Open weights (unrestricted)
+gpt-oss-20b,US,2025-08-05,2025,137.81,133.2,139.78,Open weights (unrestricted)
+QwQ-32B,China,2025-03-05,2025,137.58,132.42,141.91,Open weights (unrestricted)
+DeepSeek-R1-Distill-Qwen-32B,China,2025-01-20,2025,137.42,129.51,138.84,Open weights (unrestricted)
+Qwen3-30B-A3B-Instruct (Jul 2025),China,2025-07-29,2025,137.42,132.24,139.57,Open weights (unrestricted)
+GPT-4.1,US,2025-04-14,2025,136.77,133.71,138.58,API access
+GPT-4.5,US,2025-02-27,2025,136.73,133.41,138.66,API access
+Qwen3-30B-A3B,China,2025-04-29,2025,136.19,130.65,138.66,Open weights (unrestricted)
+Qwen3-8B,China,2025-04-28,2025,136.17,130.78,138.25,Open weights (unrestricted)
+DeepSeek-V3 (Mar 2025),China,2025-03-24,2025,135.93,132.49,137.84,Open weights (restricted use)
+o1-mini,US,2024-09-12,2024,135.82,132.04,137.32,API access
+DeepSeek-R1-Distill-Qwen-14B,China,2025-01-20,2025,135.44,127.65,138.1,Open weights (unrestricted)
+Gemini 2.0 Flash Thinking (Jan 2025),US,2025-01-21,2025,135.36,130.1,138.05,API access
+Gemini 2.0 Pro,US,2025-02-05,2025,135.05,131.16,136.86,Hosted access (no API)
+GPT-4.1 mini,US,2025-04-14,2025,135.0,131.19,136.67,API access
+o1-preview,US,2024-09-12,2024,134.78,131.1,138.42,API access
+Gemini 2.0 Flash (Dec 2024),US,2024-12-11,2024,134.69,124.32,136.59,API access
+Gemini 2.0 Flash (Feb 2025),US,2025-02-05,2025,134.68,131.22,136.61,API access
+Gemini 2.5 Flash-Lite (Jun 2025),US,2025-06-17,2025,133.95,130.34,136.5,API access
+Claude 3.5 Sonnet (October 2024),US,2024-10-22,2024,133.53,128.77,137.81,API access
+Qwen2.5-Max,China,2025-01-25,2025,132.53,128.14,135.49,API access
+DeepSeek-V3,China,2024-12-26,2024,132.33,127.53,135.86,Open weights (restricted use)
+Llama 4 Maverick,US,2025-04-06,2025,132.2,127.72,134.08,Open weights (restricted use)
+Gemini 1.5 Pro (Sept 2024),US,2024-09-24,2024,131.73,127.09,133.14,API access
+Grok-2 (Dec 2024),US,2024-12-12,2024,130.49,125.55,132.31,API access
+Phi-4,US,2024-12-12,2024,130.43,124.38,132.09,Open weights (unrestricted)
+Gemma 3 27B,US,2025-03-12,2025,130.05,124.48,132.21,Open weights (restricted use)
+Claude 3.5 Sonnet,US,2024-06-20,2024,130.0,,,API access
+Llama 4 Scout,US,2025-04-05,2025,129.65,124.73,131.27,Open weights (restricted use)
+GPT-4.1 nano,US,2025-04-14,2025,129.63,123.53,132.08,API access
+Gemini 1.5 Flash (Sep 2024),US,2024-09-24,2024,129.37,123.11,131.33,API access
+GPT-4o (May 2024),US,2024-05-13,2024,129.05,123.66,131.98,API access
+Qwen2.5-72B,China,2024-09-19,2024,129.0,123.57,130.7,Open weights (unrestricted)
+GPT-4o (Aug 2024),US,2024-08-06,2024,128.84,123.86,131.09,API access
+Llama 3.1-405B,US,2024-07-23,2024,128.76,123.51,130.67,Open weights (restricted use)
+GPT-4o (Nov 2024),US,2024-11-20,2024,128.73,123.93,131.2,API access
+Qwen2.5-32B,China,2024-09-17,2024,128.53,122.49,130.1,Open weights (unrestricted)
+Llama 3.3 70B,US,2024-12-06,2024,127.34,121.94,129.78,Open weights (restricted use)
+GPT-4 Turbo (Apr 2024),US,2024-04-09,2024,127.25,121.64,128.84,API access
+Claude 3.5 Haiku,US,2024-10-22,2024,127.17,120.12,129.66,API access
+Gemini 1.5 Pro (May 2024),US,2024-05-14,2024,126.92,121.61,129.29,API access
+Claude 3 Opus,US,2024-02-29,2024,126.91,121.8,129.76,API access
+GPT-4o mini,US,2024-07-18,2024,126.58,119.53,128.63,API access
+GPT-4 Turbo (Nov 2023),US,2024-01-25,2024,126.46,121.08,129.16,API access
+Llama 3.1-70B,US,2024-07-23,2024,125.94,120.41,128.99,Open weights (restricted use)
+GPT-4 (Mar 2023),US,2023-03-14,2023,125.88,119.94,130.57,API access
+Llama 3.2 90B,US,2024-09-24,2024,125.51,119.55,127.4,Open weights (restricted use)
+Qwen2-72B,China,2024-06-07,2024,125.28,119.02,127.08,Open weights (unrestricted)
+"DeepSeek-V2 (MoE-236B, May 2024)",China,2024-05-07,2024,124.78,118.34,127.72,Open weights (restricted use)
+Amazon Nova Pro,US,2024-12-03,2024,123.8,109.54,126.96,API access
+Gemma 3 12B,US,2025-03-12,2025,123.49,115.45,128.72,Open weights (restricted use)
+GPT-4 (Jun 2023),US,2023-06-13,2023,123.16,116.28,126.88,API access
+Llama 3-70B,US,2024-04-18,2024,122.94,117.25,126.08,Open weights (restricted use)
+Gemini 1.5 Flash (May 2024),US,2024-05-23,2024,122.61,116.7,124.63,API access
+Gemma 2 27B,US,2024-06-24,2024,122.1,115.12,124.38,Open weights (restricted use)
+phi-3-small 7.4B,US,2024-04-23,2024,121.85,113.91,124.71,Open weights (unrestricted)
+phi-3-medium 14B,US,2024-04-23,2024,121.25,114.39,124.38,Open weights (unrestricted)
+Claude 3 Sonnet,US,2024-02-29,2024,120.72,112.47,123.85,API access
+Claude Instant,US,2023-08-09,2023,120.31,112.78,123.18,API access
+Claude 2,US,2023-07-11,2023,120.15,113.73,123.85,API access
+Gemma 2 9B,US,2024-06-24,2024,119.85,111.52,122.48,Open weights (restricted use)
+Qwen2.5-Coder-32B,China,2024-09-18,2024,119.52,110.57,124.65,Open weights (unrestricted)
+Claude 2.1,US,2023-11-21,2023,119.3,112.16,121.9,API access
+GPT-3.5 Turbo (Nov 2023),US,2023-11-06,2023,118.58,109.72,121.79,API access
+Qwen2.5-7B,China,2024-09-19,2024,118.53,110.6,121.29,Open weights (unrestricted)
+Claude 3 Haiku,US,2024-03-07,2024,118.39,110.36,121.69,API access
+Yi-34B,China,2023-11-02,2023,117.43,109.75,120.67,Open weights (restricted use)
+phi-3-mini 3.8B,US,2024-04-23,2024,117.4,108.76,120.7,Open weights (unrestricted)
+Gemini 1.0 Pro,US,2023-12-13,2023,117.07,109.8,119.8,API access
+Llama 3.1-8B,US,2024-07-23,2024,116.61,106.33,121.57,Open weights (restricted use)
+Llama 3-8B,US,2024-04-18,2024,116.49,107.81,119.39,Open weights (restricted use)
+Gemma 3 4B,US,2025-03-12,2025,116.01,97.97,123.34,Open weights (restricted use)
+GPT-3.5 Turbo (Jan 2024),US,2024-01-25,2024,115.74,108.01,119.43,API access
+Llama 2-70B,US,2023-07-18,2023,113.84,105.57,117.97,Open weights (restricted use)
+GPT-3.5 Turbo (Jun 2023),US,2023-06-13,2023,113.42,104.8,118.03,API access
+Qwen2.5-Coder (7B),China,2024-09-18,2024,113.2,102.14,119.29,Open weights (unrestricted)
+Qwen-14B,China,2023-09-24,2023,113.09,104.56,117.65,Open weights (restricted use)
+Gemma 7B,US,2024-02-21,2024,112.05,102.44,116.38,Open weights (restricted use)
+DeepSeek LLM 67B,China,2023-11-29,2023,110.47,94.99,117.25,Open weights (restricted use)
+LLaMA-65B,US,2023-02-24,2023,110.23,101.57,114.9,Open weights (non-commercial)
+Phi-2,US,2023-12-12,2023,108.02,85.14,114.08,Open weights (unrestricted)
+Nemotron-4 15B,US,2024-02-26,2024,107.8,98.61,112.99,Unreleased
+LLaMA-33B,US,2023-02-24,2023,107.49,98.33,112.27,Open weights (non-commercial)
+Qwen-7B,China,2023-09-28,2023,106.91,96.06,112.26,Open weights (restricted use)
+Llama 2-13B,US,2023-07-18,2023,106.25,96.69,111.49,Open weights (restricted use)
+Llama 2-34B,US,2023-07-18,2023,105.29,95.69,110.57,Unreleased
+StarCoder 2 15B,US,2024-02-20,2024,105.09,94.1,112.2,Open weights (restricted use)
+Yi 6B,China,2023-11-22,2023,104.86,94.63,110.37,Open weights (restricted use)
+Baichuan2-13B,China,2023-09-06,2023,103.29,92.67,110.61,Open weights (restricted use)
+Qwen2.5-Coder (1.5B),China,2024-09-18,2024,103.09,88.02,111.76,Open weights (unrestricted)
+Llama 3.2 1B,US,2024-09-24,2024,102.04,90.32,115.01,Open weights (restricted use)
+INTELLECT-1,US,2024-11-29,2024,100.97,90.22,106.46,Unknown
+MPT-30B,US,2023-06-22,2023,100.76,90.55,106.4,Open weights (unrestricted)
+LLaMA-13B,US,2023-02-24,2023,100.69,90.04,106.64,Open weights (non-commercial)
+Llama 2-7B,US,2023-07-18,2023,99.18,88.06,105.33,Open weights (restricted use)
+LLaMA-7B,US,2023-02-24,2023,96.82,84.07,103.99,Open weights (non-commercial)
+Baichuan 2-7B,China,2023-09-20,2023,96.45,84.31,104.76,Open weights (restricted use)
+DeepSeek Coder 33B,China,2023-11-02,2023,96.45,84.2,103.38,Open weights (restricted use)
+MPT-7B,US,2023-05-05,2023,94.73,81.66,102.66,Open weights (unrestricted)
+Gemma 2B,US,2024-02-21,2024,94.34,82.8,101.18,Open weights (restricted use)
+StarCoder 2 7B,US,2024-02-20,2024,93.7,79.05,102.01,Open weights (restricted use)
+XGen-7B,US,2023-06-27,2023,93.54,81.11,101.04,Open weights (unrestricted)
+Phi-1.5,US,2023-09-11,2023,91.68,71.13,101.34,Open weights (unrestricted)
+Baichuan1-7B,China,2023-06-01,2023,90.61,77.57,99.38,Open weights (non-commercial)
+Dolly 2.0-12b,US,2023-04-11,2023,89.83,76.06,97.97,Open weights (unrestricted)
+DeepSeek Coder 6.7B,China,2023-11-02,2023,89.77,75.59,98.06,Open weights (restricted use)
+StarCoder 2 3B,US,2024-02-22,2024,88.92,73.32,97.85,Open weights (restricted use)
+Cerebras-GPT-13B,US,2023-03-20,2023,83.42,67.04,92.07,Open weights (unrestricted)
+DeepSeek Coder 1.3B,China,2023-11-02,2023,63.88,45.1,76.94,Open weights (restricted use)

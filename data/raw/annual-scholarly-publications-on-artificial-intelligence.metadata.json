@@ -1,0 +1,35 @@
+{
+  "chart": {
+    "title": "Annual scholarly publications on artificial intelligence",
+    "citation": "Center for Security and Emerging Technology (2026)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/annual-scholarly-publications-on-artificial-intelligence?v=1&csvType=full&useColumnShortNames=false&utm_source=chatgpt.com",
+    "selection": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "China",
+      "World"
+    ]
+  },
+  "columns": {
+    "AI scholarly publications - Field: All": {
+      "titleShort": "AI scholarly publications - Field: All",
+      "titleLong": "AI scholarly publications - Field: All",
+      "descriptionShort": "Scholarly publications on AI, including journal articles, conference papers, working papers, and preprints. The data only covers articles with an English-language title or abstract.",
+      "descriptionKey": "- The data covers scholarly publications on AI, including journal articles, conference papers, working papers, and preprints.\n- Articles are flagged as AI-related using machine learning models trained on subject tags from arXiv, an open repository for scientific papers.\n- The models only run on articles with English titles or abstracts. Research published only in other languages is missed. Coverage of Chinese research is also limited, since many Chinese journals are not in the underlying sources.\n- An article counts for a country if at least one of its authors is affiliated with an institution there. If authors are based in different countries, it counts once for each.\n- Authors are linked to the country of the institution they worked at when the article was published, not their country of origin.",
+      "descriptionProcessing": "We calculate regional and global totals from the country-level data CSET provides, following our [region definitions](https://ourworldindata.org/world-region-map-definitions). Countries that are not covered by the source are excluded from these totals.",
+      "unit": "publications",
+      "timespan": "2016-2024",
+      "type": "Integer",
+      "owidVariableId": 1228103,
+      "shortName": "num_articles__field_all",
+      "lastUpdated": "2026-04-27",
+      "nextUpdate": "2026-10-24",
+      "citationShort": "Center for Security and Emerging Technology (2026) – with minor processing by Our World in Data",
+      "citationLong": "Center for Security and Emerging Technology (2026) – with minor processing by Our World in Data. “AI scholarly publications - Field: All – CSET” [dataset]. Center for Security and Emerging Technology, “Country Activity Tracker: Artificial Intelligence” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1228103.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-10-19",
+  "activeFilters": {}
+}

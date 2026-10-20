@@ -1,0 +1,9 @@
+country,eci_year,eci_models,exact_matched_eci_models,match_pct_of_eci,matched_with_training_compute,compute_pct_of_matched,notable_models_same_calendar_year,matched_div_notable_same_year_pct_DESCRIPTIVE_ONLY,date_mismatch_with_notable
+US,2023,23,8,34.78,6,75.0,86,9.3,2
+US,2024,44,15,34.09,5,33.33,57,26.32,4
+US,2025,46,28,60.87,9,32.14,64,43.75,5
+US,2026,48,27,56.25,3,11.11,49,55.1,0
+China,2023,11,1,9.09,1,100.0,23,4.35,0
+China,2024,9,4,44.44,4,100.0,31,12.9,1
+China,2025,23,9,39.13,9,100.0,35,25.71,3
+China,2026,33,15,45.45,7,46.67,29,51.72,6

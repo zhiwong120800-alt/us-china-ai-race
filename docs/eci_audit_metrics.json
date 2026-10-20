@@ -1,0 +1,12 @@
+{
+  "eci_rows": 277,
+  "notable_rows": 1078,
+  "exact_matches": 111,
+  "unmatched": 166,
+  "eci_country_missing": 17,
+  "date_discrepancies": 22,
+  "year_discrepancies": 3,
+  "after_notable_lastdate": 2,
+  "notable_snapshot_latest_model_date": "2026-09-30",
+  "eci_snapshot_latest_model_date": "2026-10-07"
+}
