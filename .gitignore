@@ -1,0 +1,21 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+# Temporary files
+*.tmp
+.ipynb_checkpoints/
