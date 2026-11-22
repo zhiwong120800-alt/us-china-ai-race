@@ -72,6 +72,22 @@ table.ledger{width:100%;border-collapse:collapse;border-spacing:0;font-size:.8re
 @media(max-width:1000px){.toolbar{align-items:flex-start;flex-direction:column}.control-group{justify-content:flex-start}.panel-grid{grid-template-columns:minmax(0,1fr) 146px;gap:7px}.insight strong{min-width:210px}}
 @media(max-width:680px){.toolbar{padding-top:10px}.control-group{gap:8px}.segment{width:100%}.segment button{flex:1}.panel-heading{display:flex;flex-direction:column;gap:1px}.panel-grid{grid-template-columns:1fr;gap:0}svg.plot{height:210px}.panel-readout{display:flex;justify-content:space-between;min-height:0;gap:7px;padding:12px}.panel-readout .read-year{display:none}.read-line{margin:0}.read-line strong{font-size:1.2rem}.timeline{gap:3px;flex-wrap:wrap}.timeline-label{flex-basis:100%;margin-bottom:5px}.year-button{min-width:0;flex:1;font-size:.7rem;padding:7px 4px}.insight{display:block;padding:19px}.insight strong{display:block;margin-bottom:8px}.ledger-head{flex-direction:column;gap:4px}.ledger th,.ledger td{padding:10px 6px;font-size:.74rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+.story-pager{box-sizing:border-box;display:block;position:relative;isolation:isolate;margin:80px auto 0;padding:42px max(24px,calc((100vw - 1152px)/2)) 34px;background:#123d34;color:#f8fbf7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.story-pager *{box-sizing:border-box}.story-pager a{text-decoration:none;color:inherit}
+.story-pager-inner{max-width:1120px;margin:0 auto}
+.story-pager-top{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(211,231,218,.25);padding-bottom:20px;gap:24px}
+.story-pager-index{font-size:11px;letter-spacing:.16em;font-weight:750;color:#bfd7ca;text-transform:uppercase}
+.story-pager-progress{font-size:11px;color:#a6c3b6;white-space:nowrap}
+.story-pager-middle{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;padding-top:28px}
+.story-pager h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(31px,4.5vw,57px);font-weight:400;line-height:1.05;letter-spacing:-.025em;margin:0!important;max-width:600px;color:#f8fbf7!important}
+.story-pager-subtitle{margin:15px 0 0!important;font-size:14px;line-height:1.6;color:#c9dbd0!important;max-width:600px}
+.story-pager-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;background:#e4efe8;color:#123d34!important;border:1px solid #e4efe8;padding:16px 19px;min-width:185px;font-weight:700;font-size:13px;white-space:nowrap;transition:background .18s,border-color .18s;flex-shrink:0;border-radius:3px}
+.story-pager-button:hover{background:#fff;border-color:#fff}.story-pager-button:focus-visible,.story-pager-nav a:focus-visible{outline:3px solid #c2dcce;outline-offset:5px}
+.story-pager-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin:40px auto 0;max-width:1120px;font-size:12px;color:#c7d8cd}
+.story-pager-nav a{border-bottom:1px solid rgba(210,228,217,.45);padding:6px 0}.story-pager-nav a:hover{color:white;border-bottom-color:white}
+@media(max-width:720px){.story-pager{padding:32px 22px 28px;margin-top:52px}.story-pager-middle{align-items:flex-start;flex-direction:column;gap:28px}.story-pager-button{width:100%;justify-content:space-between}.story-pager h2{font-size:37px}.story-pager-nav{margin-top:30px}.story-pager-progress{display:none}}
+@media(prefers-reduced-motion:reduce){.story-pager-button{transition:none}}
 </style><style>:root{--paper:#FAF9F5;--ink:#202C29;--pine:#103E34;--forest:#0F6E56;--muted:#58665E;--line:#D8DFD8;--warm:#E8D6AB;--light:#F0F3EE}
 html{scroll-behavior:smooth}
 body,[data-testid="stAppViewContainer"]{background:var(--paper);color:var(--ink)}
@@ -273,4 +289,10 @@ render(false);
 if(!reduced&&'IntersectionObserver' in window){const io=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){started=true;play();io.disconnect();}},{root:null,threshold:.3});io.observe(document.getElementById('paperPlot'));}
 else{started=true;}
 })();
-</script></body></html>
+</script>
+<section class="story-pager" aria-label="Continue the data narrative"><div class="story-pager-inner">
+<div class="story-pager-top"><span class="story-pager-index">Continue the investigation · CHAPTER 02 OF 06</span><span class="story-pager-progress">You have reached chapter 1 of 6</span></div>
+<div class="story-pager-middle"><div><h2>The compute story is more complicated</h2><p class="story-pager-subtitle">Trace the observed training-compute frontier and see how the gap changes.</p></div><a class="story-pager-button" href="Chapter_02_Frontier_Gap.html">Read Frontier Gap <span aria-hidden="true">↗</span></a></div>
+<div class="story-pager-nav"><a href="index.html">← Introduction</a><a href="index.html">Back to the beginning</a></div>
+</div></section>
+</body></html>

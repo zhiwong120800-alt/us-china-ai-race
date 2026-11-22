@@ -185,6 +185,22 @@ select{border:1px solid #cad6cd;border-radius:7px;font:600 13px system-ui;color:
 .ai-next{margin-top:55px}.ai-footer{font-size:12px}.ai-nav nav a{white-space:nowrap}
 @media(max-width:900px){main{padding:80px 14px 20px}.two-col-evidence{grid-template-columns:1fr}.ai-evidence-copy{padding:7px 0 0}.ai-evidence-copy p{max-width:600px}.chart-unit{height:440px}.ai-cover{margin:0 0 34px}.ai-nav nav{gap:12px}}
 @media(max-width:600px){main{padding:70px 16px 24px}.ai-nav-inner{gap:8px}.ai-nav nav a[href="#evidence"]{display:none}.ai-cover{margin:0 -16px 35px;padding:44px 24px 40px}.model-controls{grid-template-columns:1fr 1fr}.model-controls label:last-child{grid-column:1/-1}.ai-section-head h2{font-size:29px}.chart-hero{height:440px}.chart-unit{height:520px}.insight{display:block}.insight p{margin-top:9px}.methods{grid-template-columns:1fr;gap:5px}.ai-aside{display:block}}
+
+.story-pager{box-sizing:border-box;display:block;position:relative;isolation:isolate;margin:80px auto 0;padding:42px max(24px,calc((100vw - 1152px)/2)) 34px;background:#123d34;color:#f8fbf7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.story-pager *{box-sizing:border-box}.story-pager a{text-decoration:none;color:inherit}
+.story-pager-inner{max-width:1120px;margin:0 auto}
+.story-pager-top{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(211,231,218,.25);padding-bottom:20px;gap:24px}
+.story-pager-index{font-size:11px;letter-spacing:.16em;font-weight:750;color:#bfd7ca;text-transform:uppercase}
+.story-pager-progress{font-size:11px;color:#a6c3b6;white-space:nowrap}
+.story-pager-middle{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;padding-top:28px}
+.story-pager h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(31px,4.5vw,57px);font-weight:400;line-height:1.05;letter-spacing:-.025em;margin:0!important;max-width:600px;color:#f8fbf7!important}
+.story-pager-subtitle{margin:15px 0 0!important;font-size:14px;line-height:1.6;color:#c9dbd0!important;max-width:600px}
+.story-pager-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;background:#e4efe8;color:#123d34!important;border:1px solid #e4efe8;padding:16px 19px;min-width:185px;font-weight:700;font-size:13px;white-space:nowrap;transition:background .18s,border-color .18s;flex-shrink:0;border-radius:3px}
+.story-pager-button:hover{background:#fff;border-color:#fff}.story-pager-button:focus-visible,.story-pager-nav a:focus-visible{outline:3px solid #c2dcce;outline-offset:5px}
+.story-pager-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin:40px auto 0;max-width:1120px;font-size:12px;color:#c7d8cd}
+.story-pager-nav a{border-bottom:1px solid rgba(210,228,217,.45);padding:6px 0}.story-pager-nav a:hover{color:white;border-bottom-color:white}
+@media(max-width:720px){.story-pager{padding:32px 22px 28px;margin-top:52px}.story-pager-middle{align-items:flex-start;flex-direction:column;gap:28px}.story-pager-button{width:100%;justify-content:space-between}.story-pager h2{font-size:37px}.story-pager-nav{margin-top:30px}.story-pager-progress{display:none}}
+@media(prefers-reduced-motion:reduce){.story-pager-button{transition:none}}
 </style></head><body>
 <header class="ai-nav"><div class="ai-nav-inner"><a class="ai-brand" href="#overview"><i></i>THE AI RACE<span>DATA NARRATIVE</span></a><nav><a href="#explore">Explore</a><a href="#evidence">Evidence</a><a href="#records">Model records</a><a href="#methods">Methods</a></nav><span class="ai-chapter">CHAPTER <b>04</b> / 06</span></div></header>
 <main><div id="overview" class="ai-anchor"></div>
@@ -225,4 +241,10 @@ document.getElementById('more').style.display=match.length>limit?'inline-block':
 ['country','recordperiod','category'].forEach(id=>document.getElementById(id).addEventListener('change',()=>{limit=24;modelExplorer();}));
 document.getElementById('more').addEventListener('click',()=>{limit+=24;modelExplorer()});
 display();modelExplorer();
-</script></body></html>
+</script>
+<section class="story-pager" aria-label="Continue the data narrative"><div class="story-pager-inner">
+<div class="story-pager-top"><span class="story-pager-index">Continue the investigation · CHAPTER 05 OF 06</span><span class="story-pager-progress">You have reached chapter 4 of 6</span></div>
+<div class="story-pager-middle"><div><h2>Building is not the same as sharing</h2><p class="story-pager-subtitle">Explore how important models are made available.</p></div><a class="story-pager-button" href="Chapter_05_Open_vs_Closed.html">Read Open vs Closed <span aria-hidden="true">↗</span></a></div>
+<div class="story-pager-nav"><a href="Chapter_03_Who_Builds_It_Integrated.html">← Chapter 03: Who Builds It?</a><a href="index.html">Back to the beginning</a></div>
+</div></section>
+</body></html>
