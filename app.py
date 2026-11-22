@@ -64,6 +64,31 @@ if not source.is_file():
 # visuals and JavaScript without linking to a mutable GitHub Pages version.
 # Auto-size the iframe to its content rather than using a fixed scrolling pane.
 st.iframe(source, height="content", alt=f"The AI Race: {selection}")
+# Expose the assessed data independently of hover-only chart interactions.
+# The table is lazy to keep the normal page load fast.
+DATA_TABLES = {
+    0: "data/processed/chart1_papers_vs_models_2016_2024.csv",
+    1: "data/processed/chart1_papers_vs_models_2016_2024.csv",
+    2: "data/raw/epoch_notable_ai_models_20261020.csv",
+    3: "data/processed/chart3_affiliations.csv",
+    4: "data/processed/chart4_model_type_records.csv",
+    5: "data/processed/chart5_model_access_records.csv",
+    6: "data/processed/chart6_eci_us_china_full_country_scores.csv",
+    7: "data/processed/chart6_eci_us_china_full_country_scores.csv",
+}
+if st.toggle("Show exact data table (no hovering required)", value=False, key="show_source_table"):
+    import pandas as pd
+    source_csv = ROOT / DATA_TABLES[idx]
+    if source_csv.is_file():
+        @st.cache_data(show_spinner=False)
+        def read_source(path: str):
+            return pd.read_csv(path, low_memory=False)
+        table = read_source(str(source_csv))
+        st.caption(f"Frozen source table: {source_csv.relative_to(ROOT)} · {len(table):,} rows")
+        st.dataframe(table, use_container_width=True, hide_index=True, height=330)
+    else:
+        st.warning(f"Missing reproducible table: {source_csv.name}")
+
 left, center, right = st.columns([1, 2, 1])
 with left:
     if idx and st.button("← Previous", use_container_width=True):
