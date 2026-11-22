@@ -77,6 +77,17 @@ def run():
         inner.locator("a.cta").click()
         inner.locator("h1").filter(has_text="More research").wait_for(timeout=15000)
         print("PASS_STREAMLIT_HOST full app entry point, iframe rendering, and in-app chapter navigation")
+        # Regression: Streamlit widgets must only be changed by callbacks that run
+        # before radio instantiation, not by assigning to their keys afterwards.
+        page.goto("http://localhost:8501/", wait_until="domcontentloaded", timeout=30000)
+        page.frame_locator('iframe[title="The AI Race: Introduction"]').locator("h1").wait_for(timeout=15000)
+        page.get_by_role("button", name="Next →").click()
+        page.frame_locator('iframe[title="The AI Race: 01 · Papers vs Models"]').locator("h1").wait_for(timeout=15000)
+        assert page.get_by_text("StreamlitWidgetAlreadyInstantiatedError").count()==0, "Next chapter caused a session-state/widget mutation error"
+        page.get_by_role("button", name="← Previous").click()
+        page.frame_locator('iframe[title="The AI Race: Introduction"]').locator("h1").wait_for(timeout=15000)
+        assert page.get_by_text("StreamlitWidgetAlreadyInstantiatedError").count()==0, "Previous chapter caused a session-state/widget mutation error"
+        print("PASS_STREAMLIT_NATIVE_NAV native Next and Previous buttons without widget state exceptions")
         # Reset for mobile static page captures.
 
         # Mobile is a useful additional acceptance check, not part of the desktop-only rubric item.
