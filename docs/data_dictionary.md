@@ -370,3 +370,23 @@ Definitions: **Primary key** can be a *composite key*; observation coverage refe
 - **Time / latest:** calendar years 2016–2026, with 2026 right-censored at 30 September.
 - **Fields / units:** country (label), year (calendar year), all_notable (country–model records, count), with_compute (records with finite positive source FLOPs, count), coverage_pct (100 × with_compute / all_notable, percent).
 - **Transform:** Same frozen raw model population and whole-country attribution as the model table; include missing-FLOP records in the denominator, never as zeros. Script: python scripts/build_chart2.py.
+
+### data/processed/chart3_affiliations.csv — explicit output entry
+- **Source / URL / licence:** Frozen Epoch Notable Models plus audited Chart 3 affiliation review; https://epoch.ai/data/ai-models; CC BY + team-created mapping.
+- **Key / size:** model + country + developer; 909 model/developer/country records.
+- **Time / latest:** 2016–2025, latest observation 2025; frozen source 20 October 2026.
+- **Columns / units:** model (text identifier), country (country tag), year (calendar year), developer (raw organisation label), family (audited grouped-organisation label).
+- **Transform:** scripts/rebuild_chapter_data.py copies the reviewed affiliation decisions after checking that default US/China membership matches Chapters 4–5; unique model unions are used for the top-three participation measure.
+
+## Non-analytic CSV metadata (also retained in this repository)
+
+### docs/ai_provenance_matrix.csv
+- **Origin / licence:** Original group-authored provenance declarations, not an Epoch or OWID dataset; no external source URL or source-data licence.
+- **Key:** Artefact + Who + Tool + What was asked (composite log identity; additional substantive uses can have their own rows).
+- **Time / latest:** Project activity through 22 November 2026, updated when a teammate supplies a real record.
+- **Columns / units:** Artefact (text), Who (member name), Tool (software), What was asked (prompt summary), What came back (result), How it was verified (failure-capable check), Outcome (accepted/modified/rejected and caveats).
+- **Transform:** Direct authenticated/confirmed human declarations; **never infer a teammate's AI use**. Missing member records remain outstanding, not fabricated.
+
+### docs/ai_provenance_template.csv
+- **Origin / licence / schema / key / time:** Identical copy of the present provenance matrix for compatibility with the original coursework repository structure.
+- **Transform:** A convenience alias, *not* an independently generated research dataset. The canonical hand-in matrix is docs/ai_provenance_matrix.csv.
