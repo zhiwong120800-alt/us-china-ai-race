@@ -66,7 +66,9 @@ _NAV_SCRIPT = """
     window.removeEventListener("message", window.__aiRaceHostNavigation);
   }
   window.__aiRaceHostNavigation = (event) => {
-    if (event.origin !== window.location.origin) return;
+    const currentFrame = document.querySelector('iframe[title^="The AI Race:"]');
+    if (!currentFrame || event.source !== currentFrame.contentWindow) return;
+    if (event.origin !== window.location.origin && event.origin !== "null") return;
     if (event.data?.type !== "ai-race:chapter-navigation") return;
     const label = destinations[event.data.file];
     if (!label) return;
