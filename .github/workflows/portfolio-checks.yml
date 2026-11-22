@@ -23,6 +23,8 @@ jobs:
           python scripts/rebuild_chapter_data.py
       - name: Check committed processed tables are reproducible
         run: git diff --exit-code -- data/processed/
+      - name: Test colour-blindness resilience and contrast of national palette
+        run: python scripts/check_colour_vision.py
       - name: Compile application and data pipelines
         run: python -m py_compile app.py chart5.py scripts/build_chart1.py scripts/build_eci_audit.py scripts/rebuild_chapter_data.py
       - name: Install application dependencies
