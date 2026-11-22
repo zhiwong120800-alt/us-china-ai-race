@@ -170,4 +170,19 @@ updateAll(false);if(&#x27;IntersectionObserver&#x27; in window){let obs=new Inte
 <div class="story-pager-middle"><div><h2>Who are the organisations behind these models?</h2><p class="story-pager-subtitle">Training compute measures an input, not capability. Next, identify the developers behind the notable-model records.</p></div><a class="story-pager-button" href="/app/static/Chapter_03_Who_Builds_It_Integrated.html">Read Who Builds It? <span aria-hidden="true">↗</span></a></div>
 <div class="story-pager-nav"><a href="/app/static/Chapter_01_Papers_vs_Models.html">← Chapter 01: Papers vs Models</a><a href="/app/static/index.html">Back to the beginning</a></div>
 </div></section>
+<script data-ai-race-nav>
+(function () {
+  "use strict";
+  document.addEventListener("click", function (event) {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor || window.parent === window) return;
+    const href = anchor.getAttribute("href") || "";
+    if (!href.startsWith("/app/static/")) return;
+    const name = href.split("/").pop().split(/[?#]/)[0];
+    if (!name || !/^[A-Za-z0-9_.-]+\.html$/.test(name)) return;
+    event.preventDefault();
+    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, window.location.origin);
+  }, true);
+}());
+</script>
 </body></html>

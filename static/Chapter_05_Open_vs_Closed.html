@@ -101,4 +101,19 @@ render();renderRecords();const observer=new IntersectionObserver(items=>{if(item
 <div class="story-pager-middle"><div><h2>Does access reveal what a model can do?</h2><p class="story-pager-subtitle">Open weights and API access describe distribution, not performance. Next, turn to measured capability.</p></div><a class="story-pager-button" href="/app/static/Chapter_06_Volume_vs_Quality.html">Read Volume vs Quality <span aria-hidden="true">↗</span></a></div>
 <div class="story-pager-nav"><a href="/app/static/Chapter_04_Industry_Academia.html">← Chapter 04: Industry vs Academia</a><a href="/app/static/index.html">Back to the beginning</a></div>
 </div></section>
+<script data-ai-race-nav>
+(function () {
+  "use strict";
+  document.addEventListener("click", function (event) {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor || window.parent === window) return;
+    const href = anchor.getAttribute("href") || "";
+    if (!href.startsWith("/app/static/")) return;
+    const name = href.split("/").pop().split(/[?#]/)[0];
+    if (!name || !/^[A-Za-z0-9_.-]+\.html$/.test(name)) return;
+    event.preventDefault();
+    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, window.location.origin);
+  }, true);
+}());
+</script>
 </body></html>

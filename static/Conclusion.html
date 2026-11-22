@@ -45,4 +45,19 @@ header{height:65px;border-bottom:1px solid var(--line);padding:0 max(20px,calc((
 <div class="limits"><h3>What these findings cannot establish</h3><p>Epoch Notable Models is a curated sample, not a census. Paper counts and ECI scores describe different populations. Multi-country contributions may appear in both totals. Compute estimates and cross-dataset model matches are incomplete. Periods and dates differ by chapter.</p>
 <p>Sources: <a href="https://ourworldindata.org/grapher/annual-scholarly-publications-on-artificial-intelligence">CSET via OWID</a>; <a href="https://epoch.ai/data/ai-models">Epoch AI Notable Models</a>; <a href="https://epoch.ai/eci">Epoch Capabilities Index</a>. Study snapshot: 20 October 2026.</p></div></section>
 <section class="research-bridge" aria-labelledby="research-7"><h2 id="research-7">How our findings connect to prior research</h2><p>The six views point to different aspects of AI competition. Bibliometric research distinguishes publication volume from research impact; work on AI organisations and model openness shows why developer structures and release labels need careful interpretation; evaluation research warns against treating a single benchmark as a universal measure of capability.</p><p>Stanford's 2026 AI Index provides an additional institutional comparison of research, industry and technical performance. Its dates, datasets and benchmarks differ from the frozen Epoch/OWID samples used here, so its figures should be read alongside—not merged into—our charts. The references below provide interpretive context; the numerical findings above come from our own processed data.</p><div class="research-refs" aria-label="External research sources"><a href="https://doi.org/10.1007/s11192-026-05573-6" target="_blank" rel="noopener noreferrer">Min et al. (2026) · Scientometrics</a><a href="https://doi.org/10.1038/s41586-024-08141-1" target="_blank" rel="noopener noreferrer">Widder et al. (2024) · Nature</a><a href="https://doi.org/10.1145/3630106.3659005" target="_blank" rel="noopener noreferrer">Liesenfeld &amp; Dingemanse (2024) · ACM</a><a href="https://doi.org/10.1111/nyas.15007" target="_blank" rel="noopener noreferrer">Bommasani et al. (2023) · HELM</a><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report" target="_blank" rel="noopener noreferrer">Stanford HAI (2026) · AI Index Report (institutional report)</a></div></section>
-<div class="next"><a href="/app/static/Chapter_06_Volume_vs_Quality.html">← Previous: Chapter 6</a><a href="/app/static/index.html">Return to the introduction →</a></div><div class="credits">THE AI RACE · UTS 36104 · SIX-CHAPTER INTERACTIVE DATA NARRATIVE · STREAMLIT EDITION</div></main></body></html>
+<div class="next"><a href="/app/static/Chapter_06_Volume_vs_Quality.html">← Previous: Chapter 6</a><a href="/app/static/index.html">Return to the introduction →</a></div><div class="credits">THE AI RACE · UTS 36104 · SIX-CHAPTER INTERACTIVE DATA NARRATIVE · STREAMLIT EDITION</div></main><script data-ai-race-nav>
+(function () {
+  "use strict";
+  document.addEventListener("click", function (event) {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor || window.parent === window) return;
+    const href = anchor.getAttribute("href") || "";
+    if (!href.startsWith("/app/static/")) return;
+    const name = href.split("/").pop().split(/[?#]/)[0];
+    if (!name || !/^[A-Za-z0-9_.-]+\.html$/.test(name)) return;
+    event.preventDefault();
+    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, window.location.origin);
+  }, true);
+}());
+</script>
+</body></html>

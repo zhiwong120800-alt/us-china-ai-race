@@ -258,4 +258,19 @@ display();modelExplorer();
 <div class="story-pager-middle"><div><h2>When models are built, who can access them?</h2><p class="story-pager-subtitle">Similar industry shares do not imply similar access strategies. Next, compare open weights, hosted access and unreleased models.</p></div><a class="story-pager-button" href="/app/static/Chapter_05_Open_vs_Closed.html">Read Open vs Closed <span aria-hidden="true">↗</span></a></div>
 <div class="story-pager-nav"><a href="/app/static/Chapter_03_Who_Builds_It_Integrated.html">← Chapter 03: Who Builds It?</a><a href="/app/static/index.html">Back to the beginning</a></div>
 </div></section>
+<script data-ai-race-nav>
+(function () {
+  "use strict";
+  document.addEventListener("click", function (event) {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor || window.parent === window) return;
+    const href = anchor.getAttribute("href") || "";
+    if (!href.startsWith("/app/static/")) return;
+    const name = href.split("/").pop().split(/[?#]/)[0];
+    if (!name || !/^[A-Za-z0-9_.-]+\.html$/.test(name)) return;
+    event.preventDefault();
+    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, window.location.origin);
+  }, true);
+}());
+</script>
 </body></html>

@@ -239,4 +239,19 @@ if('IntersectionObserver' in window){const obs=new IntersectionObserver(entries=
 <div class="story-pager-middle"><div><h2>What do all six measures really tell us?</h2><p class="story-pager-subtitle">The apparent gap changes with the measure, sample and definition. Bring all six findings together before drawing a conclusion.</p></div><a class="story-pager-button" href="/app/static/Conclusion.html">View conclusions <span aria-hidden="true">↗</span></a></div>
 <div class="story-pager-nav"><a href="/app/static/Chapter_05_Open_vs_Closed.html">← Chapter 05: Open vs Closed</a><a href="/app/static/index.html">Back to the beginning</a></div>
 </div></section>
+<script data-ai-race-nav>
+(function () {
+  "use strict";
+  document.addEventListener("click", function (event) {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor || window.parent === window) return;
+    const href = anchor.getAttribute("href") || "";
+    if (!href.startsWith("/app/static/")) return;
+    const name = href.split("/").pop().split(/[?#]/)[0];
+    if (!name || !/^[A-Za-z0-9_.-]+\.html$/.test(name)) return;
+    event.preventDefault();
+    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, window.location.origin);
+  }, true);
+}());
+</script>
 </body></html>

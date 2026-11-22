@@ -27,4 +27,19 @@ aside .small-line{height:1px;background:rgba(231,245,234,.27);margin:20px 0}.asi
 <main><section class="intro"><div><h1>The AI race looks different <em>depending on what you count.</em></h1><p class="question">Does the US–China AI race look the same when we count research papers, count notable models, and test model performance? Explore six connected views of the evidence.</p><a class="cta" href="/app/static/Chapter_01_Papers_vs_Models.html"><span>Begin with the evidence</span><span aria-hidden="true">→</span></a></div>
 <aside><div><p class="aside-label">Who is this for?</p><h2>A foreign policy analyst.</h2><p>Looking beyond simple national scoreboards to understand where the comparison changes—and why.</p></div><div class="small-line" aria-hidden="true"></div><div><p class="aside-label">How to read it</p><p>One chapter at a time. Each question leads to the next, ending with a synthesis of all six findings.</p></div></aside></section>
 <div class="foot-intro"><div class="prelude"><i aria-hidden="true"></i><span>Six perspectives. One connected argument.</span></div><a class="continue" href="/app/static/Chapter_01_Papers_vs_Models.html">Continue to Chapter 1 <span aria-hidden="true">→</span></a></div>
-<p class="fine">Sources: CSET via Our World in Data; Epoch AI Notable AI Models and Epoch Capabilities Index. Fixed study snapshot: 20 October 2026. This version of the six-chapter narrative is bundled with the Streamlit application.</p></main></body></html>
+<p class="fine">Sources: CSET via Our World in Data; Epoch AI Notable AI Models and Epoch Capabilities Index. Fixed study snapshot: 20 October 2026. This version of the six-chapter narrative is bundled with the Streamlit application.</p></main><script data-ai-race-nav>
+(function () {
+  "use strict";
+  document.addEventListener("click", function (event) {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor || window.parent === window) return;
+    const href = anchor.getAttribute("href") || "";
+    if (!href.startsWith("/app/static/")) return;
+    const name = href.split("/").pop().split(/[?#]/)[0];
+    if (!name || !/^[A-Za-z0-9_.-]+\.html$/.test(name)) return;
+    event.preventDefault();
+    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, window.location.origin);
+  }, true);
+}());
+</script>
+</body></html>
