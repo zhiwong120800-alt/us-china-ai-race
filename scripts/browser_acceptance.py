@@ -67,27 +67,63 @@ def run():
         assert page.locator("#developer").count()==1 and page.locator("#period").count()==1, "Chapter 5 interactive controls missing"
         print("PASS_INTERACTIONS chapter 5 developer / period selectors")
 
-        # Test the actual Streamlit UI, not only the static-file server.
+        # Test the Streamlit host and the in-chapter CTA, which must update
+        # the top-level app/side bar rather than navigating only within an iframe.
         page.goto("http://localhost:8501/",wait_until="domcontentloaded",timeout=30000)
-        host=page.locator('iframe[title="The AI Race: Introduction"]')
-        host.wait_for(timeout=30000)
         page.frame_locator('iframe[title="The AI Race: Introduction"]').locator("h1").wait_for(timeout=15000)
         assert page.get_by_text("Research question:",exact=False).count()>0
-        inner=page.frame_locator('iframe[title="The AI Race: Introduction"]')
-        inner.locator("a.cta").click()
-        inner.locator("h1").filter(has_text="More research").wait_for(timeout=15000)
-        print("PASS_STREAMLIT_HOST full app entry point, iframe rendering, and in-app chapter navigation")
-        # Regression: Streamlit widgets must only be changed by callbacks that run
-        # before radio instantiation, not by assigning to their keys afterwards.
-        page.goto("http://localhost:8501/", wait_until="domcontentloaded", timeout=30000)
+        page.frame_locator('iframe[title="The AI Race: Introduction"]').locator("a.cta").click()
+        page.frame_locator('iframe[title="The AI Race: 01 · Papers vs Models"]').locator("h1").wait_for(timeout=15000)
+        assert "Papers" in page.url, "Introduction CTA did not update the host page"
+        print("PASS_STREAMLIT_HOST chapter CTA updates real Streamlit chapter")
+
+        # Regression for the large green bottom-of-chapter story-pager button.
+        from urllib.parse import quote
+        page.goto("http://localhost:8501/?page="+quote("03 · Who Builds It?"),wait_until="domcontentloaded",timeout=30000)
+        chap3=page.frame_locator('iframe[title="The AI Race: 03 · Who Builds It?"]')
+        chap3.locator("h1").wait_for(timeout=15000)
+        chap3.locator("a.story-pager-button").click()
+        page.frame_locator('iframe[title="The AI Race: 04 · Industry vs Academia"]').locator("h1").wait_for(timeout=15000)
+        assert "Industry" in page.url, "Chapter 3 green chapter link failed to switch the Streamlit host"
+        print("PASS_CHAPTER_PAGER chapter 3 green button opens Chapter 4")
+
+        # Regression: native controls must work and reset the host's scroll
+        # position when advancing from the bottom of a long chapter.
+        page.goto("http://localhost:8501/",wait_until="domcontentloaded",timeout=30000)
         page.frame_locator('iframe[title="The AI Race: Introduction"]').locator("h1").wait_for(timeout=15000)
         page.get_by_role("button", name="Next →").click()
         page.frame_locator('iframe[title="The AI Race: 01 · Papers vs Models"]').locator("h1").wait_for(timeout=15000)
-        assert page.get_by_text("StreamlitWidgetAlreadyInstantiatedError").count()==0, "Next chapter caused a session-state/widget mutation error"
+        assert page.get_by_text("StreamlitWidgetAlreadyInstantiatedError").count()==0
         page.get_by_role("button", name="← Previous").click()
         page.frame_locator('iframe[title="The AI Race: Introduction"]').locator("h1").wait_for(timeout=15000)
-        assert page.get_by_text("StreamlitWidgetAlreadyInstantiatedError").count()==0, "Previous chapter caused a session-state/widget mutation error"
-        print("PASS_STREAMLIT_NATIVE_NAV native Next and Previous buttons without widget state exceptions")
+        assert page.get_by_text("StreamlitWidgetAlreadyInstantiatedError").count()==0
+        print("PASS_STREAMLIT_NATIVE_NAV native Next and Previous buttons")
+
+        page.goto("http://localhost:8501/?page="+quote("03 · Who Builds It?"),wait_until="domcontentloaded",timeout=30000)
+        page.frame_locator('iframe[title="The AI Race: 03 · Who Builds It?"]').locator("h1").wait_for(timeout=15000)
+        page.get_by_role("button", name="Next →").scroll_into_view_if_needed()
+        def host_scroll():
+            return page.evaluate("""() => Math.max(window.scrollY,
+              document.querySelector('[data-testid="stMain"]')?.scrollTop || 0,
+              document.querySelector('.stMain')?.scrollTop || 0,
+              document.querySelector('[data-testid="stAppViewContainer"]')?.scrollTop || 0)""")
+        before=host_scroll()
+        assert before>100, f"Could not scroll down long chapter to test reset: {before}"
+        page.get_by_role("button", name="Next →").click()
+        page.frame_locator('iframe[title="The AI Race: 04 · Industry vs Academia"]').locator("h1").wait_for(timeout=15000)
+        page.wait_for_timeout(350)
+        after=host_scroll()
+        assert after<100, f"Next chapter did not scroll host to top (before {before}, after {after})"
+        print("PASS_NATIVE_SCROLL_RESET",before,"to",after)
+
+        # Chapter 2's plot is nested in its original srcdoc iframe.
+        page.goto(BASE+"Chapter_02_Frontier_Gap.html")
+        plot=page.frame_locator("iframe.previewframe")
+        plot.locator("circle.point").first.hover()
+        plot.locator("#tooltip.show").wait_for(timeout=2000)
+        assert "training FLOP" in plot.locator("#tooltip").inner_text(), "Chapter 2 hover lacks model details"
+        print("PASS_CHAPTER_02_HOVER immediate compute tooltip appears on hover")
+
         # Reset for mobile static page captures.
 
         # Mobile is a useful additional acceptance check, not part of the desktop-only rubric item.
