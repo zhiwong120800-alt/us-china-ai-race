@@ -1,5 +1,6 @@
 """UTS 36104 — The AI Race. Frozen 2026-10-20 data narrative edition."""
 from pathlib import Path
+import json
 import streamlit as st
 
 st.set_page_config(page_title="The AI Race — United States and China", layout="wide", initial_sidebar_state="expanded")
@@ -50,6 +51,39 @@ def go_to_chapter(target_index: int) -> None:
     target = LABELS[target_index]
     st.session_state["chapter_selection"] = target
     st.query_params["page"] = target
+    st.session_state["_chapter_scroll_pending"] = True
+
+# The static pages run in a same-origin iframe. Streamlit sandboxes top-level
+# iframe navigation, so their chapter links post an explicit, allowlisted
+# message to this trusted host rather than attempting to navigate the iframe.
+# The host performs a same-tab navigation, synchronising the sidebar + URL.
+_NAV_MAP = {filename: label for label, filename in PAGES}
+_NAV_SCRIPT = """
+<script>
+(() => {
+  const destinations = __PAGE_MAP__;
+  if (window.__aiRaceHostNavigation) {
+    window.removeEventListener("message", window.__aiRaceHostNavigation);
+  }
+  window.__aiRaceHostNavigation = (event) => {
+    if (event.origin !== window.location.origin) return;
+    if (event.data?.type !== "ai-race:chapter-navigation") return;
+    const label = destinations[event.data.file];
+    if (!label) return;
+    const destination = new URL(window.location.href);
+    if (destination.searchParams.get("page") === label) {
+      window.scrollTo({top: 0, behavior: "instant"});
+      return;
+    }
+    destination.searchParams.set("page", label);
+    destination.hash = "";
+    window.location.assign(destination.href);
+  };
+  window.addEventListener("message", window.__aiRaceHostNavigation);
+})();
+</script>
+""".replace("__PAGE_MAP__", json.dumps(_NAV_MAP, ensure_ascii=False))
+st.html(_NAV_SCRIPT, unsafe_allow_javascript=True)
 
 with st.sidebar:
     st.markdown("### THE AI RACE")
@@ -61,6 +95,36 @@ with st.sidebar:
     st.markdown("[Data dictionary and limitations](https://github.com/zhiwong120800-alt/us-china-ai-race/blob/main/docs/data_dictionary.md)")
 
 idx = LABELS.index(selection)
+# Streamlit's main content is a scrollable section, not necessarily window.
+# Trigger this only after a native Next/Previous callback changes chapter.
+if st.session_state.pop("_chapter_scroll_pending", False):
+    st.html(
+        """
+        <script>
+        (() => {
+          const toTop = () => {
+            const candidates = [
+              document.scrollingElement,
+              document.querySelector('[data-testid="stMain"]'),
+              document.querySelector('.stMain'),
+              document.querySelector('[data-testid="stAppViewContainer"]'),
+              document.querySelector('section.main'),
+              document.querySelector('[data-testid="stMainBlockContainer"]')
+            ];
+            for (const el of candidates) {
+              if (el) el.scrollTop = 0;
+            }
+            window.scrollTo(0, 0);
+          };
+          toTop();
+          requestAnimationFrame(() => requestAnimationFrame(toTop));
+          setTimeout(toTop, 120);
+        })();
+        </script>
+        """,
+        unsafe_allow_javascript=True,
+    )
+
 if idx == 0:
     st.markdown("**Research question:** Does the US–China AI race look the same when we count papers, count notable models and test model performance?")
 source = ROOT / "static" / PAGES[idx][1]
