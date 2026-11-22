@@ -67,6 +67,18 @@ def run():
         assert page.locator("#developer").count()==1 and page.locator("#period").count()==1, "Chapter 5 interactive controls missing"
         print("PASS_INTERACTIONS chapter 5 developer / period selectors")
 
+        # Test the actual Streamlit UI, not only the static-file server.
+        page.goto("http://localhost:8501/",wait_until="domcontentloaded",timeout=30000)
+        host=page.locator('iframe[title="The AI Race: Introduction"]')
+        host.wait_for(timeout=30000)
+        page.frame_locator('iframe[title="The AI Race: Introduction"]').locator("h1").wait_for(timeout=15000)
+        assert page.get_by_text("Research question:",exact=False).count()>0
+        inner=page.frame_locator('iframe[title="The AI Race: Introduction"]')
+        inner.locator("a.cta").click()
+        inner.locator("h1").filter(has_text="More research").wait_for(timeout=15000)
+        print("PASS_STREAMLIT_HOST full app entry point, iframe rendering, and in-app chapter navigation")
+        # Reset for mobile static page captures.
+
         # Mobile is a useful additional acceptance check, not part of the desktop-only rubric item.
         page.set_viewport_size({"width":390,"height":844})
         for name in ["index.html","Chapter_01_Papers_vs_Models.html","Chapter_03_Who_Builds_It_Integrated.html","Chapter_05_Open_vs_Closed.html","Chapter_06_Volume_vs_Quality.html"]:
