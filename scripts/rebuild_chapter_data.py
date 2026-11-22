@@ -67,13 +67,13 @@ def main():
         orig = index[r["Model"]]
         assert r["Organization"] == orig["Organization"], f"Organisation mismatch: {r['Model']}"
         assert r["Publication date"] == orig["Publication date"], f"Date mismatch: {r['Model']}"
-        assert ("United States of America" if r["country"] == "US" else "China") in orig["Country (of organization)"].split(","), f"Country mismatch: {r['Model']}"
+        assert ("United States of America" if r["country"] == "US" else "China") in {x.strip() for x in orig["Country (of organization)"].split(",")}, f"Country mismatch: {r['Model']}"
         assert r["category"] in {"Industry","Academia","Collaboration","Other","Unknown"}
 
     for r in records5:
         orig = index[r["model"]]
         assert r["organisation"] == orig["Organization"] and r["publication_date"] == orig["Publication date"], f"Source mismatch: {r['model']}"
-        assert ("United States of America" if r["country"] == "US" else "China") in orig["Country (of organization)"].split(","), f"Country mismatch: {r['model']}"
+        assert ("United States of America" if r["country"] == "US" else "China") in {x.strip() for x in orig["Country (of organization)"].split(",")}, f"Country mismatch: {r['model']}"
         assert int(r["year"]) == int(orig["Publication date"][:4])
         assert r["developer_type"] == next(a["category"] for a in records4 if a["Model"] == r["model"] and a["country"] == r["country"]), f"Cross-chart developer type mismatch: {r['model']}"
 
