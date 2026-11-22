@@ -47,3 +47,17 @@ jobs:
                   assert response.status == 200 and b"<html" in body.lower(), f"Not an HTML page: {f.name}"
               print(f.name, len(body), "bytes", "PASS")
           PY
+
+      - name: Install browser test dependency
+        run: |
+          python -m pip install playwright
+          python -m playwright install chromium
+      - name: Run browser-level acceptance checks
+        run: python scripts/browser_acceptance.py
+      - name: Upload screenshot and test summary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-browser-checks
+          path: qa_screenshots/
+          if-no-files-found: ignore
