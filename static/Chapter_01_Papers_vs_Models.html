@@ -317,7 +317,7 @@ else{started=true;}
     const name = href.split("/").pop().split(/[?#]/)[0];
     if (!name || !/^[A-Za-z0-9_.-]+\.html$/.test(name)) return;
     event.preventDefault();
-    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, window.location.origin);
+    window.parent.postMessage({type:"ai-race:chapter-navigation", file:name}, "*");
   }, true);
 }());
 </script>
