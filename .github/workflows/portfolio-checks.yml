@@ -23,6 +23,15 @@ jobs:
           python scripts/rebuild_chapter_data.py
       - name: Check committed processed tables are reproducible
         run: git diff --exit-code -- data/processed/
+      - name: Check data dictionary enumerates all CSV files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          content = Path("docs/data_dictionary.md").read_text(encoding="utf-8")
+          missing = [str(f) for f in Path(".").rglob("*.csv") if str(f).startswith(("data/", "docs/")) and str(f) not in content]
+          assert not missing, "Unlisted CSVs in data dictionary: " + ", ".join(missing)
+          print("PASS data dictionary covers all", len(list(Path("data").rglob("*.csv"))), "analytical and reviewed CSVs")
+          PY
       - name: Test colour-blindness resilience and contrast of national palette
         run: python scripts/check_colour_vision.py
       - name: Compile application and data pipelines
