@@ -1,71 +1,70 @@
-# US–China AI Race: Beyond the Numbers
+# The AI Race: Beyond the Numbers
 
-**UTS · 36104 Data Visualisation and Narratives · Assignment 3**
+**UTS 36104 — Data Visualisation & Narratives — Assignment 3 Part 2**
 
-> **Research question:** Does the US–China AI race look the same when we count papers, count models, and test model performance?
+**Research question:** Does the US–China AI race look the same when we count research papers, count notable models, and test model performance?
 
-**Persona:** A foreign policy analyst who wants to identify which dimensions of competition genuinely differ and which metrics can mislead.
+**Persona / decision served:** A foreign policy analyst deciding which cross-country comparisons are informative and which are misleading because populations, denominators, definitions or measurements differ.
 
-**Status (2026-10-20): initial shared-data snapshot only.** The full Streamlit application and individual charts are still being developed. The processed files are analysis inputs and audits, *not* final narrative conclusions.
+**Answer:** No single scoreboard settles the comparison. China leads the 2024 paper count in the selected source, while the US leads Epoch's 2024 notable-model count; industry participation is similar under a narrow definition, release patterns differ, and the selected benchmark and compute samples give other perspectives. This is not a national AI capability ranking.
 
-## Three user stories (planned final app)
+## Run the assessed six-chapter application
 
-1. As a foreign policy analyst, I want to compare papers and model counts side by side, so that I can see whether research output indicates model development.
-2. As a foreign policy analyst, I want to filter release strategy by developer type, so that I can examine whether openness varies more by organisations or by country.
-3. As a foreign policy analyst, I want to compare compute and ECI benchmark scores, so that I can understand how much training inputs align with measured capabilities.
+Python 3.11+ recommended:
 
-## Charts and owners
+    python -m pip install -r requirements.txt
+    streamlit run app.py
 
-| Chart | Focus | Owner | Status |
-|---|---|---|---|
-| 1 | Papers vs Models | Wang | Processed data ready, chart pending |
-| 2 | Frontier Gap | Aditi | Raw Epoch data ready, chart pending |
-| 3 | Who Builds It | Manasvi | Raw Epoch data ready, chart pending |
-| 4 | Industry vs Academia | Wang | Raw Epoch data ready; taxonomy review pending |
-| 5 | Open vs Closed | Maris | Raw Epoch data ready; access taxonomy review pending |
-| 6 | Volume vs Quality | Wang | ECI coverage audit ready, charts pending; paper citation source under review |
+The app is **Streamlit** (not just a GitHub Pages preview). The eight trusted HTML/JS pages under static/ are shipped **in the same commit** and embedded using Streamlit's st.iframe. Use the sidebar or the Previous/Next chapter navigation. Static-file serving is configured in .streamlit/config.toml.
 
-## Files to use
+GitHub Pages [read-only preview](https://zhiwong120800-alt.github.io/us-china-ai-race/) contains the same frozen study narrative but is not a substitute for the assessed Streamlit Cloud deployment. A public Streamlit Cloud URL must be created and verified before the final submission PDF is issued; it is **not** assumed to exist.
 
-| If you work on... | Begin with... |
-|---|---|
-| Chart 1 | `data/processed/chart1_papers_vs_models_2016_2024.csv` |
-| Charts 2–5 | `data/raw/epoch_notable_ai_models_20261020.csv` |
-| Chart 6 (ECI trend) | `data/processed/chart6_eci_us_china_full_country_scores.csv` |
-| Chart 6 (compute × capability) | `data/processed/chart6_compute_scatter_us_china_exact.csv` |
-| ECI match checks | `docs/eci_matching_audit_20261020.md` |
+## Three demonstrable user stories
 
-See **[Data dictionary](docs/data_dictionary.md)** for columns, units, keys and time coverage, and **[data sources and licences](docs/data_sources_and_licenses.md)** for exact citations and reuse conditions.
+1. **As a foreign policy analyst, I want** to compare 2016–2024 AI publication counts with notable-model counts, **so that** I can see why research output and model development provide different rankings. **Path:** Introduction → Chapter 01; change years and counts/share mode.
+2. **As a foreign policy analyst, I want** to filter model release strategy by developer type and country, **so that** I can distinguish the national release mix from the industry/academic mix. **Path:** Chapter 05; change period, developer type and share/count; inspect model records.
+3. **As a foreign policy analyst, I want** to compare dated training compute with model-level ECI performance, **so that** I can judge which capability claims are and are not supported. **Path:** Chapters 02 and 06; change period and country, inspect models and the 44-record compute match.
 
-## Reproduce frozen-data processing
+## Six analytical chapters
 
-Prerequisite: Python 3.10+ (scripts use the standard library; no extra packages needed at this stage).
+| Chapter | Question | Main evidence |
+|---|---|---|
+| 01 Papers vs Models | Does publication volume predict notable-model count? | CSET via OWID and Epoch, 2016–2024 |
+| 02 Frontier Gap | How does reported peak training compute evolve? | Epoch Notable Models, 2016–Sep 2026 |
+| 03 Who Builds It? | How concentrated is developer participation? | Audited source organisations, 2016–2025; optional Hong Kong sensitivity |
+| 04 Industry vs Academia | How sensitive are industry shares to collaboration? | 667 model–country observations, 2016–2025 |
+| 05 Open vs Closed | Does access differ by developer type? | Same 667 reviewed model–country observations |
+| 06 Volume vs Quality | Does a model count or compute estimate establish capability? | 237 ECI model–country observations, including 44 exact name/compute matches |
+| Conclusion | Do all six perspectives agree? | Integrative answer with study limits and cross-referenced literature |
 
-```bash
-python scripts/build_chart1.py
-python scripts/build_eci_audit.py
-```
+## Data and reconstruction
 
-The scripts read unmodified source files under `data/raw/` and regenerate the relevant CSVs under `data/processed/`. Do not silently edit those source files. Check `docs/source_checksums.sha256` before changing any snapshot.
+**Frozen download / processing date: 20 October 2026.** OWID paper latest observation: **2024** (upstream metadata updated 27 April 2026). Epoch Notable latest model publication date: **30 September 2026**. ECI latest model release date: **7 October 2026**.
 
-## Interpretation caveats
+- data/raw/ — immutable Epoch and CSET/OWID source snapshots.
+- data/review/ — *human-reviewed inputs* recovered from the team's published Chapter 3–5 model-level records, including explicit mapping decisions. They are **not** independently sourced raw data.
+- data/processed/ — calculated outputs for all chapters, including 667 matched model–country assignments and the original ECI matching audit.
+- docs/data_dictionary.md — every CSV, source, licence, fields, units, keys, time coverage and transformation.
+- docs/data_sources_and_licenses.md — source attribution and reuse restrictions.
+- docs/eci_matching_audit_20261020.md — exact-name matching and date discrepancies.
+- docs/REPRODUCIBILITY.md — verification instructions and caveats.
 
-- A **notable model** in Epoch is a selectively curated entry, not every AI model made in a country.
-- Country labels are based on developing organisations; where both US and China appear, whole counting assigns the model to both.
-- Paper counts only cover works with English titles or abstracts; cross-country collaborative papers count in each country.
-- Training FLOPs measure resource inputs, not performance.
-- ECI evaluations cover a different and narrower model population. Scatter-plot eligibility is substantially smaller after linking ECI to Notable and requiring a compute estimate. Do **not** describe it as representing all models.
-- The 2026-10-20 files are a **fixed snapshot**; newer downloads will produce different statistics. Displays should distinguish observation dates from snapshot dates.
+From the repository root:
 
-## Data & AI provenance
+    python scripts/build_chart1.py
+    python scripts/build_eci_audit.py
+    python scripts/rebuild_chapter_data.py
 
-- Dataset lineage, licence notes and attribution: `docs/data_sources_and_licenses.md`.
-- ECI linkage and review records: `docs/eci_matching_audit_20261020.md`, `data/processed/chart6_eci_unmatched_review.csv`.
-- AI usage: `docs/ai_provenance_template.csv`; each group member supplies an accurate row with a verification that *could have failed*.
-- Draft statement for group review: `docs/data_ai_disclosure_draft.md`.
+The CI workflow .github/workflows/portfolio-checks.yml runs source-to-output checks and tests that the Streamlit app serves all eight bundled pages. Consult its status before submission.
 
-## Development / assessment
+**Counting and attribution:** a jointly developed US–China model can appear once in each country's records. Rankings use participation, not exclusive model ownership. Chapter 3's optional Hong Kong mode is not part of the default 667-record US/China denominator. Open weights is not synonymous with complete open-source access. Published training FLOPs measure inputs, not model quality. ECI is a selected evaluation suite, not a national census.
 
-Part 1 recording: **2026-10-23** (per group guide). Part 2: **2026-11-20**. The final submission must identify the deployed app URL, the repository URL and a final commit hash/tag. This initial package is not a complete Part 2 submission.
+## Data and AI use
 
-**Source licences are not the same as a licence for our code.** The repository does not declare a blanket open-source licence: Epoch material requires attribution, and the CSET dataset redistributed by OWID is **CC BY-NC 4.0**. Refer to the original publishers' terms.
+See docs/ai_provenance_matrix.csv and docs/data_ai_disclosure.md. A complete AI-use record must be provided by *every* group member, each with a verification that could have failed. **The confirmed records currently cover Maris and Wang; Aditi and Manasvi still require their own verified entries and team sign-off. Do not claim this criterion is complete until they provide them.**
+
+## Final Part 2 delivery
+
+Submit **one PDF** containing (1) the **live Streamlit deployment URL**, (2) this GitHub repository URL, and (3) the immutable **main commit SHA** for the version being graded. The team must verify the Streamlit app responds at 1366 × 768, all user stories work, and the AI provenance matrix and disclosure are final. The complete submission instructions are in docs/FINAL_SUBMISSION_CHECKLIST.md.
+
+This repository is coursework; its source licences are not blanket licences for code or data. CSET input used through OWID carries **CC BY-NC 4.0**; see the source register.

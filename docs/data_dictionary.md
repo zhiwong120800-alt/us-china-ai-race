@@ -1,4 +1,4 @@
-# Data dictionary — working version (20 Oct 2026)
+# Data dictionary — frozen snapshot, with audited Chart 3–5 additions (20 Oct 2026)
 
 This dictionary lists **every CSV presently included in the repository**. Raw files are snapshots and are not modified; processed files are regenerated from documented scripts. Inferred units and semantic definitions should be checked against the [Epoch field documentation](https://epoch.ai/data/ai-models-documentation) before final Part 2 submission.
 
@@ -280,3 +280,79 @@ Definitions: **Primary key** can be a *composite key*; observation coverage refe
 | `Training compute cost (upfront)` | Source-defined field; see Epoch documentation (unit may be model-specific) |
 | `Open model weights?` | Source-defined field; see Epoch documentation (unit may be model-specific) |
 
+
+---
+
+## Audited Chart 3–5 data files (added to the final portfolio)
+
+**Shared provenance and licence:** All records derive from Epoch AI Notable Models (https://epoch.ai/data/ai-models), frozen **20 October 2026**, original source licensed under CC BY according to the source register. The *review* CSVs include student-assigned classifications and attribution decisions. Treat those decisions as interpretive input; they are not automatically verified facts about organisation ownership. The latest original Notable model publication date is **30 September 2026**, but these chapter analyses restrict years to **2016–2025**. Source rows can include a model in both countries. Reconstruct using **python scripts/rebuild_chapter_data.py**.
+
+### data/review/chart3_model_attribution_review.csv
+- **Source / URL / licence:** Epoch AI Notable Models; https://epoch.ai/data/ai-models; CC BY + reviewed team country attribution.
+- **Key:** model + country; **Rows:** 679. Of these, 667 are US/China and 12 are optional Hong Kong sensitivity rows.
+- **Time / latest:** 2016–2025, latest observation 2025.
+- **Fields:** model (name/identifier), country (country tag), year (calendar year), publication_date (ISO date), alignment (mapping provenance label).
+- **Transform:** Frozen reviewed model–country attribution saved from the published Chapter 3 model-level payload; cross-check the country/model denominators against Charts 4–5.
+
+### data/review/chart3_affiliation_review.csv
+- **Source / URL / licence:** Epoch AI Notable Models; https://epoch.ai/data/ai-models; CC BY + manually reviewed organisation aliases.
+- **Key:** model + country + developer; **Rows:** 909.
+- **Time / latest:** 2016–2025, latest observation 2025.
+- **Fields:** model (identifier), country (country tag), year (calendar year), developer (original organisation label), family (audited grouped-organisation label).
+- **Transform:** Frozen reviewed participation mapping from Chapter 3. Multiple developer rows may point to one model; concentration uses the **union of distinct models**, not the sum of organisation bar counts.
+
+### data/review/chart3_org_mapping_review.csv
+- **Source / URL / licence:** Epoch AI organisation labels; https://epoch.ai/data/ai-models; CC BY + group review annotations.
+- **Key:** org; **Rows:** 26 explicitly recorded organisation review decisions.
+- **Time / latest:** Applied to frozen source through 2026-09-30; chart visual period through 2025.
+- **Fields:** org (source organisation name), country (reviewed original country), parent (organisation grouping), evidence (reason/trace), rule (grouping decision).
+- **Transform:** Recorded manual decisions used to reconstruct the full source-label mapping.
+
+### data/review/chart4_developer_type_review.csv
+- **Source / URL / licence:** Epoch AI Notable Models; https://epoch.ai/data/ai-models; CC BY + group-authored developer-type classification.
+- **Key:** Model + country; **Rows:** 667 (US 514, China 153).
+- **Time / latest:** 2016–2025, latest observation 2025.
+- **Fields:** Model (name), Organization (raw organisation name(s)), Publication date (ISO date), country (US or China), period (2016–19, 2020–22, 2023–25), category (Industry, Academia, Collaboration, Other, Unknown).
+- **Transform:** Human-reviewed mutually exclusive developer type used in Chapter 4 and reused in Chapter 5. Checked model/date/organisation/country against raw source.
+
+### data/review/chart5_release_review.csv
+- **Source / URL / licence:** Epoch AI Notable Models; https://epoch.ai/data/ai-models; CC BY + group-authored release/access classification.
+- **Key:** model + country; **Rows:** 667.
+- **Time / latest:** 2016–2025, latest observation 2025.
+- **Fields:** model (name), organisation (raw name(s)), publication_date (ISO date), year (calendar year), country (US/China), period (calendar interval), developer_type (shared Chart 4 type), release_strategy (Open weights / API or hosted / Unreleased / Unknown), source_accessibility (original Epoch source category).
+- **Transform:** Reviewed model-level classifications saved from Chapter 5's 667-record interactive payload. The original field is preserved to audit category decisions.
+
+### data/processed/chart3_model_country.csv and chart3_affiliations.csv
+- **Source / URL / licence:** Frozen Epoch data plus reviewed inputs above; https://epoch.ai/data/ai-models; CC BY + human-reviewed mappings.
+- **Keys / units / coverage:** Same keys, columns, units, latest observation and row counts as their respective review inputs (679 and 909 rows).
+- **Transform:** Recreated from the reviewed country- and developer-attribution inputs by scripts/rebuild_chapter_data.py, with consistency checks against the 667 US/China model–country pairs used by Chapters 4–5.
+
+### data/processed/chart3_org_map.csv
+- **Source / URL / licence:** Frozen Epoch organisation names + explicit review mappings; https://epoch.ai/data/ai-models; CC BY + team annotations.
+- **Key:** org (unique original organisation label); **Rows:** 372 distinct nonempty raw labels under literal comma-separated parsing.
+- **Time / latest:** Raw source through 2026-09-30; chapter analysis 2016–2025.
+- **Fields:** org (raw label), country (source/reviewed organisation country, blank if ambiguous), parent (grouped label), evidence (trace), rule (classification decision), status (explicit_review / derived_from_chapter_3 / unreviewed_original_label).
+- **Transform:** Raw source-label extraction + audited parent mapping, with unreviewed rows explicitly marked. Original online documentation referred to 371 organisations under a different/unspecified counting treatment; this table uses reproducible literal parsing and **does not assert all 372 labels received manual review**.
+
+### data/processed/chart4_model_type_records.csv
+- **Source / URL / licence:** Epoch + Chart 4 reviewed classification; https://epoch.ai/data/ai-models; CC BY + reviewed input.
+- **Key / rows / columns / units / coverage:** Same as chart4_developer_type_review.csv: Model + country, 667 rows, 2016–2025.
+- **Transform:** Rebuilt and source-validated from the Chart 4 review table.
+
+### data/processed/chart4_period_summary.csv
+- **Source / URL / licence:** Epoch + Chart 4 reviewed classification; https://epoch.ai/data/ai-models; CC BY + reviewed input.
+- **Key:** country + period; **Rows:** 6, US/China × three fixed periods.
+- **Time / latest:** 2016–2025; latest 2023–25 interval.
+- **Fields:** country (US/China), period (fixed 4/3/3-year group), Industry/Academia/Collaboration/Other/Unknown (counts of model–country records), Total (records, integer).
+- **Transform:** Group the mutually exclusive model-level category records by country and period; each category count sums to Total. Periods are unequal in duration and must not be treated as equally sized annual bins.
+
+### data/processed/chart5_model_access_records.csv
+- **Source / URL / licence:** Epoch + Chart 5 reviewed classification; https://epoch.ai/data/ai-models; CC BY + reviewed input.
+- **Key / rows / columns / units / coverage:** Same as chart5_release_review.csv: model + country, 667 rows, 2016–2025.
+- **Transform:** Rebuilt and source-validated from the Chart 5 review table and cross-checked against Chart 4 developer types.
+
+### data/processed/chart5_release_strategies.csv
+- **Source / URL / licence:** Epoch + Chart 5 review; https://epoch.ai/data/ai-models; CC BY + reviewed input.
+- **Key:** Year + Country + Release_Strategy; **Time / latest:** 2016–2025, latest observation 2025.
+- **Fields:** Year (calendar year), Country (United States/China), Release_Strategy (categorical access group), count (model–country records), total (country-year records), percentage (100 × count / total; percentage points).
+- **Transform:** Group all 667 reviewed model–country records by year/country/strategy. This replaces a narrower **exact-country-string-only** pilot export in which multi-country collaborations were incorrectly omitted relative to the final website. To reproduce 2023–25 chapter percentages, aggregate counts and denominators over all three years, not annual percentages.
