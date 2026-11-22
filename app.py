@@ -44,6 +44,13 @@ if requested not in LABELS:
     requested = LABELS[0]
 if "chapter_selection" not in st.session_state:
     st.session_state.chapter_selection = requested
+
+def go_to_chapter(target_index: int) -> None:
+    """Button callback: runs before st.radio(key='chapter_selection') is instantiated."""
+    target = LABELS[target_index]
+    st.session_state["chapter_selection"] = target
+    st.query_params["page"] = target
+
 with st.sidebar:
     st.markdown("### THE AI RACE")
     selection = st.radio("Explore the evidence", LABELS, key="chapter_selection")
@@ -91,14 +98,16 @@ if st.toggle("Show exact data table (no hovering required)", value=False, key="s
 
 left, center, right = st.columns([1, 2, 1])
 with left:
-    if idx and st.button("← Previous", use_container_width=True):
-        st.session_state.chapter_selection = LABELS[idx-1]
-        st.query_params["page"] = LABELS[idx-1]
-        st.rerun()
+    if idx:
+        st.button(
+            "← Previous", use_container_width=True,
+            on_click=go_to_chapter, args=(idx - 1,),
+        )
 with center:
     st.caption("Version-controlled interactive chapters · Original source data and review rules available in this repository.")
 with right:
-    if idx < len(PAGES)-1 and st.button("Next →", use_container_width=True):
-        st.session_state.chapter_selection = LABELS[idx+1]
-        st.query_params["page"] = LABELS[idx+1]
-        st.rerun()
+    if idx < len(PAGES) - 1:
+        st.button(
+            "Next →", use_container_width=True,
+            on_click=go_to_chapter, args=(idx + 1,),
+        )
