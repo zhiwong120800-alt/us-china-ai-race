@@ -1,0 +1,376 @@
+model,country,publication_date,year,training_compute_flop,compute_available,frontier_flag
+DeepSeek V4.1 Flash,China,2026-09-09,2026,4.32e+24,1,0
+WeatherNext 3,United States,2026-09-03,2026,2.0725198384e+23,1,0
+GPT-6 Astra,United States,2026-09-03,2026,9.4e+26,1,1
+GLM-5.3-Flash,China,2026-08-20,2026,3.24e+24,1,0
+Kimi K3,China,2026-07-16,2026,2.0001e+25,1,0
+Inkling,United States,2026-07-15,2026,1.1e+25,1,0
+LongCat-2.0,China,2026-06-29,2026,1.008e+25,1,0
+Nemotron 3 Ultra,United States,2026-06-04,2026,6.6e+24,1,0
+Composer 2.5,United States,2026-05-18,2026,3.87e+25,1,0
+DeepSeek-V4-Pro,China,2026-04-24,2026,9.702e+24,1,0
+DeepSeek-V4-Flash,China,2026-04-24,2026,2.496e+24,1,0
+MiMo-V2.5-Pro,China,2026-04-23,2026,6.804e+24,1,0
+MolmoAct 2,United States,2026-04-05,2026,1.1e+22,1,0
+Composer 2,United States,2026-03-19,2026,2.32e+25,1,0
+GLM-5,China,2026-02-12,2026,6.84e+24,1,0
+Kimi K2.5,China,2026-02-02,2026,5.8e+24,1,0
+GLM-4.7,China,2025-12-22,2025,4.42e+24,1,0
+Nemotron 3-Nano-30B-A3B,United States,2025-12-15,2025,4.8e+23,1,0
+Olmo 3,United States,2025-11-20,2025,1.1e+24,1,0
+Kimi K2 Thinking,China,2025-11-06,2025,4.2e+24,1,0
+Ling-1T,China,2025-10-10,2025,6.000001e+24,1,0
+GLM-4.6,China,2025-09-30,2025,4.42e+24,1,0
+Qwen3-Omni-30B-A3B,China,2025-09-22,2025,3.6e+22,1,0
+AgentFounder-30B,China,2025-09-16,2025,6.5367e+23,1,0
+Qwen3-Max,China,2025-09-05,2025,1.512e+25,1,0
+LongCat-Flash,China,2025-09-01,2025,3.726e+24,1,0
+GPT-5,United States,2025-08-07,2025,6.6e+25,1,0
+gpt-oss-120b,United States,2025-08-05,2025,4.94e+24,1,0
+gpt-oss-20b,United States,2025-08-05,2025,5.49e+23,1,0
+GLM-4.5,China,2025-07-28,2025,4.42e+24,1,0
+Qwen3-235B-A22B-Thinking (Jul 2025),China,2025-07-25,2025,4.752e+24,1,0
+Qwen3-235B-A22B (Jul 2025),China,2025-07-25,2025,4.752e+24,1,0
+Qwen3-Coder-480B-A35B,China,2025-07-22,2025,1.575e+24,1,0
+Kimi K2,China,2025-07-11,2025,2.976e+24,1,0
+Grok 4,United States,2025-07-09,2025,5.0000000000001e+26,1,1
+FGN,United States,2025-06-12,2025,9.618950880000001e+21,1,0
+DeepSeek-R1 (May 2025),China,2025-05-28,2025,4.020010000000001e+24,1,0
+Seed1.5-VL,China,2025-05-11,2025,1.388556e+24,1,0
+Qwen3-235B-A22B,China,2025-04-29,2025,4.752e+24,1,0
+Pangu Ultra,China,2025-04-10,2025,1.0692e+25,1,0
+Llama 4 Scout,United States,2025-04-05,2025,4.08e+24,1,0
+Llama 4 Maverick,United States,2025-04-05,2025,2.244000000001e+24,1,0
+Llama 4 Behemoth (preview),United States,2025-04-05,2025,5.18400000000001e+25,1,1
+DeepSeek-V3 (Mar 2025),China,2025-03-24,2025,3.3e+24,1,0
+Hunyuan-TurboS,China,2025-03-11,2025,5.4e+24,1,0
+QwQ-32B,China,2025-03-06,2025,3.51e+24,1,0
+GPT-4.5,United States,2025-02-27,2025,3.8e+26,1,1
+Claude 3.7 Sonnet,United States,2025-02-24,2025,3.35e+25,1,0
+Grok 3,United States,2025-02-17,2025,3.5e+26,1,1
+Eagle 2,United States,2025-01-20,2025,4.7156e+22,1,0
+Eagle 2,China,2025-01-20,2025,4.7156e+22,1,0
+DeepSeek-R1,China,2025-01-20,2025,3.5e+24,1,0
+Eurus-2-7B-PRIME,United States,2025-01-02,2025,4.01915904e+20,1,0
+Eurus-2-7B-PRIME,China,2025-01-02,2025,4.01915904e+20,1,0
+DeepSeek-V3,China,2024-12-24,2024,3.3e+24,1,0
+Llama 3.3 70B,United States,2024-12-06,2024,6.8649768e+24,1,0
+Amazon Nova Pro,United States,2024-12-03,2024,6.000010000000001e+24,1,0
+Hunyuan-Large,China,2024-11-06,2024,3.49237e+24,1,0
+Doubao-pro,China,2024-10-28,2024,2.505e+25,1,0
+NVLM-X 72B,United States,2024-10-22,2024,3.0398181e+24,1,0
+NVLM-H 72B,United States,2024-10-22,2024,3.02e+24,1,0
+NVLM-D 72B,United States,2024-10-22,2024,3.02e+24,1,0
+Yi-Lightning,China,2024-10-16,2024,1.5e+24,1,0
+CHAI-1,United States,2024-10-15,2024,7.7605724e+21,1,0
+Llama-3.1-Nemotron-70B-Instruct,United States,2024-10-12,2024,7.929e+24,1,0
+RDT-1B,China,2024-10-10,2024,4.06e+22,1,0
+Movie Gen Video,United States,2024-10-04,2024,1.65e+24,1,0
+Llama 3.2 11B,United States,2024-09-24,2024,5.79e+23,1,0
+Telechat2-115B,China,2024-09-20,2024,6.9e+24,1,0
+Qwen2.5-72B,China,2024-09-19,2024,7.8e+24,1,0
+Qwen2.5 Instruct (72B),China,2024-09-19,2024,7.8516e+24,1,0
+Qwen2.5-32B,China,2024-09-17,2024,3.51e+24,1,0
+DeepSeek-V2.5,China,2024-09-06,2024,1.7892e+24,1,0
+Grok-2,United States,2024-08-13,2024,2.96e+25,1,1
+LLaVA-OV-72B,China,2024-08-06,2024,3.036551985824e+24,1,0
+AFM-server,United States,2024-07-29,2024,4.3e+24,1,0
+AFM-on-device,United States,2024-07-29,2024,4.5126e+23,1,0
+Llama 3.1-405B,United States,2024-07-23,2024,3.8e+25,1,1
+ESM3 (98B),United States,2024-06-25,2024,1.07e+24,1,0
+Claude 3.5 Sonnet,United States,2024-06-20,2024,2.700000000000001e+25,1,1
+DeepSeek-Coder-V2 236B,China,2024-06-17,2024,1.2852e+24,1,0
+Nemotron-4 340B,United States,2024-06-14,2024,1.8e+25,1,1
+OpenVLA,United States,2024-06-13,2024,1.1e+23,1,0
+Qwen2-72B,China,2024-06-07,2024,3.02e+24,1,0
+Octo-Base,United States,2024-05-20,2024,5.85e+20,1,0
+Yi-Large,China,2024-05-13,2024,1.8e+24,1,0
+AlphaFold 3,United States,2024-05-08,2024,4.1405645e+22,1,0
+VILA1.5-13B,United States,2024-05-03,2024,2.3003136e+21,1,0
+GenCast,United States,2024-05-01,2024,8.169984e+20,1,0
+Llama 3-70B,United States,2024-04-18,2024,7.861e+24,1,0
+Reka Core,United States,2024-04-15,2024,8.400010000000001e+24,1,0
+DBRX,United States,2024-03-27,2024,2.6e+24,1,0
+MM1-30B,United States,2024-03-14,2024,4.86e+23,1,0
+Inflection-2.5,United States,2024-03-07,2024,8.000001e+24,1,0
+MegaScale (Production),China,2024-02-23,2024,3.9e+24,1,0
+Qwen1.5-72B,China,2024-02-04,2024,1.3e+24,1,0
+GQA-8-XXL,United States,2023-12-23,2023,3.4912896e+22,1,0
+FunSearch,United States,2023-12-14,2023,3.87e+23,1,0
+CogAgent,China,2023-12-14,2023,6.707e+22,1,0
+VILA-13B,United States,2023-12-12,2023,2.3003136e+21,1,0
+Llama Guard,United States,2023-12-07,2023,1.6e+23,1,0
+Gemini 1.0 Ultra,United States,2023-12-06,2023,5.0000000001e+25,1,1
+Qwen-72B,China,2023-11-30,2023,1.3e+24,1,0
+Inflection-2,United States,2023-11-22,2023,1.001e+25,1,1
+Nemotron-3-8B,United States,2023-11-15,2023,1.8e+23,1,0
+GraphCast,United States,2023-11-14,2023,2.1000000000000002e+22,1,0
+SPHINX (Llama 2 13B),China,2023-11-13,2023,3.04e+22,1,0
+RoFormer,China,2023-11-08,2023,2.162688e+18,1,0
+MultiBand Diffusion,United States,2023-11-08,2023,2.6e+19,1,0
+CogVLM-17B,China,2023-11-06,2023,6.331e+22,1,0
+LLaVA 1.5,United States,2023-11-05,2023,7.807e+22,1,0
+Grok-1,United States,2023-11-04,2023,2.90000000001e+24,1,0
+Yi-34B,China,2023-11-02,2023,6.1e+23,1,0
+Skywork-13B,China,2023-10-30,2023,2.5e+23,1,0
+ChatGLM3-6B,China,2023-10-27,2023,5.04e+22,1,0
+CODEFUSION (Python),United States,2023-10-26,2023,7.92e+18,1,0
+RoseTTAFold All-Atom (RFAA),United States,2023-10-09,2023,2.14e+20,1,0
+FinGPT-13B,United States,2023-10-07,2023,1.6e+23,1,0
+Amazon Titan,United States,2023-09-28,2023,4.8e+24,1,1
+Swift,United States,2023-08-30,2023,5.337e+16,1,0
+Jais,United States,2023-08-29,2023,4.8946763e+22,1,0
+PeptideBERT,United States,2023-08-28,2023,4.9e+16,1,0
+GGNN,United States,2023-08-05,2023,7.56e+21,1,0
+GGNN,China,2023-08-05,2023,7.56e+21,1,0
+AudioLM,United States,2023-07-26,2023,3.9e+18,1,0
+Llama 2-70B,United States,2023-07-18,2023,8.1e+23,1,0
+Llama 2-7B,United States,2023-07-18,2023,8.4e+22,1,0
+Claude 2,United States,2023-07-11,2023,3.866e+24,1,1
+xTrimoPGLM -100B,China,2023-07-06,2023,6.2e+23,1,0
+InternLM,China,2023-07-06,2023,9.984e+23,1,0
+Pangu-Weather,China,2023-07-05,2023,3.98e+22,1,0
+HyenaDNA,United States,2023-06-27,2023,1.811e+21,1,0
+GPT-4 (Jun 2023),United States,2023-06-13,2023,2.1e+25,1,1
+PaLI-X,United States,2023-05-29,2023,5.6e+23,1,0
+ONE-PEACE,China,2023-05-18,2023,1.8e+20,1,0
+InstructBLIP,United States,2023-05-11,2023,1.94e+20,1,0
+PaLM 2,United States,2023-05-10,2023,7.34e+24,1,1
+StarCoder,United States,2023-05-09,2023,8.46e+22,1,0
+LLaVA,United States,2023-04-17,2023,7.8049e+22,1,0
+DINOv2,United States,2023-04-14,2023,7.41851136e+21,1,0
+Incoder-6.7B,United States,2023-04-09,2023,3.00001e+21,1,0
+Segment Anything Model,United States,2023-04-05,2023,7.8e+21,1,0
+BloombergGPT,United States,2023-03-30,2023,2.36e+23,1,0
+VideoMAE V2,China,2023-03-29,2023,9.7e+21,1,0
+SigLIP 400M,United States,2023-03-27,2023,4.9467301e+21,1,0
+PanGu-Σ,China,2023-03-20,2023,4.67e+23,1,0
+GPT-4 (Mar 2023),United States,2023-03-15,2023,2.1e+25,1,1
+AudioGen,United States,2023-03-05,2023,9.5e+21,1,0
+DiT-XL/2,United States,2023-03-02,2023,6e+20,1,0
+LLaMA-65B,United States,2023-02-24,2023,5.5e+23,1,0
+ViT-22B,United States,2023-02-10,2023,1.93248e+23,1,0
+BLIP-2 (Q-Former),United States,2023-01-30,2023,1.20000000001e+21,1,0
+Ankh_large,United States,2023-01-16,2023,6.5e+21,1,0
+Nucleotide Transformer,United States,2023-01-15,2023,8.08e+21,1,0
+VALL-E,United States,2023-01-05,2023,1.01e+19,1,0
+Hybrid H3-2.7B,United States,2022-12-28,2022,6.48e+21,1,0
+Vega v2,United States,2022-12-04,2022,7.76e+22,1,0
+Vega v2,China,2022-12-04,2022,7.76e+22,1,0
+AR-LDM,China,2022-11-20,2022,5.1e+20,1,0
+Galactica,United States,2022-11-16,2022,3.24e+23,1,0
+EVA-01,China,2022-11-14,2022,1.501e+22,1,0
+InternImage,China,2022-11-10,2022,2.408e+21,1,0
+eDiff-I,United States,2022-11-02,2022,5.46e+19,1,0
+U-PaLM (540B),United States,2022-10-20,2022,2.53e+24,1,1
+Flan-PaLM 540B,United States,2022-10-20,2022,2.540000000001e+24,1,1
+GenSLM,United States,2022-10-11,2022,1.42e+21,1,0
+DiffDock,United States,2022-10-04,2022,7.2e+19,1,0
+Whisper,United States,2022-09-21,2022,4.2072663e+21,1,0
+PaLI,United States,2022-09-14,2022,1.69e+23,1,0
+BEIT-3,United States,2022-08-22,2022,7e+19,1,0
+BlenderBot 3,United States,2022-08-10,2022,4.3e+23,1,0
+GLM-130B,China,2022-08-04,2022,3.5490054945e+23,1,0
+AlexaTM 20B,United States,2022-08-02,2022,2.04374016e+23,1,0
+OmegaPLM,United States,2022-07-22,2022,1.03514112e+22,1,0
+OmegaPLM,China,2022-07-22,2022,1.03514112e+22,1,0
+ESM2-15B,United States,2022-07-21,2022,7.35000000001e+22,1,0
+BLOOM-176B,United States,2022-07-11,2022,3.65664e+23,1,0
+NLLB,United States,2022-07-06,2022,1.751113728e+22,1,0
+CodeT5-large,United States,2022-07-05,2022,2.72e+21,1,0
+Minerva (540B),United States,2022-06-29,2022,2.7415e+24,1,1
+ProGen2-xlarge,United States,2022-06-27,2022,1.35e+22,1,0
+Parti,United States,2022-06-22,2022,5.09607936e+23,1,0
+CoCa,United States,2022-06-14,2022,7.3e+22,1,0
+DITTO,United States,2022-06-06,2022,3.31776e+18,1,0
+DITTO,China,2022-06-06,2022,3.31776e+18,1,0
+Tranception,United States,2022-05-27,2022,7.24e+21,1,0
+GPT-2 Medium (FlashAttention),United States,2022-05-27,2022,8.9280922e+20,1,0
+Imagen,United States,2022-05-23,2022,1.46e+22,1,0
+UL2,United States,2022-05-10,2022,1.2e+23,1,0
+OPT-175B,United States,2022-05-02,2022,4.3e+23,1,0
+Sparse all-MLP,United States,2022-04-14,2022,5.32224e+20,1,0
+Stable Diffusion (LDM-KL-8-G),United States,2022-04-13,2022,5.0000000000000004e+22,1,0
+DALL·E 2,United States,2022-04-06,2022,3.3695784e+23,1,0
+PaLM (540B),United States,2022-04-04,2022,2.5272e+24,1,1
+Make-A-Scene,United States,2022-03-24,2022,6.4172851e+21,1,0
+"Segatron-XL large, M=384 + HCP",United States,2022-03-21,2022,2.65e+19,1,0
+GPT-3.5 (davinci-002),United States,2022-03-15,2022,2.578e+24,1,1
+ViT-G (model soup),United States,2022-03-10,2022,3.4e+21,1,0
+Statement Curriculum Learning,United States,2022-03-02,2022,1.7901648e+22,1,0
+PolyCoder,United States,2022-02-26,2022,1.1e+21,1,0
+FourCastNet,United States,2022-02-22,2022,3.4504704e+20,1,0
+ST-MoE,United States,2022-02-17,2022,2.9e+23,1,0
+ProteinBERT,United States,2022-02-10,2022,6.5e+19,1,0
+LaMDA,United States,2022-02-10,2022,3.55e+23,1,0
+GPT-NeoX-20B,United States,2022-02-09,2022,9.31627008e+22,1,0
+InstructGPT 175B,United States,2022-01-27,2022,3.19181e+23,1,0
+Detic,United States,2022-01-07,2022,2.34399744e+19,1,0
+ERNIE 3.0 Titan,China,2021-12-23,2021,1.0421e+24,1,1
+XGLM-7.5B,United States,2021-12-20,2021,2.25e+22,1,0
+Contriever,United States,2021-12-16,2021,1.57e+20,1,0
+GLaM,United States,2021-12-13,2021,3.6363112434e+23,1,0
+NÜWA,United States,2021-11-24,2021,7.24598784e+21,1,0
+NÜWA,China,2021-11-24,2021,7.24598784e+21,1,0
+Florence,United States,2021-11-22,2021,4.831e+22,1,0
+BASIC-L,United States,2021-11-19,2021,4.12e+22,1,0
+Swin Transformer V2 (SwinV2-G),China,2021-11-18,2021,1.1e+21,1,0
+Masked Autoencoders ViT-H,United States,2021-11-11,2021,4.6e+20,1,0
+CodeT5-base,United States,2021-11-01,2021,1.56e+21,1,0
+S4,United States,2021-10-31,2021,7.8328627e+19,1,0
+base LM+GNN+kNN,China,2021-10-17,2021,5.2587456e+19,1,0
+Yuan 1.0,China,2021-10-12,2021,3.5380000000001e+23,1,1
+Megatron-Turing NLG 530B,United States,2021-10-11,2021,8.586e+23,1,1
+AlphaFold-Multimer,United States,2021-10-04,2021,4.35e+21,1,0
+Turing ULRv5,United States,2021-09-28,2021,2.8983951e+22,1,0
+PLATO-XL,China,2021-09-20,2021,9.9e+21,1,0
+PermuteFormer,China,2021-09-06,2021,2.775e+18,1,0
+FLAN 137B,United States,2021-09-03,2021,2.047e+24,1,1
+XLMR-XXL,United States,2021-08-17,2021,3.366e+22,1,0
+DNABERT,United States,2021-08-15,2021,1.07e+20,1,0
+Zidong Taichu,China,2021-08-11,2021,8.016e+20,1,0
+YOLOX-X,China,2021-08-06,2021,6.34275e+20,1,0
+SEER,United States,2021-07-29,2021,1.8e+22,1,0
+HuBERT,United States,2021-07-27,2021,5.54e+21,1,0
+Codex,United States,2021-07-07,2021,7.344e+22,1,0
+ERNIE 3.0,China,2021-07-05,2021,2.25e+22,1,0
+Adaptive Input Transformer + RD,China,2021-06-28,2021,8.58e+19,1,0
+Fold2Seq,United States,2021-06-24,2021,1.4e+17,1,0
+EfficientNetV2-XL,United States,2021-06-23,2021,9.56e+19,1,0
+StyleGAN3-T,United States,2021-06-21,2021,1.70208e+21,1,0
+StyleGAN3-R,United States,2021-06-21,2021,2.42784e+21,1,0
+Denoising Diffusion Probabilistic Models (LSUN Bedroom),United States,2021-06-11,2021,7.840125000000001e+19,1,0
+ALIGN,United States,2021-06-11,2021,2.598670000001e+22,1,0
+DeBERTa,United States,2021-06-10,2021,2.588e+22,1,0
+CoAtNet,United States,2021-06-09,2021,4.27e+22,1,0
+ViT-G/14,United States,2021-06-08,2021,5.85e+22,1,0
+ByT5-XXL,United States,2021-05-28,2021,8.1e+22,1,0
+Transformer local-attention (NesT-B),United States,2021-05-26,2021,2.40576e+19,1,0
+CogView,China,2021-05-26,2021,2.68e+22,1,0
+MedBERT,United States,2021-05-20,2021,9.47e+18,1,0
+MedBERT,China,2021-05-20,2021,9.47e+18,1,0
+ADM,United States,2021-05-11,2021,6.2e+21,1,0
+ProtT5-XL-U50,United States,2021-05-04,2021,1.8704498688e+22,1,0
+ProtT5-XL-U50,China,2021-05-04,2021,1.8704498688e+22,1,0
+ProtBERT-BFD,United States,2021-05-04,2021,3.9e+22,1,0
+ProtBERT-BFD,China,2021-05-04,2021,3.9e+22,1,0
+PLUG,China,2021-04-19,2021,3.5997696e+22,1,0
+M6-T,China,2021-03-05,2021,5.5e+21,1,0
+Generative BST,United States,2021-03-05,2021,1.449e+22,1,0
+Meta Pseudo Labels,United States,2021-03-01,2021,4.79e+22,1,0
+SRU++ Large,United States,2021-02-24,2021,2.1173704e+19,1,0
+MSA Transformer,United States,2021-02-13,2021,5.49e+21,1,0
+DLWP,United States,2021-02-09,2021,5.6845152e+18,1,0
+DeiT-B,United States,2021-01-15,2021,7.884e+19,1,0
+Switch,United States,2021-01-11,2021,8.22e+22,1,1
+DALL-E,United States,2021-01-05,2021,4.7e+22,1,0
+CLIP (ViT L/14@336px),United States,2021-01-05,2021,1.05e+22,1,0
+ERNIE-Doc (247M),China,2020-12-31,2020,3.0302798e+19,1,0
+CT-MoS (WT2),United States,2020-12-25,2020,5.4e+17,1,0
+DensePhrases,United States,2020-12-23,2020,2.09952e+18,1,0
+ESM1b,United States,2020-12-15,2020,5.1e+21,1,0
+CPM-Large,China,2020-12-01,2020,2.6052e+20,1,0
+KEPLER,United States,2020-11-23,2020,1.66e+21,1,0
+KEPLER,China,2020-11-23,2020,1.66e+21,1,0
+wave2vec 2.0 LARGE,United States,2020-10-22,2020,3.87072e+21,1,0
+ViT-Huge/14,United States,2020-10-22,2020,4.262e+21,1,0
+mT5-XXL,United States,2020-10-20,2020,8.2e+22,1,1
+Conformer + Wav2vec 2.0 + Noisy Student,United States,2020-10-20,2020,7.6e+21,1,0
+LUKE,United States,2020-10-02,2020,1.8144e+22,1,0
+ProBERTa,United States,2020-09-01,2020,9.72e+18,1,0
+ERNIE-GEN (large),China,2020-08-06,2020,2e+20,1,0
+DeLighT,United States,2020-08-03,2020,3.8016e+18,1,0
+GShard (dense),United States,2020-06-30,2020,4.765e+22,1,1
+GPT-3 175B (davinci),United States,2020-05-28,2020,3.14e+23,1,1
+DETR,United States,2020-05-26,2020,4e+20,1,0
+UnifiedQA,United States,2020-05-02,2020,1.65e+19,1,0
+Once for All,United States,2020-04-29,2020,6.237e+20,1,0
+MetNet,United States,2020-03-24,2020,9.510912e+18,1,0
+ELECTRA,United States,2020-03-23,2020,3.1e+21,1,0
+Tensor-Transformer(1core)+PN (WT103),United States,2020-03-17,2020,1.58e+18,1,0
+TransformerXL + spectrum control,United States,2020-03-11,2020,2.6289761e+19,1,0
+TransformerXL + spectrum control,China,2020-03-11,2020,2.6289761e+19,1,0
+Feedback Transformer,United States,2020-02-21,2020,7.690547e+18,1,0
+FFN SwiGLU,United States,2020-02-14,2020,3.3687317e+19,1,0
+Turing-NLG,United States,2020-02-13,2020,1.57e+22,1,0
+ALBERT-xxlarge,United States,2020-02-09,2020,2.39e+21,1,0
+Meena,United States,2020-01-28,2020,1.12e+23,1,1
+ContextNet + Noisy Student,United States,2020-01-19,2020,8.16e+21,1,0
+DD-PPO,United States,2019-12-19,2019,7.8e+20,1,0
+OpenAI Five Rerun,United States,2019-12-13,2019,1.3e+22,1,0
+OpenAI Five,United States,2019-12-13,2019,6.7e+22,1,1
+MMLSTM (WT-2),China,2019-12-05,2019,1.938e+17,1,0
+MMLSTM (PTB),China,2019-12-05,2019,5.8298782e+16,1,0
+Transformer-XL DeFINE (141M),United States,2019-11-27,2019,1.74276e+18,1,0
+Noisy Student (L2),United States,2019-11-11,2019,2.612e+22,1,1
+Sandwich Transformer,United States,2019-11-10,2019,2.3504093e+19,1,0
+CamemBERT,United States,2019-11-10,2019,8.3e+20,1,0
+XLM-RoBERTa,United States,2019-11-05,2019,2.076e+22,1,1
+Base LM + kNN LM + Continuous Cache,United States,2019-11-01,2019,3.05292e+19,1,0
+T5-11B,United States,2019-10-23,2019,3.3e+22,1,1
+T5-3B,United States,2019-10-23,2019,9.0000000001e+21,1,1
+DistilBERT,United States,2019-10-02,2019,1.24416e+19,1,0
+AlphaX-1,United States,2019-10-02,2019,8.89344e+17,1,0
+Megatron-LM (8.3B),United States,2019-09-17,2019,9.1e+21,1,1
+Megatron-LM (1.2B),United States,2019-09-17,2019,1.1304e+21,1,0
+Megatron-BERT,United States,2019-09-17,2019,2.2e+22,1,1
+trRosetta,United States,2019-08-22,2019,3.8047968e+19,1,0
+trRosetta,China,2019-08-22,2019,3.8047968e+19,1,0
+Pluribus,United States,2019-07-11,2019,6.6e+16,1,0
+RoBERTa Large,United States,2019-07-01,2019,8.5067e+21,1,1
+AWD-LSTM + MoS + Partial Shuffled,United States,2019-06-10,2019,3.15e+17,1,0
+Transformer-XL Large + Phrase Induction,United States,2019-06-04,2019,3.7848651e+20,1,0
+XLNet,United States,2019-06-01,2019,6.19e+21,1,1
+DLRM-2020,United States,2019-05-31,2019,4e+18,1,0
+MuseNet,United States,2019-04-25,2019,2.208301056e+20,1,0
+BERT-Large-CAS (PTB+WT2+WT103),United States,2019-04-20,2019,1.5405e+20,1,0
+WeNet (Penn Treebank),United States,2019-04-08,2019,7.30000001e+17,1,0
+Cross-lingual alignment,United States,2019-04-04,2019,2.56e+18,1,0
+SciBERT,United States,2019-03-26,2019,8.926848e+19,1,0
+KataGo,United States,2019-02-27,2019,2.32e+19,1,0
+GPT-2 (1.5B),United States,2019-02-14,2019,1.920000000001e+21,1,0
+Hanabi 4 player,United States,2019-02-01,2019,4.3e+18,1,0
+Transformer-XL (257M),United States,2019-01-09,2019,3.7832771e+20,1,0
+StyleGAN,United States,2018-12-12,2018,3.93e+16,1,0
+Mesh-TensorFlow Transformer 4.9B (language),United States,2018-11-05,2018,1.617408e+20,1,0
+Mesh-TensorFlow Transformer 2.9B (translation),United States,2018-11-05,2018,6.84288e+19,1,0
+TrellisNet,United States,2018-10-15,2018,2.78e+18,1,0
+BERT-Large,United States,2018-10-11,2018,2.85e+20,1,0
+Transformer (Adaptive Input Embeddings) WT103,United States,2018-09-28,2018,4.47e+19,1,0
+LSTM+NeuralCache,United States,2018-09-24,2018,982800000000000.0,1,0
+Transformer + Simple Recurrent Unit,United States,2018-09-17,2018,1.1e+19,1,0
+Big Transformer for Back-Translation,United States,2018-08-28,2018,4.7808e+20,1,0
+Big-Little Net (speech),United States,2018-07-10,2018,4.290048e+17,1,0
+Big-Little Net,United States,2018-07-10,2018,2.46048e+17,1,0
+GPT-1,United States,2018-06-01,2018,1.7578125e+19,1,0
+Dropout-LSTM+Noise(Bernoulli) (WT2),United States,2018-05-03,2018,1.27e+17,1,0
+ResNeXt-101 32x48d,United States,2018-05-02,2018,8.74395e+21,1,1
+YOLOv3,United States,2018-04-08,2018,1.3416380824e+19,1,0
+4 layer QRNN (h=2500),United States,2018-03-22,2018,5.9158815e+17,1,0
+QRNN,United States,2018-02-01,2018,6.8866472e+17,1,0
+ELMo,United States,2018-02-01,2018,3300100000000010.0,1,0
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2017)",United States,2017-11-10,2017,3.36e+18,1,0
+ISS,United States,2017-09-15,2017,3400000000000000.0,1,0
+Libratus,United States,2017-08-19,2017,5.51e+20,1,0
+OpenAI TI7 DOTA 1v1,United States,2017-08-11,2017,6.046095222592002e+20,1,1
+RetinaNet-R101,United States,2017-08-07,2017,2.065392e+18,1,0
+AWD-LSTM - 3-layer LSTM (tied) + continuous cache pointer (WT2),United States,2017-08-07,2017,2.97e+17,1,0
+ConvS2S (ensemble of 8 models),United States,2017-07-25,2017,5.64e+19,1,0
+JFT,United States,2017-07-10,2017,8.43e+20,1,1
+Transformer,United States,2017-06-12,2017,7.4245248e+18,1,0
+MoE-Multi,United States,2017-01-23,2017,9.393905664e+19,1,0
+HR-ResNet101,United States,2016-12-13,2016,7.077e+18,1,0
+ResNeXt-101 (64×4d),United States,2016-11-16,2016,1.2e+19,1,0
+NASv3 (CIFAR-10),United States,2016-11-05,2016,2.2e+21,1,1
+NAS with base 8 and shared embeddings,United States,2016-11-05,2016,1.05e+16,1,0
+BIDAF,United States,2016-11-05,2016,3.4686144e+18,1,0
+VD-LSTM+REAL Large,United States,2016-11-04,2016,2.13e+16,1,0
+SPIDER2,United States,2016-10-28,2016,1.822e+16,1,0
+SPIDER2,China,2016-10-28,2016,1.822e+16,1,0
+Xception,United States,2016-10-07,2016,4.36e+20,1,1
+Pointer Sentinel-LSTM (medium),United States,2016-09-26,2016,7490000000000000.0,1,0
+GNMT,United States,2016-09-26,2016,6.620000000001e+21,1,1
+ResNet-200,China,2016-09-17,2016,2.9741645e+19,1,0
+R-FCN,United States,2016-06-21,2016,7.1935776e+17,1,0
+R-FCN,China,2016-06-21,2016,7.1935776e+17,1,0
+Named Entity Recognition model,United States,2016-03-04,2016,9.69408e+16,1,0

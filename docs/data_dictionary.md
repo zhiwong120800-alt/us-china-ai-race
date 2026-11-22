@@ -356,3 +356,17 @@ Definitions: **Primary key** can be a *composite key*; observation coverage refe
 - **Key:** Year + Country + Release_Strategy; **Time / latest:** 2016–2025, latest observation 2025.
 - **Fields:** Year (calendar year), Country (United States/China), Release_Strategy (categorical access group), count (model–country records), total (country-year records), percentage (100 × count / total; percentage points).
 - **Transform:** Group all 667 reviewed model–country records by year/country/strategy. This replaces a narrower **exact-country-string-only** pilot export in which multi-country collaborations were incorrectly omitted relative to the final website. To reproduce 2023–25 chapter percentages, aggregate counts and denominators over all three years, not annual percentages.
+
+### data/processed/chart2_compute_models.csv
+- **Source / URL / licence:** Epoch AI Notable Models, https://epoch.ai/data/ai-models; CC BY according to source register.
+- **Key:** model + country; **Rows:** 375 (US 277, China 98), each with known positive training FLOPs.
+- **Time / latest:** 2016-03-04 to 2026-09-09, study cutoff 2026-09-30, frozen 2026-10-20.
+- **Fields / units:** model (name), country (US/China attribution), publication_date (ISO date), year (calendar year), training_compute_flop (training floating point operations, **FLOP**), compute_available (0/1 indicator, always 1 in this included subset), frontier_flag (0/1 original Epoch flag).
+- **Transform:** Filter original model records to 2016-01-01 through 2026-09-30, whole-count both countries when both occur, retain positive finite source training-FLOP estimates. Script: python scripts/build_chart2.py. A reported maximum is not the global frontier.
+
+### data/processed/chart2_compute_coverage.csv
+- **Source / URL / licence:** Epoch AI Notable Models, https://epoch.ai/data/ai-models; CC BY according to source register.
+- **Key:** country + year; **Rows:** 22 (2 countries × 11 years).
+- **Time / latest:** calendar years 2016–2026, with 2026 right-censored at 30 September.
+- **Fields / units:** country (label), year (calendar year), all_notable (country–model records, count), with_compute (records with finite positive source FLOPs, count), coverage_pct (100 × with_compute / all_notable, percent).
+- **Transform:** Same frozen raw model population and whole-country attribution as the model table; include missing-FLOP records in the denominator, never as zeros. Script: python scripts/build_chart2.py.

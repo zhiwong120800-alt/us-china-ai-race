@@ -3,6 +3,7 @@
 From the repository root, with Python 3.10+ installed:
 
     python scripts/build_chart1.py
+    python scripts/build_chart2.py
     python scripts/build_eci_audit.py
     python scripts/rebuild_chapter_data.py
 

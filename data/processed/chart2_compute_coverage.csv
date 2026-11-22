@@ -1,0 +1,23 @@
+country,year,all_notable,with_compute,coverage_pct
+United States,2016,36,12,33.3
+United States,2017,29,10,34.5
+United States,2018,27,18,66.7
+United States,2019,56,32,57.1
+United States,2020,37,26,70.3
+United States,2021,54,42,77.8
+United States,2022,68,45,66.2
+United States,2023,86,44,51.2
+United States,2024,57,26,45.6
+United States,2025,64,15,23.4
+United States,2026,49,7,14.3
+China,2016,6,3,50.0
+China,2017,10,0,0.0
+China,2018,1,0,0.0
+China,2019,6,3,50.0
+China,2020,8,5,62.5
+China,2021,21,17,81.0
+China,2022,12,7,58.3
+China,2023,23,15,65.2
+China,2024,31,16,51.6
+China,2025,35,23,65.7
+China,2026,29,9,31.0

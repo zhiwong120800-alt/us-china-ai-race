@@ -52,6 +52,7 @@ GitHub Pages [read-only preview](https://zhiwong120800-alt.github.io/us-china-ai
 From the repository root:
 
     python scripts/build_chart1.py
+    python scripts/build_chart2.py
     python scripts/build_eci_audit.py
     python scripts/rebuild_chapter_data.py
 

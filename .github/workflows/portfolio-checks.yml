@@ -18,6 +18,7 @@ jobs:
       - name: Reproduce Chart 1, Chart 6 and human-reviewed Charts 3–5
         run: |
           python scripts/build_chart1.py
+          python scripts/build_chart2.py
           python scripts/build_eci_audit.py
           python scripts/rebuild_chapter_data.py
       - name: Check committed processed tables are reproducible
