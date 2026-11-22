@@ -1,0 +1,49 @@
+name: Assignment 3 portfolio checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  reproduce-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Reproduce Chart 1, Chart 6 and human-reviewed Charts 3–5
+        run: |
+          python scripts/build_chart1.py
+          python scripts/build_eci_audit.py
+          python scripts/rebuild_chapter_data.py
+      - name: Check committed processed tables are reproducible
+        run: git diff --exit-code -- data/processed/
+      - name: Compile application and data pipelines
+        run: python -m py_compile app.py chart5.py scripts/build_chart1.py scripts/build_eci_audit.py scripts/rebuild_chapter_data.py
+      - name: Install application dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Start Streamlit application
+        run: |
+          nohup streamlit run app.py --server.headless true --server.port 8501 > /tmp/streamlit.log 2>&1 &
+          for i in $(seq 1 25); do
+            if curl -fsS http://localhost:8501/_stcore/health >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS http://localhost:8501/_stcore/health
+      - name: Check all bundled chapters are accessible from Streamlit
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import urlopen
+          files = sorted(Path("static").glob("*.html"))
+          assert len(files) == 8, f"Expected 8 interactive pages, got {len(files)}"
+          for f in files:
+              with urlopen("http://localhost:8501/app/static/" + f.name, timeout=15) as response:
+                  body = response.read()
+                  assert response.status == 200 and b"<html" in body.lower(), f"Not an HTML page: {f.name}"
+              print(f.name, len(body), "bytes", "PASS")
+          PY
