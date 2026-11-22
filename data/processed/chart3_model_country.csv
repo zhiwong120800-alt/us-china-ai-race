@@ -1,0 +1,680 @@
+model,country,year,publication_date,alignment
+R-FCN,China,2016,2016-06-21,source_mapping
+CCL,China,2016,2016-06-27,source_mapping
+DenseNet-264,China,2016,2016-08-25,source_mapping
+ResNet-200,China,2016,2016-09-17,source_mapping
+SPIDER2,China,2016,2016-10-28,source_mapping
+DAC-CSR,China,2016,2016-11-16,source_mapping
+OR-WideResNet,China,2017,2017-01-07,source_mapping
+DnCNN,China,2017,2017-02-01,source_mapping
+Mnemonic Reader,China,2017,2017-05-08,source_mapping
+ShuffleNet v1,China,2017,2017-07-03,source_mapping
+GSM,China,2017,2017-07-30,source_mapping
+NeuMF (Pinterest),China,2017,2017-08-16,source_mapping
+SENet (ImageNet),China,2017,2017-09-05,source_mapping
+DL scaling Image,China,2017,2017-12-01,source_mapping
+DL scaling LM,China,2017,2017-12-01,source_mapping
+DL scaling speech,China,2017,2017-12-01,source_mapping
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2018)",China,2018,2018-09-18,source_mapping
+True-Regularization+Finetune+Dynamic-Eval,China,2019,2019-04-08,source_mapping
+Neuro-Symbolic Concept Learner,China,2019,2019-04-26,source_mapping
+EN^2AS with performance reward,China,2019,2019-07-22,source_mapping
+trRosetta,China,2019,2019-08-22,source_mapping
+MMLSTM (PTB),China,2019,2019-12-05,source_mapping
+MMLSTM (WT-2),China,2019,2019-12-05,source_mapping
+Theseus 6/768,China,2020,2020-02-07,source_mapping
+TCAN (WT2),China,2020,2020-02-28,source_mapping
+TransformerXL + spectrum control,China,2020,2020-03-11,source_mapping
+NAS+ESS (23M),China,2020,2020-05-06,source_mapping
+ERNIE-GEN (large),China,2020,2020-08-06,source_mapping
+KEPLER,China,2020,2020-11-23,source_mapping
+CPM-Large,China,2020,2020-12-01,source_mapping
+ERNIE-Doc (247M),China,2020,2020-12-31,source_mapping
+M6-T,China,2021,2021-03-05,source_mapping
+PLUG,China,2021,2021-04-19,source_mapping
+ProtBERT-BFD,China,2021,2021-05-04,source_mapping
+ProtT5-XL-U50,China,2021,2021-05-04,source_mapping
+MedBERT,China,2021,2021-05-20,source_mapping
+CogView,China,2021,2021-05-26,source_mapping
+Adaptive Input Transformer + RD,China,2021,2021-06-28,source_mapping
+ERNIE 3.0,China,2021,2021-07-05,source_mapping
+YOLOX-X,China,2021,2021-08-06,source_mapping
+Zidong Taichu,China,2021,2021-08-11,source_mapping
+PermuteFormer,China,2021,2021-09-06,source_mapping
+PLATO-XL,China,2021,2021-09-20,source_mapping
+TrOCR,China,2021,2021-09-21,source_mapping
+Yuan 1.0,China,2021,2021-10-12,source_mapping
+base LM+GNN+kNN,China,2021,2021-10-17,source_mapping
+EfficientZero,China,2021,2021-10-30,source_mapping
+AliceMind-MMU,China,2021,2021-11-17,source_mapping
+Swin Transformer V2 (SwinV2-G),China,2021,2021-11-18,source_mapping
+NÜWA,China,2021,2021-11-24,source_mapping
+ERNIE 3.0 Titan,China,2021,2021-12-23,source_mapping
+ERNIE-ViLG,China,2021,2021-12-31,source_mapping
+OntoProtein,China,2022,2022-01-23,source_mapping
+SimCSE,China,2022,2022-05-18,source_mapping
+CogVideo,China,2022,2022-05-29,source_mapping
+DITTO,China,2022,2022-06-06,source_mapping
+OmegaPLM,China,2022,2022-07-22,source_mapping
+GLM-130B,China,2022,2022-08-04,source_mapping
+InternImage,China,2022,2022-11-10,source_mapping
+AltCLIP_M9,China,2022,2022-11-12,source_mapping
+EVA-01,China,2022,2022-11-14,source_mapping
+AR-LDM,China,2022,2022-11-20,source_mapping
+ALM 1.0,China,2022,2022-11-28,source_mapping
+Vega v2,China,2022,2022-12-04,manual_override
+PanGu-Σ,China,2023,2023-03-20,source_mapping
+VideoMAE V2,China,2023,2023-03-29,source_mapping
+ONE-PEACE,China,2023,2023-05-18,source_mapping
+ERNIE 3.5,China,2023,2023-06-27,source_mapping
+Pangu-Weather,China,2023,2023-07-05,source_mapping
+InternLM,China,2023,2023-07-06,source_mapping
+xTrimoPGLM -100B,China,2023,2023-07-06,source_mapping
+GGNN,China,2023,2023-08-05,source_mapping
+Qwen-VL,China,2023,2023-08-24,source_mapping
+Robot Parkour,China,2023,2023-09-12,source_mapping
+ERNIE 4.0,China,2023,2023-10-17,source_mapping
+ChatGLM3-6B,China,2023,2023-10-27,source_mapping
+Skywork-13B,China,2023,2023-10-30,source_mapping
+Yi-34B,China,2023,2023-11-02,source_mapping
+CogVLM-17B,China,2023,2023-11-06,source_mapping
+mPLUG-Owl2,China,2023,2023-11-07,source_mapping
+RoFormer,China,2023,2023-11-08,source_mapping
+SPHINX (Llama 2 13B),China,2023,2023-11-13,source_mapping
+Qwen-Audio-Chat,China,2023,2023-11-14,source_mapping
+AndesGPT,China,2023,2023-11-16,source_mapping
+Qwen-72B,China,2023,2023-11-30,source_mapping
+CogAgent,China,2023,2023-12-14,source_mapping
+CoRe,China,2023,2023-12-29,source_mapping
+Kimi Explorer,China,2024,2024-01-01,source_mapping
+Qwen-VL-Max,China,2024,2024-01-25,source_mapping
+Qwen1.5-72B,China,2024,2024-02-04,source_mapping
+MegaScale (Production),China,2024,2024-02-23,source_mapping
+ManiGaussian,China,2024,2024-03-13,source_mapping
+Yi-Large,China,2024,2024-05-13,source_mapping
+GLM-4 (0520),China,2024,2024-05-20,source_mapping
+Qwen2-72B,China,2024,2024-06-07,source_mapping
+DeepSeek-Coder-V2 236B,China,2024,2024-06-17,source_mapping
+Ernie 4.0 Turbo,China,2024,2024-06-28,source_mapping
+LLaVA-OV-72B,China,2024,2024-08-06,source_mapping
+GLM-4-Plus,China,2024,2024-08-29,source_mapping
+Hairuo,China,2024,2024-08-29,source_mapping
+Hunyuan Turbo,China,2024,2024-09-05,source_mapping
+DeepSeek-V2.5,China,2024,2024-09-06,source_mapping
+Qwen2.5-32B,China,2024,2024-09-17,source_mapping
+Oryx 34B,China,2024,2024-09-19,source_mapping
+Qwen2.5 Instruct (72B),China,2024,2024-09-19,source_mapping
+Qwen2.5-72B,China,2024,2024-09-19,source_mapping
+Telechat2-115B,China,2024,2024-09-20,source_mapping
+PixelDance,China,2024,2024-09-24,source_mapping
+GR-2,China,2024,2024-10-08,source_mapping
+RDT-1B,China,2024,2024-10-10,source_mapping
+Yi-Lightning,China,2024,2024-10-16,source_mapping
+Doubao-pro,China,2024,2024-10-28,source_mapping
+Hunyuan-Large,China,2024,2024-11-06,source_mapping
+SeedEdit,China,2024,2024-11-11,source_mapping
+k0-math,China,2024,2024-11-16,source_mapping
+Infinity,China,2024,2024-12-05,source_mapping
+NVILA 15B,China,2024,2024-12-05,source_mapping
+DeepSeek-V3,China,2024,2024-12-24,source_mapping
+Eurus-2-7B-PRIME,China,2025,2025-01-02,source_mapping
+DeepSeek-R1,China,2025,2025-01-20,source_mapping
+Eagle 2,China,2025,2025-01-20,source_mapping
+Doubao-1.5-pro,China,2025,2025-01-22,source_mapping
+Kimi k1.5,China,2025,2025-01-22,source_mapping
+QwQ-32B,China,2025,2025-03-06,source_mapping
+Hunyuan-TurboS,China,2025,2025-03-11,source_mapping
+ERNIE-4.5-VL-424B-A47B (文心大模型4.5),China,2025,2025-03-16,source_mapping
+DeepSeek-V3 (Mar 2025),China,2025,2025-03-24,source_mapping
+Pangu Ultra,China,2025,2025-04-10,source_mapping
+Qwen3-235B-A22B,China,2025,2025-04-29,source_mapping
+Seed1.5-VL,China,2025,2025-05-11,source_mapping
+DeepSeek-R1 (May 2025),China,2025,2025-05-28,source_mapping
+Qwen3 Embedding,China,2025,2025-06-05,source_mapping
+Seed-1.6-Thinking,China,2025,2025-06-11,source_mapping
+Kimi K2,China,2025,2025-07-11,source_mapping
+Qwen3-Coder-480B-A35B,China,2025,2025-07-22,source_mapping
+Qwen3-235B-A22B (Jul 2025),China,2025,2025-07-25,source_mapping
+Qwen3-235B-A22B-Thinking (Jul 2025),China,2025,2025-07-25,source_mapping
+GLM-4.5,China,2025,2025-07-28,source_mapping
+MindLink-72B,China,2025,2025-08-01,source_mapping
+Qwen Image,China,2025,2025-08-04,source_mapping
+LongCat-Flash,China,2025,2025-09-01,source_mapping
+Qwen3-Max,China,2025,2025-09-05,source_mapping
+AgentFounder-30B,China,2025,2025-09-16,source_mapping
+Qwen3-Omni-30B-A3B,China,2025,2025-09-22,source_mapping
+GLM-4.6,China,2025,2025-09-30,source_mapping
+Ling-1T,China,2025,2025-10-10,source_mapping
+MiniMax-M2,China,2025,2025-10-27,source_mapping
+Tongyi DeepResearch,China,2025,2025-10-28,source_mapping
+Kimi K2 Thinking,China,2025,2025-11-06,source_mapping
+P1-235B-A22B,China,2025,2025-11-17,source_mapping
+DeepSeekMath-V2,China,2025,2025-11-27,source_mapping
+GLM-4.7,China,2025,2025-12-22,source_mapping
+MiniMax-M2.1,China,2025,2025-12-23,source_mapping
+CCL,Hong Kong,2016,2016-06-27,source_mapping
+PolyNet,Hong Kong,2016,2016-11-17,source_mapping
+DnCNN,Hong Kong,2017,2017-02-01,source_mapping
+PSPNet,Hong Kong,2017,2017-07-21,source_mapping
+DITTO,Hong Kong,2022,2022-06-06,source_mapping
+InternImage,Hong Kong,2022,2022-11-10,source_mapping
+InstructBLIP,Hong Kong,2023,2023-05-11,source_mapping
+InternLM,Hong Kong,2023,2023-07-06,source_mapping
+SPHINX (Llama 2 13B),Hong Kong,2023,2023-11-13,source_mapping
+SenseChat 5.5,Hong Kong,2024,2024-07-06,source_mapping
+LLaVA-OV-72B,Hong Kong,2024,2024-08-06,source_mapping
+Eagle 2,Hong Kong,2025,2025-01-20,source_mapping
+A3C FF hs,United States,2016,2016-02-04,source_mapping
+Inception-ResNet-V2,United States,2016,2016-02-23,source_mapping
+Inceptionv4,United States,2016,2016-02-23,source_mapping
+SqueezeNet,United States,2016,2016-02-24,source_mapping
+Double DQN,United States,2016,2016-03-02,source_mapping
+Named Entity Recognition model,United States,2016,2016-03-04,source_mapping
+Dueling DQN,United States,2016,2016-04-05,source_mapping
+LRR-4X,United States,2016,2016-05-08,source_mapping
+PixelCNN,United States,2016,2016-06-16,source_mapping
+Segmental RNN,United States,2016,2016-06-20,source_mapping
+R-FCN,United States,2016,2016-06-21,source_mapping
+Character-enriched word2vec,United States,2016,2016-07-15,manual_override
+DenseNet-264,United States,2016,2016-08-25,manual_override
+LF-MMI,United States,2016,2016-09-08,source_mapping
+MS-ensemble-speech-recognition,United States,2016,2016-09-12,source_mapping
+WaveNet,United States,2016,2016-09-12,source_mapping
+Youtube recommendation model,United States,2016,2016-09-15,source_mapping
+ResNet-1001,United States,2016,2016-09-17,source_mapping
+GNMT,United States,2016,2016-09-26,source_mapping
+Pointer Sentinel-LSTM (medium),United States,2016,2016-09-26,source_mapping
+Xception,United States,2016,2016-10-07,source_mapping
+GAWWN,United States,2016,2016-10-08,source_mapping
+SPIDER2,United States,2016,2016-10-28,source_mapping
+VD-LSTM+REAL Large,United States,2016,2016-11-04,source_mapping
+BIDAF,United States,2016,2016-11-05,source_mapping
+NAS with base 8 and shared embeddings,United States,2016,2016-11-05,source_mapping
+NASv3 (CIFAR-10),United States,2016,2016-11-05,source_mapping
+DTN (Domain Transfer Network),United States,2016,2016-11-07,manual_override
+ResNeXt-101 (64×4d),United States,2016,2016-11-16,source_mapping
+ResNeXt-50,United States,2016,2016-11-16,source_mapping
+Image-to-image cGAN,United States,2016,2016-11-21,source_mapping
+PointNet,United States,2016,2016-12-02,source_mapping
+GAN-Advancer,United States,2016,2016-12-05,source_mapping
+HR-ResNet101,United States,2016,2016-12-13,source_mapping
+3DMM-CNN,United States,2016,2016-12-15,source_mapping
+YOLOv2,United States,2016,2016-12-25,source_mapping
+OR-WideResNet,United States,2017,2017-01-07,source_mapping
+MoE-Multi,United States,2017,2017-01-23,source_mapping
+Prototypical networks,United States,2017,2017-03-15,source_mapping
+Mask R-CNN,United States,2017,2017-03-30,manual_override
+WGAN-GP,United States,2017,2017-03-31,source_mapping
+MobileNet,United States,2017,2017-04-17,source_mapping
+DeepLab (2017),United States,2017,2017-04-27,source_mapping
+Mnemonic Reader,United States,2017,2017-05-08,source_mapping
+SRGAN,United States,2017,2017-05-25,source_mapping
+PointNet++,United States,2017,2017-06-07,source_mapping
+Transformer,United States,2017,2017-06-12,source_mapping
+HRA,United States,2017,2017-06-13,source_mapping
+DeepLabV3,United States,2017,2017-06-17,source_mapping
+JFT,United States,2017,2017-07-10,source_mapping
+NASNet-A,United States,2017,2017-07-21,source_mapping
+ConvS2S (ensemble of 8 models),United States,2017,2017-07-25,source_mapping
+GSM,United States,2017,2017-07-30,source_mapping
+AWD-LSTM - 3-layer LSTM (tied) + continuous cache pointer (WT2),United States,2017,2017-08-07,source_mapping
+RetinaNet-R101,United States,2017,2017-08-07,manual_override
+RetinaNet-R50,United States,2017,2017-08-07,manual_override
+OpenAI TI7 DOTA 1v1,United States,2017,2017-08-11,source_mapping
+NeuMF (Pinterest),United States,2017,2017-08-16,source_mapping
+Libratus,United States,2017,2017-08-19,source_mapping
+ISS,United States,2017,2017-09-15,source_mapping
+ProgressiveGAN,United States,2017,2017-10-27,source_mapping
+PhraseCond,United States,2017,2017-10-28,source_mapping
+S-Norm,United States,2017,2017-10-29,source_mapping
+DCN+,United States,2017,2017-10-31,source_mapping
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2017)",United States,2017,2017-11-10,source_mapping
+T-DMCA,United States,2018,2018-01-30,source_mapping
+ELMo,United States,2018,2018-02-01,source_mapping
+QRNN,United States,2018,2018-02-01,source_mapping
+DeepLabV3+,United States,2018,2018-02-07,source_mapping
+TCN (P-MNIST),United States,2018,2018-02-15,source_mapping
+Chinese - English translation,United States,2018,2018-03-01,source_mapping
+4 layer QRNN (h=2500),United States,2018,2018-03-22,source_mapping
+YOLOv3,United States,2018,2018-04-08,source_mapping
+ResNeXt-101 32x48d,United States,2018,2018-05-02,source_mapping
+Dropout-LSTM+Noise(Bernoulli) (WT2),United States,2018,2018-05-03,source_mapping
+GPT-1,United States,2018,2018-06-01,source_mapping
+MobileNetV2,United States,2018,2018-06-18,source_mapping
+Big-Little Net,United States,2018,2018-07-10,source_mapping
+Big-Little Net (speech),United States,2018,2018-07-10,source_mapping
+AWD-LSTM-MoS+PDR + dynamic evaluation (WT2),United States,2018,2018-08-14,source_mapping
+Big Transformer for Back-Translation,United States,2018,2018-08-28,manual_override
+Transformer + Simple Recurrent Unit,United States,2018,2018-09-17,source_mapping
+LSTM+NeuralCache,United States,2018,2018-09-24,source_mapping
+Transformer (Adaptive Input Embeddings) WT103,United States,2018,2018-09-28,manual_override
+BERT-Large,United States,2018,2018-10-11,source_mapping
+MetaMimic,United States,2018,2018-10-11,source_mapping
+TrellisNet,United States,2018,2018-10-15,source_mapping
+Mesh-TensorFlow Transformer 2.9B (translation),United States,2018,2018-11-05,source_mapping
+Mesh-TensorFlow Transformer 4.9B (language),United States,2018,2018-11-05,source_mapping
+GPipe (Transformer),United States,2018,2018-11-16,source_mapping
+SPN (ImageNet 128),United States,2018,2018-12-04,source_mapping
+StyleGAN,United States,2018,2018-12-12,source_mapping
+Transformer ELMo,United States,2019,2019-01-01,source_mapping
+Transformer-XL (257M),United States,2019,2019-01-09,source_mapping
+MT-DNN,United States,2019,2019-01-31,source_mapping
+Hanabi 4 player,United States,2019,2019-02-01,source_mapping
+SDE,United States,2019,2019-02-09,source_mapping
+GPT-2 (1.5B),United States,2019,2019-02-14,source_mapping
+KataGo,United States,2019,2019-02-27,source_mapping
+NMT Transformer 437M,United States,2019,2019-02-28,source_mapping
+SciBERT,United States,2019,2019-03-26,source_mapping
+Cross-lingual alignment,United States,2019,2019-04-04,source_mapping
+True-Regularization+Finetune+Dynamic-Eval,United States,2019,2019-04-08,source_mapping
+WeNet (Penn Treebank),United States,2019,2019-04-08,source_mapping
+BERT-Large-CAS (PTB+WT2+WT103),United States,2019,2019-04-20,source_mapping
+MuseNet,United States,2019,2019-04-25,source_mapping
+Neuro-Symbolic Concept Learner,United States,2019,2019-04-26,source_mapping
+RaptorX-Contact,United States,2019,2019-05-02,source_mapping
+ResNeXt-101 Billion-scale,United States,2019,2019-05-02,source_mapping
+CPC v2,United States,2019,2019-05-22,source_mapping
+EfficientNet-L2,United States,2019,2019-05-28,source_mapping
+DLRM-2020,United States,2019,2019-05-31,source_mapping
+XLM,United States,2019,2019-06-01,source_mapping
+XLNet,United States,2019,2019-06-01,source_mapping
+Transformer-XL Large + Phrase Induction,United States,2019,2019-06-04,source_mapping
+AWD-LSTM + MoS + Partial Shuffled,United States,2019,2019-06-10,source_mapping
+Char-CNN-BiLSTM,United States,2019,2019-06-13,source_mapping
+FixRes ResNeXt-101 WSL,United States,2019,2019-06-14,source_mapping
+LaNet-L (CIFAR-10),United States,2019,2019-06-17,source_mapping
+Walking Minotaur robot,United States,2019,2019-06-19,source_mapping
+RoBERTa Large,United States,2019,2019-07-01,source_mapping
+BigBiGAN,United States,2019,2019-07-04,source_mapping
+Pluribus,United States,2019,2019-07-11,manual_override
+trRosetta,United States,2019,2019-08-22,source_mapping
+Megatron-BERT,United States,2019,2019-09-17,source_mapping
+Megatron-LM (1.2B),United States,2019,2019-09-17,source_mapping
+Megatron-LM (8.3B),United States,2019,2019-09-17,source_mapping
+Adaptive Inputs + LayerDrop,United States,2019,2019-09-25,manual_override
+ALBERT,United States,2019,2019-09-26,source_mapping
+AlphaX-1,United States,2019,2019-10-02,manual_override
+DistilBERT,United States,2019,2019-10-02,source_mapping
+M4-50B,United States,2019,2019-10-11,source_mapping
+T5-11B,United States,2019,2019-10-23,source_mapping
+T5-3B,United States,2019,2019-10-23,source_mapping
+BART-large,United States,2019,2019-10-29,source_mapping
+Base LM + kNN LM + Continuous Cache,United States,2019,2019-11-01,manual_override
+XLM-RoBERTa,United States,2019,2019-11-05,source_mapping
+CamemBERT,United States,2019,2019-11-10,source_mapping
+Sandwich Transformer,United States,2019,2019-11-10,manual_override
+Noisy Student (L2),United States,2019,2019-11-11,source_mapping
+MoCo,United States,2019,2019-11-13,source_mapping
+Transformer - LibriVox + Decoding/Rescoring,United States,2019,2019-11-19,source_mapping
+Transformer-XL DeFINE (141M),United States,2019,2019-11-27,source_mapping
+StyleGAN2,United States,2019,2019-12-03,source_mapping
+OpenAI Five,United States,2019,2019-12-13,source_mapping
+OpenAI Five Rerun,United States,2019,2019-12-13,source_mapping
+DD-PPO,United States,2019,2019-12-19,manual_override
+Big Transfer (BiT-L),United States,2019,2019-12-24,source_mapping
+ContextNet + Noisy Student,United States,2020,2020-01-19,source_mapping
+Meena,United States,2020,2020-01-28,source_mapping
+Theseus 6/768,United States,2020,2020-02-07,source_mapping
+ALBERT-xxlarge,United States,2020,2020-02-09,source_mapping
+SimCLR,United States,2020,2020-02-13,source_mapping
+Turing-NLG,United States,2020,2020-02-13,source_mapping
+FFN SwiGLU,United States,2020,2020-02-14,source_mapping
+Feedback Transformer,United States,2020,2020-02-21,manual_override
+TransformerXL + spectrum control,United States,2020,2020-03-11,source_mapping
+Routing Transformer (WT-103),United States,2020,2020-03-12,source_mapping
+Tensor-Transformer(1core)+PN (WT103),United States,2020,2020-03-17,source_mapping
+ELECTRA,United States,2020,2020-03-23,source_mapping
+MetNet,United States,2020,2020-03-24,source_mapping
+CURL,United States,2020,2020-04-08,source_mapping
+Go-explore,United States,2020,2020-04-27,source_mapping
+Once for All,United States,2020,2020-04-29,source_mapping
+UnifiedQA,United States,2020,2020-05-02,source_mapping
+ContextNet,United States,2020,2020-05-07,source_mapping
+Conformer,United States,2020,2020-05-16,source_mapping
+Retrieval-Augmented Generator,United States,2020,2020-05-22,source_mapping
+DETR,United States,2020,2020-05-26,source_mapping
+GPT-3 175B (davinci),United States,2020,2020-05-28,source_mapping
+GShard (dense),United States,2020,2020-06-30,source_mapping
+SemExp,United States,2020,2020-07-02,manual_override
+EfficientDet,United States,2020,2020-07-27,source_mapping
+DeLighT,United States,2020,2020-08-03,manual_override
+ProBERTa,United States,2020,2020-09-01,source_mapping
+LUKE,United States,2020,2020-10-02,source_mapping
+Conformer + Wav2vec 2.0 + Noisy Student,United States,2020,2020-10-20,source_mapping
+mT5-XXL,United States,2020,2020-10-20,source_mapping
+ViT-Base/32,United States,2020,2020-10-22,source_mapping
+ViT-Huge/14,United States,2020,2020-10-22,source_mapping
+wave2vec 2.0 LARGE,United States,2020,2020-10-22,source_mapping
+KEPLER,United States,2020,2020-11-23,source_mapping
+ESM1b,United States,2020,2020-12-15,manual_override
+DensePhrases,United States,2020,2020-12-23,source_mapping
+CT-MoS (WT2),United States,2020,2020-12-25,source_mapping
+CLIP (ResNet-50),United States,2021,2021-01-05,source_mapping
+CLIP (ViT L/14@336px),United States,2021,2021-01-05,source_mapping
+DALL-E,United States,2021,2021-01-05,source_mapping
+BigSSL,United States,2021,2021-01-10,source_mapping
+Switch,United States,2021,2021-01-11,source_mapping
+DeiT-B,United States,2021,2021-01-15,source_mapping
+DLWP,United States,2021,2021-02-09,source_mapping
+MSA Transformer,United States,2021,2021-02-13,manual_override
+SRU++ Large,United States,2021,2021-02-24,source_mapping
+Meta Pseudo Labels,United States,2021,2021-03-01,source_mapping
+Generative BST,United States,2021,2021-03-05,manual_override
+Unicorn,United States,2021,2021-03-24,source_mapping
+ProtBERT-BFD,United States,2021,2021-05-04,source_mapping
+ProtT5-XL-U50,United States,2021,2021-05-04,source_mapping
+ADM,United States,2021,2021-05-11,source_mapping
+MedBERT,United States,2021,2021-05-20,source_mapping
+Transformer local-attention (NesT-B),United States,2021,2021-05-26,source_mapping
+ByT5-XXL,United States,2021,2021-05-28,source_mapping
+ViT-G/14,United States,2021,2021-06-08,source_mapping
+CoAtNet,United States,2021,2021-06-09,source_mapping
+DeBERTa,United States,2021,2021-06-10,source_mapping
+ALIGN,United States,2021,2021-06-11,source_mapping
+Denoising Diffusion Probabilistic Models (LSUN Bedroom),United States,2021,2021-06-11,source_mapping
+StyleGAN3-R,United States,2021,2021-06-21,source_mapping
+StyleGAN3-T,United States,2021,2021-06-21,source_mapping
+EfficientNetV2-XL,United States,2021,2021-06-23,source_mapping
+Fold2Seq,United States,2021,2021-06-24,source_mapping
+Codex,United States,2021,2021-07-07,source_mapping
+HuBERT,United States,2021,2021-07-27,manual_override
+SEER,United States,2021,2021-07-29,manual_override
+6-Act Tether,United States,2021,2021-08-03,manual_override
+W2v-BERT,United States,2021,2021-08-07,source_mapping
+DNABERT,United States,2021,2021-08-15,source_mapping
+XLMR-XXL,United States,2021,2021-08-17,manual_override
+FLAN 137B,United States,2021,2021-09-03,source_mapping
+MEB,United States,2021,2021-09-04,source_mapping
+Turing ULRv5,United States,2021,2021-09-28,source_mapping
+AlphaFold-Multimer,United States,2021,2021-10-04,source_mapping
+Megatron-Turing NLG 530B,United States,2021,2021-10-11,source_mapping
+Eve,United States,2021,2021-10-27,source_mapping
+EfficientZero,United States,2021,2021-10-30,source_mapping
+S4,United States,2021,2021-10-31,source_mapping
+CodeT5-base,United States,2021,2021-11-01,source_mapping
+Masked Autoencoders ViT-H,United States,2021,2021-11-11,manual_override
+ViT-G/14 (LiT),United States,2021,2021-11-15,source_mapping
+BASIC-L,United States,2021,2021-11-19,source_mapping
+Florence,United States,2021,2021-11-22,source_mapping
+NÜWA,United States,2021,2021-11-24,source_mapping
+T-NLRv5 XXL,United States,2021,2021-12-03,source_mapping
+GLaM,United States,2021,2021-12-13,source_mapping
+LongT5,United States,2021,2021-12-15,source_mapping
+Contriever,United States,2021,2021-12-16,source_mapping
+LDM-1.45B,United States,2021,2021-12-20,source_mapping
+XGLM-7.5B,United States,2021,2021-12-20,manual_override
+Detic,United States,2022,2022-01-07,source_mapping
+data2vec (language),United States,2022,2022-01-20,source_mapping
+data2vec (speech),United States,2022,2022-01-20,source_mapping
+data2vec (vision),United States,2022,2022-01-20,source_mapping
+InstructGPT 1.3B,United States,2022,2022-01-27,source_mapping
+InstructGPT 175B,United States,2022,2022-01-27,source_mapping
+InstructGPT 6B,United States,2022,2022-01-27,source_mapping
+MaskGIT (ImageNet),United States,2022,2022-02-08,source_mapping
+GPT-NeoX-20B,United States,2022,2022-02-09,source_mapping
+LaMDA,United States,2022,2022-02-10,source_mapping
+ProteinBERT,United States,2022,2022-02-10,source_mapping
+Midjourney V1,United States,2022,2022-02-15,source_mapping
+ST-MoE,United States,2022,2022-02-17,source_mapping
+FourCastNet,United States,2022,2022-02-22,source_mapping
+PolyCoder,United States,2022,2022-02-26,source_mapping
+DeepNet,United States,2022,2022-03-01,source_mapping
+Statement Curriculum Learning,United States,2022,2022-03-02,source_mapping
+MegaSyn,United States,2022,2022-03-07,source_mapping
+ViT-G (model soup),United States,2022,2022-03-10,source_mapping
+GPT-3.5 (davinci-002),United States,2022,2022-03-15,source_mapping
+"Segatron-XL large, M=384 + HCP",United States,2022,2022-03-21,source_mapping
+Make-A-Scene,United States,2022,2022-03-24,source_mapping
+PaLM (540B),United States,2022,2022-04-04,source_mapping
+DALL·E 2,United States,2022,2022-04-06,source_mapping
+Stable Diffusion (LDM-KL-8-G),United States,2022,2022-04-13,source_mapping
+Sparse all-MLP,United States,2022,2022-04-14,source_mapping
+XMC-GAN,United States,2022,2022-04-14,source_mapping
+OPT-175B,United States,2022,2022-05-02,source_mapping
+DeBERTaV3large + KEAR,United States,2022,2022-05-04,source_mapping
+UL2,United States,2022,2022-05-10,source_mapping
+SimCSE,United States,2022,2022-05-18,source_mapping
+Imagen,United States,2022,2022-05-23,source_mapping
+GPT-2 Medium (FlashAttention),United States,2022,2022-05-27,source_mapping
+Tranception,United States,2022,2022-05-27,source_mapping
+Diffusion-GAN,United States,2022,2022-06-05,source_mapping
+DITTO,United States,2022,2022-06-06,source_mapping
+MetaLM,United States,2022,2022-06-13,source_mapping
+CoCa,United States,2022,2022-06-14,source_mapping
+Parti,United States,2022,2022-06-22,source_mapping
+ProGen2-xlarge,United States,2022,2022-06-27,source_mapping
+Minerva (540B),United States,2022,2022-06-29,source_mapping
+CodeT5-large,United States,2022,2022-07-05,source_mapping
+NLLB,United States,2022,2022-07-06,source_mapping
+BLOOM-176B,United States,2022,2022-07-11,source_mapping
+ESM2-15B,United States,2022,2022-07-21,source_mapping
+OmegaPLM,United States,2022,2022-07-22,source_mapping
+AlexaTM 20B,United States,2022,2022-08-02,source_mapping
+BlenderBot 3,United States,2022,2022-08-10,source_mapping
+BEIT-3,United States,2022,2022-08-22,source_mapping
+PaLI,United States,2022,2022-09-14,source_mapping
+Whisper,United States,2022,2022-09-21,source_mapping
+Make-A-Video,United States,2022,2022-09-29,source_mapping
+DiffDock,United States,2022,2022-10-04,source_mapping
+Phenaki,United States,2022,2022-10-05,source_mapping
+Diplodocus,United States,2022,2022-10-11,source_mapping
+GenSLM,United States,2022,2022-10-11,source_mapping
+Flan-PaLM 540B,United States,2022,2022-10-20,source_mapping
+LMSI-Palm,United States,2022,2022-10-20,source_mapping
+U-PaLM (540B),United States,2022,2022-10-20,source_mapping
+EnCodec,United States,2022,2022-10-24,source_mapping
+eDiff-I,United States,2022,2022-11-02,source_mapping
+mT0-13B,United States,2022,2022-11-03,source_mapping
+Galactica,United States,2022,2022-11-16,source_mapping
+CICERO,United States,2022,2022-11-22,source_mapping
+Vega v2,United States,2022,2022-12-04,manual_override
+TranceptEve,United States,2022,2022-12-10,source_mapping
+RT-1,United States,2022,2022-12-13,source_mapping
+Hybrid H3-2.7B,United States,2022,2022-12-28,source_mapping
+VALL-E,United States,2023,2023-01-05,source_mapping
+Nucleotide Transformer,United States,2023,2023-01-15,source_mapping
+Ankh_large,United States,2023,2023-01-16,source_mapping
+MusicLM,United States,2023,2023-01-26,source_mapping
+BLIP-2 (Q-Former),United States,2023,2023-01-30,source_mapping
+Gen-1,United States,2023,2023-02-06,source_mapping
+ProteinDT,United States,2023,2023-02-09,source_mapping
+ViT-22B,United States,2023,2023-02-10,source_mapping
+BASIC-L + Lion,United States,2023,2023-02-13,source_mapping
+LLaMA-65B,United States,2023,2023-02-24,source_mapping
+DiT-XL/2,United States,2023,2023-03-02,source_mapping
+AudioGen,United States,2023,2023-03-05,source_mapping
+PaLM-E,United States,2023,2023-03-06,source_mapping
+Claude,United States,2023,2023-03-14,source_mapping
+GPT-4 (Mar 2023),United States,2023,2023-03-15,source_mapping
+Gen-2,United States,2023,2023-03-20,source_mapping
+Firefly,United States,2023,2023-03-21,source_mapping
+SigLIP 400M,United States,2023,2023-03-27,source_mapping
+BloombergGPT,United States,2023,2023-03-30,source_mapping
+Segment Anything Model,United States,2023,2023-04-05,source_mapping
+Incoder-6.7B,United States,2023,2023-04-09,manual_override
+DINOv2,United States,2023,2023-04-14,manual_override
+LLaVA,United States,2023,2023-04-17,source_mapping
+Agile Soccer Robot,United States,2023,2023-04-26,source_mapping
+ImageBind,United States,2023,2023-05-09,source_mapping
+StarCoder,United States,2023,2023-05-09,source_mapping
+PaLM 2,United States,2023,2023-05-10,source_mapping
+InstructBLIP,United States,2023,2023-05-11,source_mapping
+Med-PaLM 2,United States,2023,2023-05-16,source_mapping
+CoEdiT-xxl,United States,2023,2023-05-17,source_mapping
+CodeT5+,United States,2023,2023-05-20,source_mapping
+DPO on Pythia-2.8B,United States,2023,2023-05-29,source_mapping
+PaLI-X,United States,2023,2023-05-29,source_mapping
+LTM-1,United States,2023,2023-06-06,source_mapping
+MusicGen,United States,2023,2023-06-08,source_mapping
+GPT-3.5 Turbo,United States,2023,2023-06-13,source_mapping
+GPT-4 (Jun 2023),United States,2023,2023-06-13,source_mapping
+HyenaDNA,United States,2023,2023-06-27,source_mapping
+Claude 2,United States,2023,2023-07-11,source_mapping
+GPT3-2.7B (FlashAttention-2),United States,2023,2023-07-18,source_mapping
+Llama 2-70B,United States,2023,2023-07-18,source_mapping
+Llama 2-7B,United States,2023,2023-07-18,source_mapping
+AudioLM,United States,2023,2023-07-26,source_mapping
+RT-2,United States,2023,2023-07-28,source_mapping
+GGNN,United States,2023,2023-08-05,source_mapping
+PeptideBERT,United States,2023,2023-08-28,source_mapping
+Jais,United States,2023,2023-08-29,source_mapping
+Swift,United States,2023,2023-08-30,source_mapping
+Robot Parkour,United States,2023,2023-09-12,source_mapping
+AlphaMissense,United States,2023,2023-09-22,source_mapping
+GPT-4V,United States,2023,2023-09-25,source_mapping
+Amazon Titan,United States,2023,2023-09-28,source_mapping
+GPT-3.5 Turbo Instruct,United States,2023,2023-09-28,source_mapping
+CTM (CIFAR-10),United States,2023,2023-10-01,source_mapping
+FinGPT-13B,United States,2023,2023-10-07,source_mapping
+RoseTTAFold All-Atom (RFAA),United States,2023,2023-10-09,source_mapping
+Ferret (13B),United States,2023,2023-10-11,source_mapping
+RT-2-X,United States,2023,2023-10-13,source_mapping
+PaLI-3,United States,2023,2023-10-17,source_mapping
+DALL·E 3,United States,2023,2023-10-19,source_mapping
+CODEFUSION (Python),United States,2023,2023-10-26,source_mapping
+DiT-XL/2 + CADS,United States,2023,2023-10-26,manual_override
+BLUUMI,United States,2023,2023-11-03,source_mapping
+RT-Trajectory,United States,2023,2023-11-03,source_mapping
+Grok-1,United States,2023,2023-11-04,source_mapping
+LLaVA 1.5,United States,2023,2023-11-05,source_mapping
+GPT-4 Turbo (Nov 2023),United States,2023,2023-11-06,source_mapping
+OmniVec,United States,2023,2023-11-07,source_mapping
+MultiBand Diffusion,United States,2023,2023-11-08,source_mapping
+GraphCast,United States,2023,2023-11-14,source_mapping
+Nemotron-3-8B,United States,2023,2023-11-15,source_mapping
+Claude 2.1,United States,2023,2023-11-21,source_mapping
+Inflection-2,United States,2023,2023-11-22,source_mapping
+GNoME for crystal discovery,United States,2023,2023-11-29,source_mapping
+PPLX-70B-Online,United States,2023,2023-11-29,source_mapping
+Mamba-24M (SC09),United States,2023,2023-12-01,source_mapping
+Gemini 1.0 Pro,United States,2023,2023-12-06,source_mapping
+Gemini 1.0 Ultra,United States,2023,2023-12-06,source_mapping
+Llama Guard,United States,2023,2023-12-07,source_mapping
+SeamlessM4T,United States,2023,2023-12-08,source_mapping
+W.A.L.T,United States,2023,2023-12-11,source_mapping
+VILA-13B,United States,2023,2023-12-12,source_mapping
+FunSearch,United States,2023,2023-12-14,source_mapping
+Gemini Nano-1,United States,2023,2023-12-19,source_mapping
+Gemini Nano-2,United States,2023,2023-12-19,source_mapping
+GQA-8-XXL,United States,2023,2023-12-23,source_mapping
+Palmyra X 003,United States,2024,2024-01-01,source_mapping
+AlphaGeometry,United States,2024,2024-01-17,source_mapping
+Aya,United States,2024,2024-02-12,source_mapping
+Gemini 1.5 Pro,United States,2024,2024-02-15,source_mapping
+Sora,United States,2024,2024-02-15,source_mapping
+Claude 3 Opus,United States,2024,2024-03-04,source_mapping
+Claude 3 Sonnet,United States,2024,2024-03-04,source_mapping
+Inflection-2.5,United States,2024,2024-03-07,source_mapping
+ManiGaussian,United States,2024,2024-03-13,source_mapping
+MM1-30B,United States,2024,2024-03-14,source_mapping
+DBRX,United States,2024,2024-03-27,source_mapping
+ReALM,United States,2024,2024-03-29,source_mapping
+GPT-4 Turbo (Apr 2024),United States,2024,2024-04-09,source_mapping
+Reka Core,United States,2024,2024-04-15,source_mapping
+Llama 3-70B,United States,2024,2024-04-18,source_mapping
+GenCast,United States,2024,2024-05-01,source_mapping
+VILA1.5-13B,United States,2024,2024-05-03,source_mapping
+AlphaFold 3,United States,2024,2024-05-08,source_mapping
+GPT-4o,United States,2024,2024-05-13,source_mapping
+Octo-Base,United States,2024,2024-05-20,source_mapping
+OpenVLA,United States,2024,2024-06-13,source_mapping
+Nemotron-4 340B,United States,2024,2024-06-14,source_mapping
+Claude 3.5 Sonnet,United States,2024,2024-06-20,source_mapping
+Cambrian-1-34B,United States,2024,2024-06-24,source_mapping
+ESM3 (98B),United States,2024,2024-06-25,source_mapping
+GPT-4o mini,United States,2024,2024-07-18,source_mapping
+Llama 3.1-405B,United States,2024,2024-07-23,source_mapping
+AFM-on-device,United States,2024,2024-07-29,source_mapping
+AFM-server,United States,2024,2024-07-29,source_mapping
+GPT-4o (Aug 2024),United States,2024,2024-08-06,source_mapping
+Table Tennis Agent,United States,2024,2024-08-07,source_mapping
+Grok-2,United States,2024,2024-08-13,source_mapping
+AlphaProteo,United States,2024,2024-09-05,source_mapping
+o1-mini,United States,2024,2024-09-12,source_mapping
+o1-preview,United States,2024,2024-09-12,source_mapping
+Llama 3.2 11B,United States,2024,2024-09-24,source_mapping
+Movie Gen Video,United States,2024,2024-10-04,source_mapping
+Palmyra X 004,United States,2024,2024-10-09,source_mapping
+Llama-3.1-Nemotron-70B-Instruct,United States,2024,2024-10-12,source_mapping
+CHAI-1,United States,2024,2024-10-15,source_mapping
+NVLM-D 72B,United States,2024,2024-10-22,source_mapping
+NVLM-H 72B,United States,2024,2024-10-22,source_mapping
+NVLM-X 72B,United States,2024,2024-10-22,source_mapping
+Gemini-Exp-1114,United States,2024,2024-11-15,source_mapping
+Suno v4,United States,2024,2024-11-19,source_mapping
+GPT-4o (Nov 2024),United States,2024,2024-11-20,source_mapping
+Fugatto 1,United States,2024,2024-11-25,source_mapping
+Amazon Nova Pro,United States,2024,2024-12-03,source_mapping
+NVILA 15B,United States,2024,2024-12-05,source_mapping
+o1,United States,2024,2024-12-05,source_mapping
+Llama 3.3 70B,United States,2024,2024-12-06,source_mapping
+Sora Turbo,United States,2024,2024-12-09,source_mapping
+Gemini 2.0 Pro,United States,2024,2024-12-11,source_mapping
+Apollo 7B,United States,2024,2024-12-13,source_mapping
+Veo 2,United States,2024,2024-12-16,source_mapping
+o3,United States,2024,2024-12-20,source_mapping
+STORM-B/8,United States,2024,2024-12-31,source_mapping
+Eurus-2-7B-PRIME,United States,2025,2025-01-02,source_mapping
+Stable Point Aware 3D (SPAR3D),United States,2025,2025-01-08,source_mapping
+INTELLECT-MATH,United States,2025,2025-01-17,source_mapping
+Eagle 2,United States,2025,2025-01-20,source_mapping
+Computer-Using Agent (CUA),United States,2025,2025-01-23,source_mapping
+GPT-4o (Jan 2025),United States,2025,2025-01-29,source_mapping
+o3-mini,United States,2025,2025-01-31,source_mapping
+Grok 3,United States,2025,2025-02-17,source_mapping
+Claude 3.7 Sonnet,United States,2025,2025-02-24,source_mapping
+GPT-4.5,United States,2025,2025-02-27,source_mapping
+Mercury,United States,2025,2025-02-27,source_mapping
+o1-pro,United States,2025,2025-03-19,source_mapping
+Diffusion Renderer,United States,2025,2025-03-22,source_mapping
+Gemini 2.5 Pro (Mar 2025),United States,2025,2025-03-25,source_mapping
+GPT-4o (Mar 2025),United States,2025,2025-03-27,source_mapping
+Llama 4 Behemoth (preview),United States,2025,2025-04-05,source_mapping
+Llama 4 Maverick,United States,2025,2025-04-05,source_mapping
+Llama 4 Scout,United States,2025,2025-04-05,source_mapping
+gpt-image-1,United States,2025,2025-04-23,source_mapping
+Gemini 2.5 Pro (May 2025),United States,2025,2025-05-06,source_mapping
+Imagen 4,United States,2025,2025-05-20,source_mapping
+Veo 3,United States,2025,2025-05-21,source_mapping
+Claude Opus 4,United States,2025,2025-05-22,source_mapping
+Claude Sonnet 4,United States,2025,2025-05-22,source_mapping
+Gemini 2.5 Pro (Jun 2025),United States,2025,2025-06-05,source_mapping
+FGN,United States,2025,2025-06-12,source_mapping
+Grok 4,United States,2025,2025-07-09,source_mapping
+Grok 4 Heavy,United States,2025,2025-07-10,source_mapping
+Gemini Embedding,United States,2025,2025-07-14,source_mapping
+Gemini 2.5 Deep Think,United States,2025,2025-08-01,source_mapping
+Claude Opus 4.1,United States,2025,2025-08-05,source_mapping
+gpt-oss-120b,United States,2025,2025-08-05,source_mapping
+gpt-oss-20b,United States,2025,2025-08-05,source_mapping
+GPT-5,United States,2025,2025-08-07,source_mapping
+GPT-5 mini,United States,2025,2025-08-07,source_mapping
+GPT-5 nano,United States,2025,2025-08-07,source_mapping
+Gemini 2.5 Flash Image (Nano Banana),United States,2025,2025-08-26,source_mapping
+Gemini Robotics-ER 1.5,United States,2025,2025-09-25,source_mapping
+Claude Sonnet 4.5,United States,2025,2025-09-29,source_mapping
+Sora 2.0,United States,2025,2025-09-30,source_mapping
+GPT-5 Pro,United States,2025,2025-10-07,source_mapping
+Claude Haiku 4.5,United States,2025,2025-10-15,source_mapping
+Veo 3.1,United States,2025,2025-10-15,source_mapping
+Kaiju Large,United States,2025,2025-11-07,source_mapping
+Kaiju Medium,United States,2025,2025-11-07,source_mapping
+Kaiju Small,United States,2025,2025-11-07,source_mapping
+Meta's Generative Ads Model (GEM),United States,2025,2025-11-10,source_mapping
+GPT-5.1-Codex,United States,2025,2025-11-12,source_mapping
+GPT-5.1,United States,2025,2025-11-13,source_mapping
+GPT-5.1 Instant,United States,2025,2025-11-13,source_mapping
+Grok 4.1,United States,2025,2025-11-17,source_mapping
+π0.6 (pi-0.6),United States,2025,2025-11-17,source_mapping
+Gemini 3 Deep Think,United States,2025,2025-11-18,source_mapping
+Gemini 3 Pro,United States,2025,2025-11-18,source_mapping
+GPT-5.1-Codex-Max,United States,2025,2025-11-19,source_mapping
+Grok 4.1 Fast,United States,2025,2025-11-19,source_mapping
+Gemini 3 Pro Image (Nano Banana Pro),United States,2025,2025-11-20,source_mapping
+Olmo 3,United States,2025,2025-11-20,source_mapping
+Claude Opus 4.5,United States,2025,2025-11-24,source_mapping
+SIMA 2,United States,2025,2025-12-04,source_mapping
+GPT-5.2,United States,2025,2025-12-11,source_mapping
+GPT-5.2 Pro,United States,2025,2025-12-11,source_mapping
+Nemotron 3-Nano-30B-A3B,United States,2025,2025-12-15,source_mapping
+GPT-5.2 Codex,United States,2025,2025-12-18,source_mapping

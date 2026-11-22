@@ -1,0 +1,668 @@
+Model,Organization,Publication date,country,period,category
+CCL,"SenseTime,Chinese University of Hong Kong (CUHK),Chinese Academy of Sciences",2016-06-27,China,2016–19,Collaboration
+DAC-CSR,"Jiangnan University,University of Surrey",2016-11-16,China,2016–19,Academia
+DenseNet-264,"Tsinghua University,Facebook AI Research,Cornell University",2016-08-25,China,2016–19,Collaboration
+R-FCN,"Tsinghua University,Microsoft Research",2016-06-21,China,2016–19,Collaboration
+ResNet-200,Microsoft Research Asia,2016-09-17,China,2016–19,Industry
+SPIDER2,"Griffith University,University of Iowa,Dezhou University",2016-10-28,China,2016–19,Academia
+DL scaling Image,Baidu,2017-12-01,China,2016–19,Industry
+DL scaling LM,Baidu,2017-12-01,China,2016–19,Industry
+DL scaling speech,Baidu,2017-12-01,China,2016–19,Industry
+DnCNN,"Harbin Institute of Technology,Hong Kong Polytechnic University,ULSee Inc.,Xi’an Jiaotong University",2017-02-01,China,2016–19,Collaboration
+GSM,"Peking University,Microsoft Research",2017-07-30,China,2016–19,Collaboration
+Mnemonic Reader,"Fudan University,Microsoft Research",2017-05-08,China,2016–19,Collaboration
+NeuMF (Pinterest),"Shandong University,Texas A&M,National University of Singapore,Columbia University",2017-08-16,China,2016–19,Academia
+OR-WideResNet,"Duke University,University of Chinese Academy of Sciences",2017-01-07,China,2016–19,Academia
+SENet (ImageNet),"Chinese Academy of Sciences,University of Oxford",2017-09-05,China,2016–19,Academia
+ShuffleNet v1,Megvii Inc,2017-07-03,China,2016–19,Industry
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2018)","Peking University,Microsoft Research Asia",2018-09-18,China,2016–19,Collaboration
+EN^2AS with performance reward,"Beijing Institute of Technology,University of Technology Sydney,Monash University",2019-07-22,China,2016–19,Academia
+MMLSTM (PTB),"Beijing University of Posts and Telecommunications,University of West London",2019-12-05,China,2016–19,Academia
+MMLSTM (WT-2),"Beijing University of Posts and Telecommunications,University of West London",2019-12-05,China,2016–19,Academia
+Neuro-Symbolic Concept Learner,"Massachusetts Institute of Technology (MIT),Tsinghua University,MIT-IBM Watson AI Lab,DeepMind",2019-04-26,China,2016–19,Collaboration
+True-Regularization+Finetune+Dynamic-Eval,"Mobvoi,Williams College",2019-04-08,China,2016–19,Collaboration
+trRosetta,"Nankai University,University of Washington,Tianjin University,Harvard University",2019-08-22,China,2016–19,Academia
+CPM-Large,"Tsinghua University,Beijing Academy of Artificial Intelligence / BAAI",2020-12-01,China,2020–22,Academia
+ERNIE-Doc (247M),Baidu,2020-12-31,China,2020–22,Industry
+ERNIE-GEN (large),Baidu,2020-08-06,China,2020–22,Industry
+KEPLER,"Tsinghua University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),HEC,CIFAR AI Research,Princeton University,University of Montreal / Université de Montréal",2020-11-23,China,2020–22,Unknown
+NAS+ESS (23M),"Northeastern University (China),NiuTrans Research,Kingsoft",2020-05-06,China,2020–22,Collaboration
+TCAN (WT2),"Nanjing University,Ant Group",2020-02-28,China,2020–22,Collaboration
+Theseus 6/768,"University of California San Diego,Beihang University,Microsoft",2020-02-07,China,2020–22,Collaboration
+TransformerXL + spectrum control,"University of California Los Angeles (UCLA),JD.com",2020-03-11,China,2020–22,Collaboration
+Adaptive Input Transformer + RD,"Microsoft Research Asia,Soochow University",2021-06-28,China,2020–22,Collaboration
+AliceMind-MMU,Alibaba,2021-11-17,China,2020–22,Industry
+CogView,"Tsinghua University,Alibaba DAMO Academy",2021-05-26,China,2020–22,Collaboration
+ERNIE 3.0,Baidu,2021-07-05,China,2020–22,Industry
+ERNIE 3.0 Titan,"Baidu,Peng Cheng Laboratory",2021-12-23,China,2020–22,Collaboration
+ERNIE-ViLG,Baidu,2021-12-31,China,2020–22,Industry
+EfficientZero,"Tsinghua University,University of California (UC) Berkeley,Shanghai Qi Zhi institute",2021-10-30,China,2020–22,Academia
+M6-T,Alibaba,2021-03-05,China,2020–22,Industry
+MedBERT,"Peng Cheng Laboratory,University of Texas at Houston",2021-05-20,China,2020–22,Academia
+NÜWA,"Microsoft Research,Peking University",2021-11-24,China,2020–22,Collaboration
+PLATO-XL,Baidu,2021-09-20,China,2020–22,Industry
+PLUG,Alibaba,2021-04-19,China,2020–22,Industry
+PermuteFormer,Peking University,2021-09-06,China,2020–22,Academia
+ProtBERT-BFD,"Technical University of Munich,Nvidia,Seoul National University,Google,Oak Ridge National Laboratory,Med AI Technology",2021-05-04,China,2020–22,Collaboration
+ProtT5-XL-U50,"Technical University of Munich,Med AI Technology,Nvidia,Oak Ridge National Laboratory,Google,Seoul National University",2021-05-04,China,2020–22,Collaboration
+Swin Transformer V2 (SwinV2-G),Microsoft Research Asia,2021-11-18,China,2020–22,Industry
+TrOCR,"Beihang University,Microsoft Research Asia",2021-09-21,China,2020–22,Collaboration
+YOLOX-X,Megvii Inc,2021-08-06,China,2020–22,Industry
+Yuan 1.0,Inspur,2021-10-12,China,2020–22,Industry
+Zidong Taichu,"Chinese Academy of Sciences,Wuhan AI Computing Center",2021-08-11,China,2020–22,Unknown
+base LM+GNN+kNN,"Shannon.AI,Nanjing University,Nanyang Technological University,Zhejiang University (ZJU)",2021-10-17,China,2020–22,Collaboration
+ALM 1.0,Beijing Academy of Artificial Intelligence / BAAI,2022-11-28,China,2020–22,Academia
+AR-LDM,"Alibaba,University of Waterloo,Vector Institute",2022-11-20,China,2020–22,Collaboration
+AltCLIP_M9,Beijing Academy of Artificial Intelligence / BAAI,2022-11-12,China,2020–22,Academia
+CogVideo,"Tsinghua University,Beijing Academy of Artificial Intelligence / BAAI",2022-05-29,China,2020–22,Academia
+DITTO,"Tsinghua University,Apple,Westlake University,Chinese University of Hong Kong (CUHK)",2022-06-06,China,2020–22,Collaboration
+EVA-01,"Beijing Academy of Artificial Intelligence / BAAI,Huazhong University of Science and Technology,Zhejiang University (ZJU),Beijing Institute of Technology",2022-11-14,China,2020–22,Academia
+GLM-130B,Tsinghua University,2022-08-04,China,2020–22,Academia
+InternImage,"Shanghai AI Lab,Tsinghua University,Nanjing University,SenseTime,Chinese University of Hong Kong (CUHK)",2022-11-10,China,2020–22,Collaboration
+OmegaPLM,"Massachusetts Institute of Technology (MIT),Westlake University",2022-07-22,China,2020–22,Academia
+OntoProtein,Zhejiang University (ZJU),2022-01-23,China,2020–22,Academia
+SimCSE,"Princeton University,Tsinghua University",2022-05-18,China,2020–22,Academia
+Vega v2,"Wuhan University,JD Explore Academy,Shanghai AI Lab,Nanyang Technological University,Washington University in St Louis,Chongqing University of Posts and Telecommunications,University of Sydney",2022-12-04,China,2020–22,Academia
+AndesGPT,Oppo Mobile Telecommunications,2023-11-16,China,2023–25,Industry
+ChatGLM3-6B,Z.ai (Zhipu AI),2023-10-27,China,2023–25,Industry
+CoRe,Tsinghua University,2023-12-29,China,2023–25,Academia
+CogAgent,"Tsinghua University,Z.ai (Zhipu AI)",2023-12-14,China,2023–25,Collaboration
+CogVLM-17B,"Tsinghua University,Z.ai (Zhipu AI),Beihang University",2023-11-06,China,2023–25,Collaboration
+ERNIE 3.5,Baidu,2023-06-27,China,2023–25,Industry
+ERNIE 4.0,Baidu,2023-10-17,China,2023–25,Industry
+GGNN,"Westlake University,Tsinghua University,Toyota Technological Institute at Chicago",2023-08-05,China,2023–25,Academia
+InternLM,"Shanghai AI Lab,SenseTime",2023-07-06,China,2023–25,Collaboration
+ONE-PEACE,"Alibaba,Huazhong University of Science and Technology",2023-05-18,China,2023–25,Collaboration
+PanGu-Σ,Huawei Noah's Ark Lab,2023-03-20,China,2023–25,Industry
+Pangu-Weather,Huawei,2023-07-05,China,2023–25,Industry
+Qwen-72B,Alibaba,2023-11-30,China,2023–25,Industry
+Qwen-Audio-Chat,Alibaba,2023-11-14,China,2023–25,Industry
+Qwen-VL,Alibaba,2023-08-24,China,2023–25,Industry
+RoFormer,Zhuiyi Technology,2023-11-08,China,2023–25,Industry
+Robot Parkour,"Shanghai Qi Zhi institute,Stanford University,Carnegie Mellon University (CMU),Tsinghua University",2023-09-12,China,2023–25,Academia
+SPHINX (Llama 2 13B),"Shanghai AI Lab,Chinese University of Hong Kong (CUHK),ShanghaiTech University",2023-11-13,China,2023–25,Academia
+Skywork-13B,Kunlun Inc.,2023-10-30,China,2023–25,Industry
+VideoMAE V2,"Nanjing University,Shenzhen Institute of Advanced Technology,Shanghai AI Lab",2023-03-29,China,2023–25,Academia
+Yi-34B,01.AI,2023-11-02,China,2023–25,Industry
+mPLUG-Owl2,Alibaba,2023-11-07,China,2023–25,Industry
+xTrimoPGLM -100B,"Tsinghua University,BioMap Research",2023-07-06,China,2023–25,Collaboration
+DeepSeek-Coder-V2 236B,DeepSeek,2024-06-17,China,2023–25,Industry
+DeepSeek-V2.5,DeepSeek,2024-09-06,China,2023–25,Industry
+DeepSeek-V3,DeepSeek,2024-12-24,China,2023–25,Industry
+Doubao-pro,ByteDance,2024-10-28,China,2023–25,Industry
+Ernie 4.0 Turbo,Baidu,2024-06-28,China,2023–25,Industry
+GLM-4 (0520),Z.ai (Zhipu AI),2024-05-20,China,2023–25,Industry
+GLM-4-Plus,Z.ai (Zhipu AI),2024-08-29,China,2023–25,Industry
+GR-2,ByteDance,2024-10-08,China,2023–25,Industry
+Hairuo,Inspur,2024-08-29,China,2023–25,Industry
+Hunyuan Turbo,Tencent,2024-09-05,China,2023–25,Industry
+Hunyuan-Large,Tencent,2024-11-06,China,2023–25,Industry
+Infinity,ByteDance,2024-12-05,China,2023–25,Industry
+Kimi Explorer,Moonshot,2024-01-01,China,2023–25,Industry
+LLaVA-OV-72B,"ByteDance,Nanyang Technological University,Chinese University of Hong Kong (CUHK),Hong Kong University of Science and Technology (HKUST)",2024-08-06,China,2023–25,Collaboration
+ManiGaussian,"Tsinghua University,Nanyang Technological University,Carnegie Mellon University (CMU)",2024-03-13,China,2023–25,Academia
+MegaScale (Production),"ByteDance,Peking University",2024-02-23,China,2023–25,Collaboration
+NVILA 15B,"Nvidia,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University",2024-12-05,China,2023–25,Collaboration
+Oryx 34B,"Tsinghua University,Tencent,Nanyang Technological University",2024-09-19,China,2023–25,Collaboration
+PixelDance,ByteDance,2024-09-24,China,2023–25,Industry
+Qwen-VL-Max,Alibaba,2024-01-25,China,2023–25,Industry
+Qwen1.5-72B,Alibaba,2024-02-04,China,2023–25,Industry
+Qwen2-72B,Alibaba,2024-06-07,China,2023–25,Industry
+Qwen2.5 Instruct (72B),Alibaba,2024-09-19,China,2023–25,Industry
+Qwen2.5-32B,Alibaba,2024-09-17,China,2023–25,Industry
+Qwen2.5-72B,Alibaba,2024-09-19,China,2023–25,Industry
+RDT-1B,Tsinghua University,2024-10-10,China,2023–25,Academia
+SeedEdit,ByteDance,2024-11-11,China,2023–25,Industry
+Telechat2-115B,China Telecom,2024-09-20,China,2023–25,Industry
+Yi-Large,01.AI,2024-05-13,China,2023–25,Industry
+Yi-Lightning,01.AI,2024-10-16,China,2023–25,Industry
+k0-math,Moonshot,2024-11-16,China,2023–25,Industry
+AgentFounder-30B,Alibaba,2025-09-16,China,2023–25,Industry
+DeepSeek-R1,DeepSeek,2025-01-20,China,2023–25,Industry
+DeepSeek-R1 (May 2025),DeepSeek,2025-05-28,China,2023–25,Industry
+DeepSeek-V3 (Mar 2025),DeepSeek,2025-03-24,China,2023–25,Industry
+DeepSeekMath-V2,DeepSeek,2025-11-27,China,2023–25,Industry
+Doubao-1.5-pro,ByteDance,2025-01-22,China,2023–25,Industry
+ERNIE-4.5-VL-424B-A47B (文心大模型4.5),Baidu,2025-03-16,China,2023–25,Industry
+Eagle 2,"Nvidia,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",2025-01-20,China,2023–25,Collaboration
+Eurus-2-7B-PRIME,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute",2025-01-02,China,2023–25,Academia
+GLM-4.5,"Z.ai (Zhipu AI),Tsinghua University",2025-07-28,China,2023–25,Collaboration
+GLM-4.6,"Z.ai (Zhipu AI),Tsinghua University",2025-09-30,China,2023–25,Collaboration
+GLM-4.7,Z.ai (Zhipu AI),2025-12-22,China,2023–25,Industry
+Hunyuan-TurboS,Tencent,2025-03-11,China,2023–25,Industry
+Kimi K2,Moonshot,2025-07-11,China,2023–25,Industry
+Kimi K2 Thinking,Moonshot,2025-11-06,China,2023–25,Industry
+Kimi k1.5,Moonshot,2025-01-22,China,2023–25,Industry
+Ling-1T,Ant Group,2025-10-10,China,2023–25,Industry
+LongCat-Flash,Meituan Inc,2025-09-01,China,2023–25,Industry
+MindLink-72B,Kunlun Inc.,2025-08-01,China,2023–25,Industry
+MiniMax-M2,MiniMax,2025-10-27,China,2023–25,Industry
+MiniMax-M2.1,MiniMax,2025-12-23,China,2023–25,Industry
+P1-235B-A22B,Shanghai AI Lab,2025-11-17,China,2023–25,Academia
+Pangu Ultra,Huawei,2025-04-10,China,2023–25,Industry
+QwQ-32B,Alibaba,2025-03-06,China,2023–25,Industry
+Qwen Image,Alibaba,2025-08-04,China,2023–25,Industry
+Qwen3 Embedding,Alibaba,2025-06-05,China,2023–25,Industry
+Qwen3-235B-A22B,Alibaba,2025-04-29,China,2023–25,Industry
+Qwen3-235B-A22B (Jul 2025),Alibaba,2025-07-25,China,2023–25,Industry
+Qwen3-235B-A22B-Thinking (Jul 2025),Alibaba,2025-07-25,China,2023–25,Industry
+Qwen3-Coder-480B-A35B,Alibaba,2025-07-22,China,2023–25,Industry
+Qwen3-Max,Alibaba,2025-09-05,China,2023–25,Industry
+Qwen3-Omni-30B-A3B,Alibaba,2025-09-22,China,2023–25,Industry
+Seed-1.6-Thinking,ByteDance,2025-06-11,China,2023–25,Industry
+Seed1.5-VL,ByteDance,2025-05-11,China,2023–25,Industry
+Tongyi DeepResearch,Alibaba,2025-10-28,China,2023–25,Industry
+3DMM-CNN,University of Southern California,2016-12-15,US,2016–19,Academia
+A3C FF hs,"Google,University of Montreal / Université de Montréal",2016-02-04,US,2016–19,Collaboration
+BIDAF,"University of Washington,Allen Institute for AI",2016-11-05,US,2016–19,Unknown
+Character-enriched word2vec,Facebook AI Research,2016-07-15,US,2016–19,Industry
+DTN (Domain Transfer Network),Facebook AI Research,2016-11-07,US,2016–19,Industry
+DenseNet-264,"Tsinghua University,Facebook AI Research,Cornell University",2016-08-25,US,2016–19,Collaboration
+Double DQN,Google DeepMind,2016-03-02,US,2016–19,Industry
+Dueling DQN,Google DeepMind,2016-04-05,US,2016–19,Industry
+GAN-Advancer,OpenAI,2016-12-05,US,2016–19,Industry
+GAWWN,"University of Michigan,Max Planck Institute for Informatics",2016-10-08,US,2016–19,Academia
+GNMT,Google,2016-09-26,US,2016–19,Industry
+HR-ResNet101,Carnegie Mellon University (CMU),2016-12-13,US,2016–19,Academia
+Image-to-image cGAN,University of California (UC) Berkeley,2016-11-21,US,2016–19,Academia
+Inception-ResNet-V2,Google,2016-02-23,US,2016–19,Industry
+Inceptionv4,Google,2016-02-23,US,2016–19,Industry
+LF-MMI,"Johns Hopkins University,Cornell University",2016-09-08,US,2016–19,Academia
+LRR-4X,UC Irvine,2016-05-08,US,2016–19,Academia
+MS-ensemble-speech-recognition,Microsoft,2016-09-12,US,2016–19,Industry
+NAS with base 8 and shared embeddings,Google Brain,2016-11-05,US,2016–19,Industry
+NASv3 (CIFAR-10),Google Brain,2016-11-05,US,2016–19,Industry
+Named Entity Recognition model,Carnegie Mellon University (CMU),2016-03-04,US,2016–19,Academia
+PixelCNN,Google DeepMind,2016-06-16,US,2016–19,Industry
+PointNet,Stanford University,2016-12-02,US,2016–19,Academia
+Pointer Sentinel-LSTM (medium),"MetaMind Inc,Salesforce",2016-09-26,US,2016–19,Industry
+R-FCN,"Tsinghua University,Microsoft Research",2016-06-21,US,2016–19,Collaboration
+ResNeXt-101 (64×4d),"University of California San Diego,Facebook",2016-11-16,US,2016–19,Collaboration
+ResNeXt-50,"University of California San Diego,Facebook",2016-11-16,US,2016–19,Collaboration
+ResNet-1001,Microsoft,2016-09-17,US,2016–19,Industry
+SPIDER2,"Griffith University,University of Iowa,Dezhou University",2016-10-28,US,2016–19,Academia
+Segmental RNN,"University of Edinburgh,Carnegie Mellon University (CMU),University of Washington",2016-06-20,US,2016–19,Academia
+SqueezeNet,"DeepScale,University of California (UC) Berkeley,Stanford University",2016-02-24,US,2016–19,Academia
+VD-LSTM+REAL Large,"Salesforce Research,Stanford University",2016-11-04,US,2016–19,Collaboration
+WaveNet,Google DeepMind,2016-09-12,US,2016–19,Industry
+Xception,Google,2016-10-07,US,2016–19,Industry
+YOLOv2,"University of Washington,Allen Institute for AI",2016-12-25,US,2016–19,Unknown
+Youtube recommendation model,Google,2016-09-15,US,2016–19,Industry
+AWD-LSTM - 3-layer LSTM (tied) + continuous cache pointer (WT2),Salesforce Research,2017-08-07,US,2016–19,Industry
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2017)",Carnegie Mellon University (CMU),2017-11-10,US,2016–19,Academia
+ConvS2S (ensemble of 8 models),Meta AI,2017-07-25,US,2016–19,Industry
+DCN+,Salesforce Research,2017-10-31,US,2016–19,Industry
+DeepLab (2017),"Johns Hopkins University,Google,University College London (UCL)",2017-04-27,US,2016–19,Collaboration
+DeepLabV3,Google,2017-06-17,US,2016–19,Industry
+GSM,"Peking University,Microsoft Research",2017-07-30,US,2016–19,Collaboration
+HRA,"Maluuba,Microsoft",2017-06-13,US,2016–19,Industry
+ISS,"Duke University,Microsoft",2017-09-15,US,2016–19,Collaboration
+JFT,"Google Research,Carnegie Mellon University (CMU)",2017-07-10,US,2016–19,Collaboration
+Libratus,Carnegie Mellon University (CMU),2017-08-19,US,2016–19,Academia
+Mask R-CNN,Facebook AI Research,2017-03-30,US,2016–19,Industry
+Mnemonic Reader,"Fudan University,Microsoft Research",2017-05-08,US,2016–19,Collaboration
+MoE-Multi,"Jagiellonian University,Google Brain",2017-01-23,US,2016–19,Collaboration
+MobileNet,Google,2017-04-17,US,2016–19,Industry
+NASNet-A,Google Brain,2017-07-21,US,2016–19,Industry
+NeuMF (Pinterest),"Shandong University,Texas A&M,National University of Singapore,Columbia University",2017-08-16,US,2016–19,Academia
+OR-WideResNet,"Duke University,University of Chinese Academy of Sciences",2017-01-07,US,2016–19,Academia
+OpenAI TI7 DOTA 1v1,OpenAI,2017-08-11,US,2016–19,Industry
+PhraseCond,"Carnegie Mellon University (CMU),University of Pittsburgh",2017-10-28,US,2016–19,Academia
+PointNet++,Stanford University,2017-06-07,US,2016–19,Academia
+ProgressiveGAN,Nvidia,2017-10-27,US,2016–19,Industry
+Prototypical networks,"University of Toronto,Twitter",2017-03-15,US,2016–19,Collaboration
+RetinaNet-R101,Facebook AI Research,2017-08-07,US,2016–19,Industry
+RetinaNet-R50,Facebook AI Research,2017-08-07,US,2016–19,Industry
+S-Norm,"University of Washington,Allen Institute for AI",2017-10-29,US,2016–19,Unknown
+SRGAN,Twitter,2017-05-25,US,2016–19,Industry
+Transformer,"Google Research,Google Brain",2017-06-12,US,2016–19,Industry
+WGAN-GP,"Courant Institute of Mathematical Sciences,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",2017-03-31,US,2016–19,Academia
+4 layer QRNN (h=2500),Salesforce Research,2018-03-22,US,2016–19,Industry
+AWD-LSTM-MoS+PDR + dynamic evaluation (WT2),IBM,2018-08-14,US,2016–19,Industry
+BERT-Large,Google,2018-10-11,US,2016–19,Industry
+Big Transformer for Back-Translation,"Facebook AI Research,Google Brain",2018-08-28,US,2016–19,Industry
+Big-Little Net,IBM,2018-07-10,US,2016–19,Industry
+Big-Little Net (speech),IBM,2018-07-10,US,2016–19,Industry
+Chinese - English translation,Microsoft,2018-03-01,US,2016–19,Industry
+DeepLabV3+,Google,2018-02-07,US,2016–19,Industry
+Dropout-LSTM+Noise(Bernoulli) (WT2),"Columbia University,New York University (NYU),Princeton University",2018-05-03,US,2016–19,Academia
+ELMo,"University of Washington,Allen Institute for AI",2018-02-01,US,2016–19,Unknown
+GPT-1,OpenAI,2018-06-01,US,2016–19,Industry
+GPipe (Transformer),Google,2018-11-16,US,2016–19,Industry
+LSTM+NeuralCache,"KU Leuven,ESAT - PSI,Apple",2018-09-24,US,2016–19,Collaboration
+Mesh-TensorFlow Transformer 2.9B (translation),Google Brain,2018-11-05,US,2016–19,Industry
+Mesh-TensorFlow Transformer 4.9B (language),Google Brain,2018-11-05,US,2016–19,Industry
+MetaMimic,Google,2018-10-11,US,2016–19,Industry
+MobileNetV2,Google,2018-06-18,US,2016–19,Industry
+QRNN,Salesforce Research,2018-02-01,US,2016–19,Industry
+ResNeXt-101 32x48d,Facebook,2018-05-02,US,2016–19,Industry
+SPN (ImageNet 128),"Google Brain,DeepMind",2018-12-04,US,2016–19,Industry
+StyleGAN,Nvidia,2018-12-12,US,2016–19,Industry
+T-DMCA,Google Brain,2018-01-30,US,2016–19,Industry
+TCN (P-MNIST),"Carnegie Mellon University (CMU),Intel Labs",2018-02-15,US,2016–19,Collaboration
+Transformer (Adaptive Input Embeddings) WT103,Facebook AI Research,2018-09-28,US,2016–19,Industry
+Transformer + Simple Recurrent Unit,"ASAPP,Cornell University,Google,Princeton University",2018-09-17,US,2016–19,Collaboration
+TrellisNet,"Carnegie Mellon University (CMU),Bosch Center for Artificial Intelligence,Intel Labs",2018-10-15,US,2016–19,Collaboration
+YOLOv3,University of Washington,2018-04-08,US,2016–19,Academia
+ALBERT,"Toyota Technological Institute at Chicago,Google Research",2019-09-26,US,2016–19,Collaboration
+AWD-LSTM + MoS + Partial Shuffled,University of Texas at Austin,2019-06-10,US,2016–19,Academia
+Adaptive Inputs + LayerDrop,"Facebook AI Research,LORIA",2019-09-25,US,2016–19,Collaboration
+AlphaX-1,"Facebook AI Research,Brown University",2019-10-02,US,2016–19,Collaboration
+BART-large,Facebook AI,2019-10-29,US,2016–19,Industry
+BERT-Large-CAS (PTB+WT2+WT103),Amazon,2019-04-20,US,2016–19,Industry
+Base LM + kNN LM + Continuous Cache,"Stanford University,Facebook AI Research",2019-11-01,US,2016–19,Collaboration
+Big Transfer (BiT-L),Google Brain,2019-12-24,US,2016–19,Industry
+BigBiGAN,Google,2019-07-04,US,2016–19,Industry
+CPC v2,"DeepMind,University of California (UC) Berkeley",2019-05-22,US,2016–19,Collaboration
+CamemBERT,"Facebook,INRIA,Sorbonne University",2019-11-10,US,2016–19,Collaboration
+Char-CNN-BiLSTM,Capital One,2019-06-13,US,2016–19,Industry
+Cross-lingual alignment,"Tel Aviv University,Massachusetts Institute of Technology (MIT)",2019-04-04,US,2016–19,Academia
+DD-PPO,"Georgia Institute of Technology,Facebook AI Research,Oregon State University,Simon Fraser University",2019-12-19,US,2016–19,Collaboration
+DLRM-2020,Facebook AI,2019-05-31,US,2016–19,Industry
+DistilBERT,Hugging Face,2019-10-02,US,2016–19,Industry
+EfficientNet-L2,Google,2019-05-28,US,2016–19,Industry
+FixRes ResNeXt-101 WSL,Facebook AI,2019-06-14,US,2016–19,Industry
+GPT-2 (1.5B),OpenAI,2019-02-14,US,2016–19,Industry
+Hanabi 4 player,"DeepMind,University of Oxford,Carnegie Mellon University (CMU),Google Brain",2019-02-01,US,2016–19,Collaboration
+KataGo,Jane Street,2019-02-27,US,2016–19,Industry
+LaNet-L (CIFAR-10),"Brown University,Facebook",2019-06-17,US,2016–19,Collaboration
+M4-50B,Google,2019-10-11,US,2016–19,Industry
+MT-DNN,Microsoft,2019-01-31,US,2016–19,Industry
+Megatron-BERT,Nvidia,2019-09-17,US,2016–19,Industry
+Megatron-LM (1.2B),Nvidia,2019-09-17,US,2016–19,Industry
+Megatron-LM (8.3B),Nvidia,2019-09-17,US,2016–19,Industry
+MoCo,Facebook AI,2019-11-13,US,2016–19,Industry
+MuseNet,OpenAI,2019-04-25,US,2016–19,Industry
+NMT Transformer 437M,"Google,Bar-Ilan University",2019-02-28,US,2016–19,Collaboration
+Neuro-Symbolic Concept Learner,"Massachusetts Institute of Technology (MIT),Tsinghua University,MIT-IBM Watson AI Lab,DeepMind",2019-04-26,US,2016–19,Collaboration
+Noisy Student (L2),"Carnegie Mellon University (CMU),Google",2019-11-11,US,2016–19,Collaboration
+OpenAI Five,OpenAI,2019-12-13,US,2016–19,Industry
+OpenAI Five Rerun,OpenAI,2019-12-13,US,2016–19,Industry
+Pluribus,Facebook AI Research,2019-07-11,US,2016–19,Industry
+RaptorX-Contact,Toyota Technological Institute at Chicago,2019-05-02,US,2016–19,Academia
+ResNeXt-101 Billion-scale,Facebook AI,2019-05-02,US,2016–19,Industry
+RoBERTa Large,"Facebook,University of Washington",2019-07-01,US,2016–19,Collaboration
+SDE,"Carnegie Mellon University (CMU),Google Brain,Monash University",2019-02-09,US,2016–19,Collaboration
+Sandwich Transformer,"Allen Institute for AI,Facebook AI Research",2019-11-10,US,2016–19,Unknown
+SciBERT,Allen Institute for AI,2019-03-26,US,2016–19,Other
+StyleGAN2,"Nvidia,Aalto University",2019-12-03,US,2016–19,Collaboration
+T5-11B,Google,2019-10-23,US,2016–19,Industry
+T5-3B,Google,2019-10-23,US,2016–19,Industry
+Transformer - LibriVox + Decoding/Rescoring,Facebook,2019-11-19,US,2016–19,Industry
+Transformer ELMo,"Allen Institute for AI,University of Washington",2019-01-01,US,2016–19,Unknown
+Transformer-XL (257M),"Carnegie Mellon University (CMU),Google Brain",2019-01-09,US,2016–19,Collaboration
+Transformer-XL DeFINE (141M),"University of Washington,Allen Institute for AI",2019-11-27,US,2016–19,Unknown
+Transformer-XL Large + Phrase Induction,"Massachusetts Institute of Technology (MIT),University of Illinois Urbana-Champaign (UIUC)",2019-06-04,US,2016–19,Academia
+True-Regularization+Finetune+Dynamic-Eval,"Mobvoi,Williams College",2019-04-08,US,2016–19,Collaboration
+Walking Minotaur robot,"University of California (UC) Berkeley,Google Brain",2019-06-19,US,2016–19,Collaboration
+WeNet (Penn Treebank),Amazon,2019-04-08,US,2016–19,Industry
+XLM,Facebook,2019-06-01,US,2016–19,Industry
+XLM-RoBERTa,Facebook AI,2019-11-05,US,2016–19,Industry
+XLNet,"Carnegie Mellon University (CMU),Google Brain",2019-06-01,US,2016–19,Collaboration
+trRosetta,"Nankai University,University of Washington,Tianjin University,Harvard University",2019-08-22,US,2016–19,Academia
+ALBERT-xxlarge,"Toyota Technological Institute at Chicago,Google",2020-02-09,US,2020–22,Collaboration
+CT-MoS (WT2),"Google,National Tsing Hua University",2020-12-25,US,2020–22,Collaboration
+CURL,University of California (UC) Berkeley,2020-04-08,US,2020–22,Academia
+Conformer,Google,2020-05-16,US,2020–22,Industry
+Conformer + Wav2vec 2.0 + Noisy Student,"Google,Google Research,Google Brain",2020-10-20,US,2020–22,Industry
+ContextNet,Google,2020-05-07,US,2020–22,Industry
+ContextNet + Noisy Student,Google,2020-01-19,US,2020–22,Industry
+DETR,Facebook,2020-05-26,US,2020–22,Industry
+DeLighT,"University of Washington,Allen Institute for AI,Facebook AI Research",2020-08-03,US,2020–22,Collaboration
+DensePhrases,"Korea University,Princeton University",2020-12-23,US,2020–22,Academia
+ELECTRA,"Stanford University,Google,Google Brain",2020-03-23,US,2020–22,Collaboration
+ESM1b,"Facebook AI Research,New York University (NYU)",2020-12-15,US,2020–22,Collaboration
+EfficientDet,Google Brain,2020-07-27,US,2020–22,Industry
+FFN SwiGLU,Google,2020-02-14,US,2020–22,Industry
+Feedback Transformer,"LORIA,University of Lorraine,Facebook AI Research",2020-02-21,US,2020–22,Collaboration
+GPT-3 175B (davinci),OpenAI,2020-05-28,US,2020–22,Industry
+GShard (dense),Google,2020-06-30,US,2020–22,Industry
+Go-explore,"Uber AI,OpenAI",2020-04-27,US,2020–22,Industry
+KEPLER,"Tsinghua University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),HEC,CIFAR AI Research,Princeton University,University of Montreal / Université de Montréal",2020-11-23,US,2020–22,Unknown
+LUKE,"University of Washington,National Institute of Informatics",2020-10-02,US,2020–22,Academia
+Meena,Google Brain,2020-01-28,US,2020–22,Industry
+MetNet,Google,2020-03-24,US,2020–22,Industry
+Once for All,"MIT-IBM Watson AI Lab,Massachusetts Institute of Technology (MIT),IBM",2020-04-29,US,2020–22,Collaboration
+ProBERTa,"University of Illinois Urbana-Champaign (UIUC),Reed College",2020-09-01,US,2020–22,Academia
+Retrieval-Augmented Generator,"Facebook,New York University (NYU),University College London (UCL)",2020-05-22,US,2020–22,Collaboration
+Routing Transformer (WT-103),Google Research,2020-03-12,US,2020–22,Industry
+SemExp,"Carnegie Mellon University (CMU),Facebook AI Research",2020-07-02,US,2020–22,Collaboration
+SimCLR,Google Brain,2020-02-13,US,2020–22,Industry
+Tensor-Transformer(1core)+PN (WT103),University of California (UC) Berkeley,2020-03-17,US,2020–22,Academia
+Theseus 6/768,"University of California San Diego,Beihang University,Microsoft",2020-02-07,US,2020–22,Collaboration
+TransformerXL + spectrum control,"University of California Los Angeles (UCLA),JD.com",2020-03-11,US,2020–22,Collaboration
+Turing-NLG,Microsoft,2020-02-13,US,2020–22,Industry
+UnifiedQA,"Allen Institute for AI,University of Washington",2020-05-02,US,2020–22,Unknown
+ViT-Base/32,Google Brain,2020-10-22,US,2020–22,Industry
+ViT-Huge/14,"Google Brain,Google Research",2020-10-22,US,2020–22,Industry
+mT5-XXL,"Google,Google Research",2020-10-20,US,2020–22,Industry
+wave2vec 2.0 LARGE,Facebook,2020-10-22,US,2020–22,Industry
+6-Act Tether,"Facebook AI Research,Georgia Institute of Technology",2021-08-03,US,2020–22,Collaboration
+ADM,OpenAI,2021-05-11,US,2020–22,Industry
+ALIGN,Google Research,2021-06-11,US,2020–22,Industry
+AlphaFold-Multimer,"Google DeepMind,DeepMind",2021-10-04,US,2020–22,Industry
+BASIC-L,Google,2021-11-19,US,2020–22,Industry
+BigSSL,"Google,Apple",2021-01-10,US,2020–22,Industry
+ByT5-XXL,"Google,Google Research",2021-05-28,US,2020–22,Industry
+CLIP (ResNet-50),OpenAI,2021-01-05,US,2020–22,Industry
+CLIP (ViT L/14@336px),OpenAI,2021-01-05,US,2020–22,Industry
+CoAtNet,"Google,Google Research,Google Brain",2021-06-09,US,2020–22,Industry
+CodeT5-base,"Salesforce,Nanyang Technological University",2021-11-01,US,2020–22,Collaboration
+Codex,OpenAI,2021-07-07,US,2020–22,Industry
+Contriever,"Meta AI,University College London (UCL),PSL University,Université Grenoble Alpes",2021-12-16,US,2020–22,Collaboration
+DALL-E,OpenAI,2021-01-05,US,2020–22,Industry
+DLWP,"University of Washington,Microsoft Research",2021-02-09,US,2020–22,Collaboration
+DNABERT,Northeastern University,2021-08-15,US,2020–22,Academia
+DeBERTa,Microsoft,2021-06-10,US,2020–22,Industry
+DeiT-B,"Meta AI,Sorbonne University",2021-01-15,US,2020–22,Collaboration
+Denoising Diffusion Probabilistic Models (LSUN Bedroom),University of California (UC) Berkeley,2021-06-11,US,2020–22,Academia
+EfficientNetV2-XL,"Google,Google Brain",2021-06-23,US,2020–22,Industry
+EfficientZero,"Tsinghua University,University of California (UC) Berkeley,Shanghai Qi Zhi institute",2021-10-30,US,2020–22,Academia
+Eve,"Harvard Medical School,University of Oxford",2021-10-27,US,2020–22,Academia
+FLAN 137B,Google Research,2021-09-03,US,2020–22,Industry
+Florence,Microsoft,2021-11-22,US,2020–22,Industry
+Fold2Seq,"IBM,Texas A&M",2021-06-24,US,2020–22,Collaboration
+GLaM,Google,2021-12-13,US,2020–22,Industry
+Generative BST,Facebook AI Research,2021-03-05,US,2020–22,Industry
+HuBERT,Facebook AI Research,2021-07-27,US,2020–22,Industry
+LDM-1.45B,"Heidelberg University,Runway",2021-12-20,US,2020–22,Collaboration
+LongT5,Google Research,2021-12-15,US,2020–22,Industry
+MEB,Microsoft,2021-09-04,US,2020–22,Industry
+MSA Transformer,"Facebook AI Research,University of California (UC) Berkeley,New York University (NYU)",2021-02-13,US,2020–22,Collaboration
+Masked Autoencoders ViT-H,Facebook AI Research,2021-11-11,US,2020–22,Industry
+MedBERT,"Peng Cheng Laboratory,University of Texas at Houston",2021-05-20,US,2020–22,Academia
+Megatron-Turing NLG 530B,"Microsoft,Nvidia",2021-10-11,US,2020–22,Industry
+Meta Pseudo Labels,"Google Brain,Google AI",2021-03-01,US,2020–22,Industry
+NÜWA,"Microsoft Research,Peking University",2021-11-24,US,2020–22,Collaboration
+ProtBERT-BFD,"Technical University of Munich,Nvidia,Seoul National University,Google,Oak Ridge National Laboratory,Med AI Technology",2021-05-04,US,2020–22,Collaboration
+ProtT5-XL-U50,"Technical University of Munich,Med AI Technology,Nvidia,Oak Ridge National Laboratory,Google,Seoul National University",2021-05-04,US,2020–22,Collaboration
+S4,Stanford University,2021-10-31,US,2020–22,Academia
+SEER,"Facebook AI Research,INRIA",2021-07-29,US,2020–22,Collaboration
+SRU++ Large,ASAPP,2021-02-24,US,2020–22,Industry
+StyleGAN3-R,"Nvidia,Aalto University",2021-06-21,US,2020–22,Collaboration
+StyleGAN3-T,"Nvidia,Aalto University",2021-06-21,US,2020–22,Collaboration
+Switch,Google,2021-01-11,US,2020–22,Industry
+T-NLRv5 XXL,Microsoft,2021-12-03,US,2020–22,Industry
+Transformer local-attention (NesT-B),"Google Cloud,Google Research",2021-05-26,US,2020–22,Industry
+Turing ULRv5,Microsoft,2021-09-28,US,2020–22,Industry
+Unicorn,Allen Institute for AI,2021-03-24,US,2020–22,Other
+ViT-G/14,"Google Brain,Google Research",2021-06-08,US,2020–22,Industry
+ViT-G/14 (LiT),Google Research,2021-11-15,US,2020–22,Industry
+W2v-BERT,"Google Brain,Massachusetts Institute of Technology (MIT)",2021-08-07,US,2020–22,Collaboration
+XGLM-7.5B,"Meta AI,Facebook AI Research",2021-12-20,US,2020–22,Industry
+XLMR-XXL,Facebook AI Research,2021-08-17,US,2020–22,Industry
+AlexaTM 20B,Amazon,2022-08-02,US,2020–22,Industry
+BEIT-3,Microsoft,2022-08-22,US,2020–22,Industry
+BLOOM-176B,"Hugging Face,BigScience",2022-07-11,US,2020–22,Unknown
+BlenderBot 3,"McGill University,Meta AI,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",2022-08-10,US,2020–22,Collaboration
+CICERO,Meta AI,2022-11-22,US,2020–22,Industry
+CoCa,Google Research,2022-06-14,US,2020–22,Industry
+CodeT5-large,Salesforce,2022-07-05,US,2020–22,Industry
+DALL·E 2,OpenAI,2022-04-06,US,2020–22,Industry
+DITTO,"Tsinghua University,Apple,Westlake University,Chinese University of Hong Kong (CUHK)",2022-06-06,US,2020–22,Collaboration
+DeBERTaV3large + KEAR,Microsoft,2022-05-04,US,2020–22,Industry
+DeepNet,Microsoft Research,2022-03-01,US,2020–22,Industry
+Detic,"Meta AI,University of Texas at Austin",2022-01-07,US,2020–22,Collaboration
+DiffDock,Massachusetts Institute of Technology (MIT),2022-10-04,US,2020–22,Academia
+Diffusion-GAN,"UT Austin,Microsoft",2022-06-05,US,2020–22,Collaboration
+Diplodocus,"Meta AI,Massachusetts Institute of Technology (MIT)",2022-10-11,US,2020–22,Collaboration
+ESM2-15B,"Meta AI,New York University (NYU),Stanford University,Massachusetts Institute of Technology (MIT)",2022-07-21,US,2020–22,Collaboration
+EnCodec,Meta AI,2022-10-24,US,2020–22,Industry
+Flan-PaLM 540B,Google,2022-10-20,US,2020–22,Industry
+FourCastNet,"Nvidia,NERSC, Lawrence Berkeley National Laboratory,University of Michigan,Rice University,California Institute of Technology,Purdue University",2022-02-22,US,2020–22,Collaboration
+GPT-2 Medium (FlashAttention),"Stanford University,University at Buffalo",2022-05-27,US,2020–22,Academia
+GPT-3.5 (davinci-002),OpenAI,2022-03-15,US,2020–22,Industry
+GPT-NeoX-20B,EleutherAI,2022-02-09,US,2020–22,Other
+Galactica,Meta AI,2022-11-16,US,2020–22,Industry
+GenSLM,"University of Chicago,Nvidia,Harvard University,Cerebras Systems,Technical University of Munich,California Institute of Technology",2022-10-11,US,2020–22,Collaboration
+Hybrid H3-2.7B,"Stanford University,University at Buffalo",2022-12-28,US,2020–22,Academia
+Imagen,Google Brain,2022-05-23,US,2020–22,Industry
+InstructGPT 1.3B,OpenAI,2022-01-27,US,2020–22,Industry
+InstructGPT 175B,OpenAI,2022-01-27,US,2020–22,Industry
+InstructGPT 6B,OpenAI,2022-01-27,US,2020–22,Industry
+LMSI-Palm,"Google,University of Illinois Urbana-Champaign (UIUC)",2022-10-20,US,2020–22,Collaboration
+LaMDA,Google,2022-02-10,US,2020–22,Industry
+Make-A-Scene,Meta AI,2022-03-24,US,2020–22,Industry
+Make-A-Video,Meta AI,2022-09-29,US,2020–22,Industry
+MaskGIT (ImageNet),Google Research,2022-02-08,US,2020–22,Industry
+MegaSyn,Collaborations Pharmaceuticals,2022-03-07,US,2020–22,Industry
+MetaLM,Microsoft Research,2022-06-13,US,2020–22,Industry
+Midjourney V1,Midjourney,2022-02-15,US,2020–22,Industry
+Minerva (540B),Google,2022-06-29,US,2020–22,Industry
+NLLB,Meta AI,2022-07-06,US,2020–22,Industry
+OPT-175B,Meta AI,2022-05-02,US,2020–22,Industry
+OmegaPLM,"Massachusetts Institute of Technology (MIT),Westlake University",2022-07-22,US,2020–22,Academia
+PaLI,Google,2022-09-14,US,2020–22,Industry
+PaLM (540B),Google Research,2022-04-04,US,2020–22,Industry
+Parti,Google Research,2022-06-22,US,2020–22,Industry
+Phenaki,"University College London (UCL),University of Michigan,Google Brain",2022-10-05,US,2020–22,Collaboration
+PolyCoder,Carnegie Mellon University (CMU),2022-02-26,US,2020–22,Academia
+ProGen2-xlarge,"Salesforce Research,Columbia University,Johns Hopkins University",2022-06-27,US,2020–22,Collaboration
+ProteinBERT,"Hebrew University of Jerusalem,Ben-Gurion University of the Negev,Deep Trading",2022-02-10,US,2020–22,Collaboration
+RT-1,Google,2022-12-13,US,2020–22,Industry
+ST-MoE,"Google,Google Brain,Google Research",2022-02-17,US,2020–22,Industry
+"Segatron-XL large, M=384 + HCP","Microsoft Research,University of Waterloo",2022-03-21,US,2020–22,Collaboration
+SimCSE,"Princeton University,Tsinghua University",2022-05-18,US,2020–22,Academia
+Sparse all-MLP,Meta AI,2022-04-14,US,2020–22,Industry
+Stable Diffusion (LDM-KL-8-G),"Runway,Ludwig Maximilian University of Munich,Heidelberg University",2022-04-13,US,2020–22,Collaboration
+Statement Curriculum Learning,OpenAI,2022-03-02,US,2020–22,Industry
+TranceptEve,"University of Oxford,Harvard Medical School",2022-12-10,US,2020–22,Academia
+Tranception,"University of Oxford,Harvard Medical School,Cohere",2022-05-27,US,2020–22,Collaboration
+U-PaLM (540B),Google,2022-10-20,US,2020–22,Industry
+UL2,"Google Research,Google Brain",2022-05-10,US,2020–22,Industry
+Vega v2,"Wuhan University,JD Explore Academy,Shanghai AI Lab,Nanyang Technological University,Washington University in St Louis,Chongqing University of Posts and Telecommunications,University of Sydney",2022-12-04,US,2020–22,Academia
+ViT-G (model soup),"University of Washington,Columbia University,Google,Meta AI,Tel Aviv University",2022-03-10,US,2020–22,Collaboration
+Whisper,OpenAI,2022-09-21,US,2020–22,Industry
+XMC-GAN,Google Research,2022-04-14,US,2020–22,Industry
+data2vec (language),Meta AI,2022-01-20,US,2020–22,Industry
+data2vec (speech),Meta AI,2022-01-20,US,2020–22,Industry
+data2vec (vision),Meta AI,2022-01-20,US,2020–22,Industry
+eDiff-I,Nvidia,2022-11-02,US,2020–22,Industry
+mT0-13B,"Hugging Face,BigScience",2022-11-03,US,2020–22,Unknown
+Agile Soccer Robot,Google DeepMind,2023-04-26,US,2023–25,Industry
+AlphaMissense,Google DeepMind,2023-09-22,US,2023–25,Industry
+Amazon Titan,Amazon,2023-09-28,US,2023–25,Industry
+Ankh_large,"Technical University of Munich,Columbia University",2023-01-16,US,2023–25,Academia
+AudioGen,"Meta AI,Hebrew University of Jerusalem",2023-03-05,US,2023–25,Collaboration
+AudioLM,Google Research,2023-07-26,US,2023–25,Industry
+BASIC-L + Lion,"Google,University of California Los Angeles (UCLA)",2023-02-13,US,2023–25,Collaboration
+BLIP-2 (Q-Former),Salesforce Research,2023-01-30,US,2023–25,Industry
+BLUUMI,"University of Turku,Hugging Face",2023-11-03,US,2023–25,Collaboration
+BloombergGPT,"Bloomberg,Johns Hopkins University",2023-03-30,US,2023–25,Collaboration
+CODEFUSION (Python),"Microsoft,Microsoft Research",2023-10-26,US,2023–25,Industry
+CTM (CIFAR-10),"Stanford University,Sony",2023-10-01,US,2023–25,Collaboration
+Claude,Anthropic,2023-03-14,US,2023–25,Industry
+Claude 2,Anthropic,2023-07-11,US,2023–25,Industry
+Claude 2.1,Anthropic,2023-11-21,US,2023–25,Industry
+CoEdiT-xxl,"University of Minnesota,Grammarly",2023-05-17,US,2023–25,Collaboration
+CodeT5+,Salesforce,2023-05-20,US,2023–25,Industry
+DALL·E 3,OpenAI,2023-10-19,US,2023–25,Industry
+DINOv2,"Facebook AI Research,INRIA",2023-04-14,US,2023–25,Collaboration
+DPO on Pythia-2.8B,"Stanford University,CZ Biohub Network",2023-05-29,US,2023–25,Academia
+DiT-XL/2,"New York University (NYU),University of California (UC) Berkeley",2023-03-02,US,2023–25,Academia
+DiT-XL/2 + CADS,"ETH Zurich,Disney Research",2023-10-26,US,2023–25,Collaboration
+Ferret (13B),"Columbia University,Apple",2023-10-11,US,2023–25,Collaboration
+FinGPT-13B,"University of California Los Angeles (UCLA),Columbia University,New York University (NYU)",2023-10-07,US,2023–25,Academia
+Firefly,Adobe,2023-03-21,US,2023–25,Industry
+FunSearch,Google DeepMind,2023-12-14,US,2023–25,Industry
+GGNN,"Westlake University,Tsinghua University,Toyota Technological Institute at Chicago",2023-08-05,US,2023–25,Academia
+GNoME for crystal discovery,Google DeepMind,2023-11-29,US,2023–25,Industry
+GPT-3.5 Turbo,OpenAI,2023-06-13,US,2023–25,Industry
+GPT-3.5 Turbo Instruct,OpenAI,2023-09-28,US,2023–25,Industry
+GPT-4 (Jun 2023),OpenAI,2023-06-13,US,2023–25,Industry
+GPT-4 (Mar 2023),OpenAI,2023-03-15,US,2023–25,Industry
+GPT-4 Turbo (Nov 2023),OpenAI,2023-11-06,US,2023–25,Industry
+GPT-4V,OpenAI,2023-09-25,US,2023–25,Industry
+GPT3-2.7B (FlashAttention-2),"Stanford University,Princeton University",2023-07-18,US,2023–25,Academia
+GQA-8-XXL,Google Research,2023-12-23,US,2023–25,Industry
+Gemini 1.0 Pro,Google DeepMind,2023-12-06,US,2023–25,Industry
+Gemini 1.0 Ultra,Google DeepMind,2023-12-06,US,2023–25,Industry
+Gemini Nano-1,Google DeepMind,2023-12-19,US,2023–25,Industry
+Gemini Nano-2,Google DeepMind,2023-12-19,US,2023–25,Industry
+Gen-1,Runway,2023-02-06,US,2023–25,Industry
+Gen-2,Runway,2023-03-20,US,2023–25,Industry
+GraphCast,Google DeepMind,2023-11-14,US,2023–25,Industry
+Grok-1,xAI,2023-11-04,US,2023–25,Industry
+HyenaDNA,"Stanford University,Harvard University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),University of Montreal / Université de Montréal",2023-06-27,US,2023–25,Academia
+ImageBind,Meta AI,2023-05-09,US,2023–25,Industry
+Incoder-6.7B,"Facebook AI Research,University of Washington,University of California (UC) Berkeley,Carnegie Mellon University (CMU),Toyota Technological Institute at Chicago",2023-04-09,US,2023–25,Collaboration
+Inflection-2,Inflection AI,2023-11-22,US,2023–25,Industry
+InstructBLIP,"Salesforce Research,Hong Kong University of Science and Technology (HKUST),Nanyang Technological University",2023-05-11,US,2023–25,Collaboration
+Jais,"Cerebras Systems,Mohamed bin Zayed University of Artificial Intelligence (MBZUAI),Inception G42",2023-08-29,US,2023–25,Collaboration
+LLaMA-65B,Meta AI,2023-02-24,US,2023–25,Industry
+LLaVA,"University of Wisconsin Madison,Microsoft Research,Columbia University",2023-04-17,US,2023–25,Collaboration
+LLaVA 1.5,"University of Wisconsin Madison,Microsoft Research",2023-11-05,US,2023–25,Collaboration
+LTM-1,Magic,2023-06-06,US,2023–25,Industry
+Llama 2-70B,Meta AI,2023-07-18,US,2023–25,Industry
+Llama 2-7B,Meta AI,2023-07-18,US,2023–25,Industry
+Llama Guard,Meta AI,2023-12-07,US,2023–25,Industry
+Mamba-24M (SC09),"Carnegie Mellon University (CMU),Princeton University",2023-12-01,US,2023–25,Academia
+Med-PaLM 2,"Google Research,DeepMind",2023-05-16,US,2023–25,Industry
+MultiBand Diffusion,"Meta AI,Hebrew University of Jerusalem,LORIA",2023-11-08,US,2023–25,Collaboration
+MusicGen,Meta AI,2023-06-08,US,2023–25,Industry
+MusicLM,Google,2023-01-26,US,2023–25,Industry
+Nemotron-3-8B,Nvidia,2023-11-15,US,2023–25,Industry
+Nucleotide Transformer,"Nvidia,Technical University of Munich,InstaDeep",2023-01-15,US,2023–25,Collaboration
+OmniVec,TensorTour,2023-11-07,US,2023–25,Industry
+PPLX-70B-Online,Perplexity,2023-11-29,US,2023–25,Industry
+PaLI-3,"Google DeepMind,Google Research,Google Cloud",2023-10-17,US,2023–25,Industry
+PaLI-X,Google Research,2023-05-29,US,2023–25,Industry
+PaLM 2,Google,2023-05-10,US,2023–25,Industry
+PaLM-E,"Google,TU Berlin",2023-03-06,US,2023–25,Collaboration
+PeptideBERT,Carnegie Mellon University (CMU),2023-08-28,US,2023–25,Academia
+ProteinDT,"University of California (UC) Berkeley,California Institute of Technology,University of Toronto,University of Wisconsin Madison,Texas A&M,Nvidia,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",2023-02-09,US,2023–25,Collaboration
+RT-2,Google DeepMind,2023-07-28,US,2023–25,Industry
+RT-2-X,Google DeepMind,2023-10-13,US,2023–25,Industry
+RT-Trajectory,"Google DeepMind,University of California San Diego,Stanford University",2023-11-03,US,2023–25,Collaboration
+Robot Parkour,"Shanghai Qi Zhi institute,Stanford University,Carnegie Mellon University (CMU),Tsinghua University",2023-09-12,US,2023–25,Academia
+RoseTTAFold All-Atom (RFAA),"University of Washington,Seoul National University,University of Sheffield",2023-10-09,US,2023–25,Academia
+SeamlessM4T,"Facebook,INRIA,University of California (UC) Berkeley",2023-12-08,US,2023–25,Collaboration
+Segment Anything Model,Meta AI,2023-04-05,US,2023–25,Industry
+SigLIP 400M,Google DeepMind,2023-03-27,US,2023–25,Industry
+StarCoder,"Hugging Face,ServiceNow,Northeastern University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),Carnegie Mellon University (CMU),Johns Hopkins University,Leipzig University,ScaDS.AI,Queen Mary University of London,Roblox,Sea AI Lab,Technion - Israel Institute of Technology,Monash University,CSIRO,Data61,McGill University,Saama,University of British Columbia (UBC),Massachusetts Institute of Technology (MIT),Technical University of Munich,IBM,University of Vermont,UnfoldML,SAP,University of Notre Dame,Columbia University,New York University (NYU),University of Allahabad,Discover Dollar,Toloka,Telefonica,Stanford University,Weizmann Institute of Science,Alan Turing Institute,Wellesley College,EleutherAI,Forschungszentrum Julich",2023-05-09,US,2023–25,Collaboration
+Swift,Intel Labs,2023-08-30,US,2023–25,Industry
+VALL-E,Microsoft,2023-01-05,US,2023–25,Industry
+VILA-13B,"Nvidia,Massachusetts Institute of Technology (MIT)",2023-12-12,US,2023–25,Collaboration
+ViT-22B,Google,2023-02-10,US,2023–25,Industry
+W.A.L.T,"Stanford University,Google Research,Georgia Institute of Technology",2023-12-11,US,2023–25,Collaboration
+AFM-on-device,Apple,2024-07-29,US,2023–25,Industry
+AFM-server,Apple,2024-07-29,US,2023–25,Industry
+AlphaFold 3,"Google DeepMind,Isomorphic Labs",2024-05-08,US,2023–25,Industry
+AlphaGeometry,"Google DeepMind,New York University (NYU)",2024-01-17,US,2023–25,Collaboration
+AlphaProteo,Google DeepMind,2024-09-05,US,2023–25,Industry
+Amazon Nova Pro,Amazon,2024-12-03,US,2023–25,Industry
+Apollo 7B,"Meta AI,Stanford University",2024-12-13,US,2023–25,Collaboration
+Aya,"Cohere Labs (formerly Cohere for AI),Brown University,Cohere,Carnegie Mellon University (CMU),Massachusetts Institute of Technology (MIT)",2024-02-12,US,2023–25,Collaboration
+CHAI-1,Chai discovery,2024-10-15,US,2023–25,Industry
+Cambrian-1-34B,New York University (NYU),2024-06-24,US,2023–25,Academia
+Claude 3 Opus,Anthropic,2024-03-04,US,2023–25,Industry
+Claude 3 Sonnet,Anthropic,2024-03-04,US,2023–25,Industry
+Claude 3.5 Sonnet,Anthropic,2024-06-20,US,2023–25,Industry
+DBRX,Databricks,2024-03-27,US,2023–25,Industry
+ESM3 (98B),"EvolutionaryScale,University of California (UC) Berkeley",2024-06-25,US,2023–25,Collaboration
+Fugatto 1,Nvidia,2024-11-25,US,2023–25,Industry
+GPT-4 Turbo (Apr 2024),OpenAI,2024-04-09,US,2023–25,Industry
+GPT-4o,OpenAI,2024-05-13,US,2023–25,Industry
+GPT-4o (Aug 2024),OpenAI,2024-08-06,US,2023–25,Industry
+GPT-4o (Nov 2024),OpenAI,2024-11-20,US,2023–25,Industry
+GPT-4o mini,OpenAI,2024-07-18,US,2023–25,Industry
+Gemini 1.5 Pro,Google DeepMind,2024-02-15,US,2023–25,Industry
+Gemini 2.0 Pro,Google DeepMind,2024-12-11,US,2023–25,Industry
+Gemini-Exp-1114,Google DeepMind,2024-11-15,US,2023–25,Industry
+GenCast,Google DeepMind,2024-05-01,US,2023–25,Industry
+Grok-2,xAI,2024-08-13,US,2023–25,Industry
+Inflection-2.5,Inflection AI,2024-03-07,US,2023–25,Industry
+Llama 3-70B,Meta AI,2024-04-18,US,2023–25,Industry
+Llama 3.1-405B,Meta AI,2024-07-23,US,2023–25,Industry
+Llama 3.2 11B,Meta AI,2024-09-24,US,2023–25,Industry
+Llama 3.3 70B,Meta AI,2024-12-06,US,2023–25,Industry
+Llama-3.1-Nemotron-70B-Instruct,"Nvidia,Meta AI",2024-10-12,US,2023–25,Industry
+MM1-30B,Apple,2024-03-14,US,2023–25,Industry
+ManiGaussian,"Tsinghua University,Nanyang Technological University,Carnegie Mellon University (CMU)",2024-03-13,US,2023–25,Academia
+Movie Gen Video,Meta AI,2024-10-04,US,2023–25,Industry
+NVILA 15B,"Nvidia,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University",2024-12-05,US,2023–25,Collaboration
+NVLM-D 72B,Nvidia,2024-10-22,US,2023–25,Industry
+NVLM-H 72B,Nvidia,2024-10-22,US,2023–25,Industry
+NVLM-X 72B,Nvidia,2024-10-22,US,2023–25,Industry
+Nemotron-4 340B,Nvidia,2024-06-14,US,2023–25,Industry
+Octo-Base,"University of California (UC) Berkeley,Stanford University,Carnegie Mellon University (CMU),DeepMind",2024-05-20,US,2023–25,Collaboration
+OpenVLA,"Stanford University,University of California (UC) Berkeley,Toyota Research Institute,Google DeepMind,Massachusetts Institute of Technology (MIT),Physical Intelligence",2024-06-13,US,2023–25,Collaboration
+Palmyra X 003,Writer,2024-01-01,US,2023–25,Industry
+Palmyra X 004,Writer,2024-10-09,US,2023–25,Industry
+ReALM,Apple,2024-03-29,US,2023–25,Industry
+Reka Core,Reka AI,2024-04-15,US,2023–25,Industry
+STORM-B/8,"University of Southern California,Georgia Institute of Technology,Stanford University,Nvidia",2024-12-31,US,2023–25,Collaboration
+Sora,OpenAI,2024-02-15,US,2023–25,Industry
+Sora Turbo,OpenAI,2024-12-09,US,2023–25,Industry
+Suno v4,Suno,2024-11-19,US,2023–25,Industry
+Table Tennis Agent,Google DeepMind,2024-08-07,US,2023–25,Industry
+VILA1.5-13B,"Nvidia,Massachusetts Institute of Technology (MIT)",2024-05-03,US,2023–25,Collaboration
+Veo 2,Google DeepMind,2024-12-16,US,2023–25,Industry
+o1,OpenAI,2024-12-05,US,2023–25,Industry
+o1-mini,OpenAI,2024-09-12,US,2023–25,Industry
+o1-preview,OpenAI,2024-09-12,US,2023–25,Industry
+o3,OpenAI,2024-12-20,US,2023–25,Industry
+Claude 3.7 Sonnet,Anthropic,2025-02-24,US,2023–25,Industry
+Claude Haiku 4.5,Anthropic,2025-10-15,US,2023–25,Industry
+Claude Opus 4,Anthropic,2025-05-22,US,2023–25,Industry
+Claude Opus 4.1,Anthropic,2025-08-05,US,2023–25,Industry
+Claude Opus 4.5,Anthropic,2025-11-24,US,2023–25,Industry
+Claude Sonnet 4,Anthropic,2025-05-22,US,2023–25,Industry
+Claude Sonnet 4.5,Anthropic,2025-09-29,US,2023–25,Industry
+Computer-Using Agent (CUA),OpenAI,2025-01-23,US,2023–25,Industry
+Diffusion Renderer,"Nvidia,University of Toronto,Vector Institute,University of Illinois Urbana-Champaign (UIUC)",2025-03-22,US,2023–25,Collaboration
+Eagle 2,"Nvidia,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",2025-01-20,US,2023–25,Collaboration
+Eurus-2-7B-PRIME,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute",2025-01-02,US,2023–25,Academia
+FGN,Google DeepMind,2025-06-12,US,2023–25,Industry
+GPT-4.5,OpenAI,2025-02-27,US,2023–25,Industry
+GPT-4o (Jan 2025),OpenAI,2025-01-29,US,2023–25,Industry
+GPT-4o (Mar 2025),OpenAI,2025-03-27,US,2023–25,Industry
+GPT-5,OpenAI,2025-08-07,US,2023–25,Industry
+GPT-5 Pro,OpenAI,2025-10-07,US,2023–25,Industry
+GPT-5 mini,OpenAI,2025-08-07,US,2023–25,Industry
+GPT-5 nano,OpenAI,2025-08-07,US,2023–25,Industry
+GPT-5.1,OpenAI,2025-11-13,US,2023–25,Industry
+GPT-5.1 Instant,OpenAI,2025-11-13,US,2023–25,Industry
+GPT-5.1-Codex,OpenAI,2025-11-12,US,2023–25,Industry
+GPT-5.1-Codex-Max,OpenAI,2025-11-19,US,2023–25,Industry
+GPT-5.2,OpenAI,2025-12-11,US,2023–25,Industry
+GPT-5.2 Codex,OpenAI,2025-12-18,US,2023–25,Industry
+GPT-5.2 Pro,OpenAI,2025-12-11,US,2023–25,Industry
+Gemini 2.5 Deep Think,"Google,Google DeepMind",2025-08-01,US,2023–25,Industry
+Gemini 2.5 Flash Image (Nano Banana),Google,2025-08-26,US,2023–25,Industry
+Gemini 2.5 Pro (Jun 2025),Google DeepMind,2025-06-05,US,2023–25,Industry
+Gemini 2.5 Pro (Mar 2025),Google DeepMind,2025-03-25,US,2023–25,Industry
+Gemini 2.5 Pro (May 2025),Google DeepMind,2025-05-06,US,2023–25,Industry
+Gemini 3 Deep Think,Google DeepMind,2025-11-18,US,2023–25,Industry
+Gemini 3 Pro,Google DeepMind,2025-11-18,US,2023–25,Industry
+Gemini 3 Pro Image (Nano Banana Pro),Google DeepMind,2025-11-20,US,2023–25,Industry
+Gemini Embedding,Google DeepMind,2025-07-14,US,2023–25,Industry
+Gemini Robotics-ER 1.5,Google DeepMind,2025-09-25,US,2023–25,Industry
+Grok 3,xAI,2025-02-17,US,2023–25,Industry
+Grok 4,xAI,2025-07-09,US,2023–25,Industry
+Grok 4 Heavy,xAI,2025-07-10,US,2023–25,Industry
+Grok 4.1,xAI,2025-11-17,US,2023–25,Industry
+Grok 4.1 Fast,xAI,2025-11-19,US,2023–25,Industry
+INTELLECT-MATH,Prime Intellect,2025-01-17,US,2023–25,Industry
+Imagen 4,Google,2025-05-20,US,2023–25,Industry
+Kaiju Large,Character.ai,2025-11-07,US,2023–25,Industry
+Kaiju Medium,Character.ai,2025-11-07,US,2023–25,Industry
+Kaiju Small,Character.ai,2025-11-07,US,2023–25,Industry
+Llama 4 Behemoth (preview),Meta AI,2025-04-05,US,2023–25,Industry
+Llama 4 Maverick,Meta AI,2025-04-05,US,2023–25,Industry
+Llama 4 Scout,Meta AI,2025-04-05,US,2023–25,Industry
+Mercury,Inception Labs,2025-02-27,US,2023–25,Industry
+Meta's Generative Ads Model (GEM),Meta AI,2025-11-10,US,2023–25,Industry
+Nemotron 3-Nano-30B-A3B,Nvidia,2025-12-15,US,2023–25,Industry
+Olmo 3,Allen Institute for AI,2025-11-20,US,2023–25,Other
+SIMA 2,Google DeepMind,2025-12-04,US,2023–25,Industry
+Sora 2.0,OpenAI,2025-09-30,US,2023–25,Industry
+Stable Point Aware 3D (SPAR3D),"Stability AI,University of Illinois Urbana-Champaign (UIUC)",2025-01-08,US,2023–25,Collaboration
+Veo 3,Google DeepMind,2025-05-21,US,2023–25,Industry
+Veo 3.1,Google DeepMind,2025-10-15,US,2023–25,Industry
+gpt-image-1,OpenAI,2025-04-23,US,2023–25,Industry
+gpt-oss-120b,OpenAI,2025-08-05,US,2023–25,Industry
+gpt-oss-20b,OpenAI,2025-08-05,US,2023–25,Industry
+o1-pro,OpenAI,2025-03-19,US,2023–25,Industry
+o3-mini,OpenAI,2025-01-31,US,2023–25,Industry
+π0.6 (pi-0.6),Physical Intelligence,2025-11-17,US,2023–25,Industry

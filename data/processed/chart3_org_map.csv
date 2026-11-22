@@ -1,0 +1,373 @@
+org,country,parent,evidence,rule,status
+01.AI,China,01.AI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Aalto University,Finland,Aalto University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Adobe,United States of America,Adobe,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Advanced Telecommunications Research Institute,Japan,Advanced Telecommunications Research Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+AI21 Labs,Israel,AI21 Labs,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+AIMST University,Malaysia,AIMST University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Alan Turing Institute,United Kingdom,Alan Turing Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Alibaba,China,Alibaba,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Alibaba DAMO Academy,China,Alibaba,epoch positional match (1 rows),merged (same company),explicit_review
+Allen Institute for AI,United States of America,Allen Institute for AI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Amazon,United States of America,Amazon,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Ant Group,China,Ant Group,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Anthropic,United States of America,Anthropic,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Apple,United States of America,Apple,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+ASAPP,United States of America,ASAPP,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+AT&T,United States of America,AT&T,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Baidu,China,Baidu,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Bar-Ilan University,Israel,Bar-Ilan University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Bayerische Staatsbibliothek Muenchen,Germany,Bayerische Staatsbibliothek Muenchen,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Beihang University,China,Beihang University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Beijing Academy of Artificial Intelligence / BAAI,China,Beijing Academy of Artificial Intelligence / BAAI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Beijing Institute of Technology,China,Beijing Institute of Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Beijing University of Posts and Telecommunications,China,Beijing University of Posts and Telecommunications,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Bell Laboratories,United States of America,Bell Laboratories,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Ben-Gurion University of the Negev,Israel,Ben-Gurion University of the Negev,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+BigScience,France,BigScience,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Biological Cybernetics,Japan,Biological Cybernetics,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+BioMap Research,China,BioMap Research,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Bloomberg,United States of America,Bloomberg,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Bosch Center for Artificial Intelligence,Germany,Bosch Center for Artificial Intelligence,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Brno University of Technology,Czechia,Brno University of Technology,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Brown University,United States of America,Brown University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+ByteDance,China,ByteDance,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+California Institute of Technology,United States of America,California Institute of Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Capital One,United States of America,Capital One,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Carleton University,Canada,Carleton University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Carnegie Mellon University (CMU),United States of America,Carnegie Mellon University (CMU),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+CENPARMI,Canada,CENPARMI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Centre de Recherche en Automatique de Nancy (CRAN),France,Centre de Recherche en Automatique de Nancy (CRAN),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Cerebras Systems,United States of America,Cerebras Systems,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Chai discovery,United States of America,Chai discovery,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Character.ai,United States of America,Character.ai,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Charles University,Czechia,Charles University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+China Telecom,China,China Telecom,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Chinese Academy of Sciences,China,Chinese Academy of Sciences,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Chinese University of Hong Kong (CUHK),Hong Kong,Chinese University of Hong Kong (CUHK),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Chongqing University of Posts and Telecommunications,China,Chongqing University of Posts and Telecommunications,manual: Located in Chongqing,unchanged,explicit_review
+CIFAR AI Research,Canada,CIFAR AI Research,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Cognition,United States of America,Cognition,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Cohere,Canada,Cohere,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Cohere Labs (formerly Cohere for AI),Canada,Cohere Labs (formerly Cohere for AI),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Collaborations Pharmaceuticals,United States of America,Collaborations Pharmaceuticals,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Columbia University,United States of America,Columbia University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Compaq CRL,United States of America,Compaq CRL,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Complutense University of Madrid,Spain,Complutense University of Madrid,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Cornell Aeronautical Laboratory,United States of America,Cornell Aeronautical Laboratory,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Cornell University,United States of America,Cornell University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Cortex AI,United States of America,Cortex AI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Courant Institute of Mathematical Sciences,United States of America,Courant Institute of Mathematical Sciences,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+CSIRO,Australia,CSIRO,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+CUHK Shenzhen Research Institute,China,CUHK Shenzhen Research Institute,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Cursor,United States of America,Cursor,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+CZ Biohub Network,United States of America,CZ Biohub Network,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Czech Technical University,Czechia,Czech Technical University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Data61,Australia,Data61,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Databricks,United States of America,Databricks,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Deep Trading,United States of America,Deep Trading,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+DeepL,Germany,DeepL,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+DeepMind,United Kingdom,Google (incl. Google DeepMind),epoch positional match (44 rows),merged (same company),explicit_review
+DeepScale,United States of America,DeepScale,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+DeepSeek,China,DeepSeek,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+deepset,Germany,deepset,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Dezhou University,China,Dezhou University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Discover Dollar,India,Discover Dollar,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Disney Research,United States of America,Disney Research,manual: Only row (DiT-XL/2 + CADS) lists US alongside ETH Zurich's Switzerland,unchanged,explicit_review
+DSO National Laboratories,Singapore,DSO National Laboratories,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Dublin City University,Ireland,Dublin City University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Duke University,United States of America,Duke University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Ecole Normale Supèrieure,France,Ecole Normale Supèrieure,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+EleutherAI,United States of America,EleutherAI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+ESAT - PSI,Belgium,ESAT - PSI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+ETH Zurich,Switzerland,ETH Zurich,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+EvolutionaryScale,United States of America,EvolutionaryScale,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Facebook,United States of America,Meta (incl. FAIR),epoch positional match (13 rows),merged (same company),explicit_review
+Facebook AI,United States of America,Meta (incl. FAIR),epoch positional match (6 rows),merged (same company),explicit_review
+Facebook AI Research,United States of America,Meta (incl. FAIR),"manual: HQ Menlo Park; Epoch lists FAIR as 'United States of America,France' (Paris lab)",merged (same company),explicit_review
+Forschungszentrum Julich,Germany,Forschungszentrum Julich,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Fraunhofer Heinrich Hertz Institute,Germany,Fraunhofer Heinrich Hertz Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Fudan University,China,Fudan University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Generalist,United States of America,Generalist,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Georgia Institute of Technology,United States of America,Georgia Institute of Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Google,United States of America,Google (incl. Google DeepMind),epoch positional match (82 rows),relabelled (location added),explicit_review
+Google AI,United States of America,Google (incl. Google DeepMind),epoch positional match (1 rows),merged (same company),explicit_review
+Google Brain,United States of America,Google (incl. Google DeepMind),epoch positional match (31 rows),merged (same company),explicit_review
+Google Cloud,United States of America,Google (incl. Google DeepMind),epoch positional match (2 rows),merged (same company),explicit_review
+Google DeepMind,United States of America,Google (incl. Google DeepMind),epoch positional match (50 rows),merged (same company),explicit_review
+Google Research,United States of America,Google (incl. Google DeepMind),epoch positional match (30 rows),merged (same company),explicit_review
+Grammarly,United States of America,Grammarly,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Griffith University,Australia,Griffith University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Harbin Institute of Technology,China,Harbin Institute of Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Harrison.ai,Australia,Harrison.ai,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Harvard Medical School,United States of America,Harvard Medical School,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Harvard University,United States of America,Harvard University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Hebrew University of Jerusalem,Israel,Hebrew University of Jerusalem,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+HEC,France,HEC,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Heidelberg University,Germany,Heidelberg University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Helsinki University of Technology,Finland,Helsinki University of Technology,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Hong Kong Polytechnic University,Hong Kong,Hong Kong Polytechnic University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Hong Kong University of Science and Technology (HKUST),Hong Kong,Hong Kong University of Science and Technology (HKUST),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Huawei,China,Huawei,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Huawei Noah's Ark Lab,China,Huawei,epoch positional match (2 rows),merged (same company),explicit_review
+Huazhong University of Science and Technology,China,Huazhong University of Science and Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Hugging Face,United States of America,Hugging Face,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+IBM,United States of America,IBM,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+IDIAP,Switzerland,IDIAP,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+IDSIA,Switzerland,IDSIA,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+IEEE,Multinational,IEEE,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Inception G42,United Arab Emirates,Inception G42,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Inception Labs,United States of America,Inception Labs,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Inflection AI,United States of America,Inflection AI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+INRIA,France,INRIA,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Inspur,China,Inspur,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+InstaDeep,United Kingdom,InstaDeep,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Institute for Advanced Study,United States of America,Institute for Advanced Study,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Institute for Research in Fundamental Sciences (IPM),Iran (Islamic Republic of),Institute for Research in Fundamental Sciences (IPM),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Institute of Advanced Research in Artificial Intelligence,Austria,Institute of Advanced Research in Artificial Intelligence,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Intel Labs,United States of America,Intel Labs,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Islamic Azad University,Iran (Islamic Republic of),Islamic Azad University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Isomorphic Labs,United Kingdom,Isomorphic Labs,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Jacobs University,Germany,Jacobs University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Jacobs University Bremen,Germany,Jacobs University Bremen,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Jagiellonian University,Poland,Jagiellonian University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Jane Street,United States of America,Jane Street,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+JD Explore Academy,China,JD Explore Academy,"manual: Research arm of JD.com, Beijing",unchanged,explicit_review
+JD.com,China,JD.com,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Jiangnan University,China,Jiangnan University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Johannes Kepler University Linz,Austria,Johannes Kepler University Linz,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Johns Hopkins University,United States of America,Johns Hopkins University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Karolinska Institute,Sweden,Karolinska Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+King Abdullah University of Science and Technology (KAUST),Saudi Arabia,King Abdullah University of Science and Technology (KAUST),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Kingsoft,China,Kingsoft,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Korea Advanced Institute of Science and Technology (KAIST),South Korea,Korea Advanced Institute of Science and Technology (KAIST),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Korea University,South Korea,Korea University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+KU Leuven,Belgium,KU Leuven,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Kunlun Inc.,China,Kunlun Inc.,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Lawrence Berkeley National Laboratory,,Lawrence Berkeley National Laboratory,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Leipzig University,Germany,Leipzig University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+LG,South Korea,LG,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+LG AI Research,South Korea,LG AI Research,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+LORIA,France,LORIA,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Ludwig Maximilian University of Munich,Germany,Ludwig Maximilian University of Munich,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Magic,United States of America,Magic,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Maluuba,Canada,Maluuba,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Massachusetts Institute of Technology (MIT),United States of America,Massachusetts Institute of Technology (MIT),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Max Planck Institute for Informatics,Germany,Max Planck Institute for Informatics,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Max Planck Institute for Intelligent Systems,Germany,Max Planck Institute for Intelligent Systems,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+McGill University,Canada,McGill University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Med AI Technology,China,Med AI Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Megvii Inc,China,Megvii Inc,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Meituan Inc,China,Meituan Inc,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Meta AI,United States of America,Meta (incl. FAIR),epoch positional match (42 rows),merged (same company),explicit_review
+MetaMind Inc,United States of America,Salesforce,epoch positional match (1 rows),merged (same company),explicit_review
+Michigan State University,United States of America,Michigan State University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Microsoft,United States of America,Microsoft,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Microsoft Research,United States of America,Microsoft,epoch positional match (17 rows),merged (same company),explicit_review
+Microsoft Research Asia,China,Microsoft Research Asia (Beijing),epoch positional match (5 rows),relabelled (location added),explicit_review
+Midjourney,United States of America,Midjourney,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),Canada,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+MiniMax,China,MiniMax,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Mistral AI,France,Mistral AI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+MIT-IBM Watson AI Lab,United States of America,MIT-IBM Watson AI Lab,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Mitsubishi Electric Research Labs,United States of America,Mitsubishi Electric Research Labs,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Mobvoi,China,Mobvoi,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Mohamed bin Zayed University of Artificial Intelligence (MBZUAI),United Arab Emirates,Mohamed bin Zayed University of Artificial Intelligence (MBZUAI),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Monash University,Australia,Monash University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Moonshot,China,Moonshot,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Motif Technologies,South Korea,Motif Technologies,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Nanjing University,China,Nanjing University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Nankai University,China,Nankai University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Nanyang Technological University,Singapore,Nanyang Technological University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+National Cancer Institute,United States of America,National Cancer Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+National Institute of Informatics,Japan,National Institute of Informatics,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+National Tsing Hua University,Taiwan,National Tsing Hua University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+National University of Singapore,Singapore,National University of Singapore,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+NAVER,South Korea,NAVER,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+NC AI,South Korea,NC AI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+NEC Laboratories,United States of America,NEC Laboratories,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+NERSC,,NERSC,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Netflix,United States of America,Netflix,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+New York University (NYU),United States of America,New York University (NYU),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+NHK Broadcasting Science Research Laboratories,Japan,NHK Broadcasting Science Research Laboratories,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+NiuTrans Research,China,NiuTrans Research,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Northeastern University,United States of America,Northeastern University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Northeastern University (China),China,Northeastern University (China),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+NTT Communication Science Laboratories,Japan,NTT Communication Science Laboratories,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Nvidia,United States of America,Nvidia,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Oak Ridge National Laboratory,United States of America,Oak Ridge National Laboratory,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+OpenAI,United States of America,OpenAI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+OpenEvidence,,OpenEvidence,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Oppo Mobile Telecommunications,China,Oppo Mobile Telecommunications,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Oregon State University,United States of America,Oregon State University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Panasonic R&D,Singapore,Panasonic R&D,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Peking University,China,Peking University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Peng Cheng Laboratory,China,Peng Cheng Laboratory,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Perplexity,United States of America,Perplexity,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Physical Intelligence,United States of America,Physical Intelligence,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Pragmatic Theory Inc.,Canada,Pragmatic Theory Inc.,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Prime Intellect,United States of America,Prime Intellect,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Princeton University,United States of America,Princeton University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+PSL University,France,PSL University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Purdue University,United States of America,Purdue University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Queen Mary University of London,United Kingdom,Queen Mary University of London,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Reed College,United States of America,Reed College,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Reka AI,United States of America,Reka AI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Rice University,,Rice University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+rinna,Japan,rinna,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Roblox,United States of America,Roblox,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Runway,United States of America,Runway,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Rutgers University,United States of America,Rutgers University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+RWTH Aachen University,Germany,RWTH Aachen University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Saama,United States of America,Saama,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Salesforce,United States of America,Salesforce,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Salesforce Research,United States of America,Salesforce,epoch positional match (8 rows),merged (same company),explicit_review
+Samsung,South Korea,Samsung,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Samsung R&D Institute Russia,Russia,Samsung,epoch positional match (1 rows),merged (same company),explicit_review
+Sandia Corporation,United States of America,Sandia Corporation,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+SAP,Germany,SAP,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Sapient Intelligence,Singapore,Sapient Intelligence,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Sapienza Università di Roma,Italy,Sapienza Università di Roma,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Saudi Aramco,Saudi Arabia,Saudi Aramco,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Saudi Company for Artificial Intelligence,Saudi Arabia,Saudi Company for Artificial Intelligence,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Saudi Data and Artificial Intelligence Authority,Saudi Arabia,Saudi Data and Artificial Intelligence Authority,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+ScaDS.AI,Germany,ScaDS.AI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Science Applications International Corporation / SAIC,United States of America,Science Applications International Corporation / SAIC,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Sea AI Lab,Singapore,Sea AI Lab,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+SenseTime,Hong Kong,SenseTime,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Sensifai,Belgium,Sensifai,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Seoul National University,South Korea,Seoul National University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+ServiceNow,United States of America,ServiceNow,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Shandong University,China,Shandong University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Shanghai AI Lab,China,Shanghai AI Lab,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Shanghai Jiao Tong University,China,Shanghai Jiao Tong University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Shanghai Qi Zhi institute,China,Shanghai Qi Zhi institute,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+ShanghaiTech University,China,ShanghaiTech University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Shannon.AI,China,Shannon.AI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Shenzhen Institute of Advanced Technology,China,Shenzhen Institute of Advanced Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Simon Fraser University,Canada,Simon Fraser University,"manual: Located in Burnaby, BC",unchanged,explicit_review
+Singapore University of Technology & Design,Singapore,Singapore University of Technology & Design,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+SK Telecom,South Korea,SK Telecom,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Sony,Japan,Sony,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Soochow University,Taiwan,Soochow University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Sorbonne University,France,Sorbonne University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Stability AI,United Kingdom,Stability AI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Stanford University,United States of America,Stanford University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+StepFun,China,StepFun,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Sun Yat-sen University,China,Sun Yat-sen University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Suno,United States of America,Suno,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+SUPSI,Switzerland,SUPSI,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Swiss Federal Institute of Technology,Switzerland,Swiss Federal Institute of Technology,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Technical University of Denmark,Denmark,Technical University of Denmark,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Technical University of Munich,Germany,Technical University of Munich,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Technicolor R&I,France,Technicolor R&I,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Technion - Israel Institute of Technology,Israel,Technion - Israel Institute of Technology,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Technology Innovation Institute,United Arab Emirates,Technology Innovation Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Tel Aviv University,Israel,Tel Aviv University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Telefonica,Spain,Telefonica,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Tencent,China,Tencent,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+TensorTour,United States of America,TensorTour,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Texas A&M,United States of America,Texas A&M,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Thinking Machines,United States of America,Thinking Machines,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Tianjin University,China,Tianjin University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Tohoku University,Japan,Tohoku University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Tokyo Medical and Dental University,Japan,Tokyo Medical and Dental University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Toloka,Netherlands,Toloka,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Toshiba Cambridge Research Laboratory,United Kingdom,Toshiba Cambridge Research Laboratory,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Toyota Research Institute,United States of America,Toyota Research Institute,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Toyota Technological Institute at Chicago,United States of America,Toyota Technological Institute at Chicago,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Tsinghua University,China,Tsinghua University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+TU Berlin,Germany,TU Berlin,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+TU Darmstadt,Germany,TU Darmstadt,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Twitter,United States of America,Twitter,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Uber AI,United States of America,Uber AI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+UC Irvine,United States of America,UC Irvine,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+ULSee Inc.,China,ULSee Inc.,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+UnfoldML,Sweden,UnfoldML,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Universidad Nacional de San Martín,Argentina,Universidad Nacional de San Martín,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Universite de Technologie de Compiègne – CNRS,France,Universite de Technologie de Compiègne – CNRS,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Université Grenoble Alpes,France,Université Grenoble Alpes,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Université Paris-Est,France,Université Paris-Est,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University at Buffalo,United States of America,University at Buffalo,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University College London (UCL),United Kingdom,University College London (UCL),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Alberta,Canada,University of Alberta,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Allahabad,India,University of Allahabad,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Amsterdam,Netherlands,University of Amsterdam,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Bern,Switzerland,University of Bern,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Bonn,Germany,University of Bonn,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of British Columbia (UBC),Canada,University of British Columbia (UBC),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of California (UC) Berkeley,United States of America,University of California (UC) Berkeley,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of California Los Angeles (UCLA),United States of America,University of California Los Angeles (UCLA),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of California San Diego,United States of America,University of California San Diego,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Cambridge,United Kingdom,University of Cambridge,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Chicago,United States of America,University of Chicago,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Chinese Academy of Sciences,China,University of Chinese Academy of Sciences,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Copenhagen,Denmark,University of Copenhagen,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Edinburgh,United Kingdom,University of Edinburgh,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Freiburg,Germany,University of Freiburg,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Hyderabad,India,University of Hyderabad,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Illinois Urbana-Champaign (UIUC),United States of America,University of Illinois Urbana-Champaign (UIUC),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Iowa,United States of America,University of Iowa,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Kansas,United States of America,University of Kansas,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of London,United Kingdom,University of London,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Lorraine,France,University of Lorraine,manual: Located in Nancy/Metz,unchanged,explicit_review
+University of Lubeck,Germany,University of Lubeck,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Maine,United States of America,University of Maine,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Manchester,United Kingdom,University of Manchester,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Maryland,United States of America,University of Maryland,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Massachusetts Amherst,United States of America,University of Massachusetts Amherst,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Massachusetts Lowell,United States of America,University of Massachusetts Lowell,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Michigan,United States of America,University of Michigan,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Minnesota,United States of America,University of Minnesota,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Montreal / Université de Montréal,Canada,University of Montreal / Université de Montréal,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of North Carolina,United States of America,University of North Carolina,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Notre Dame,United States of America,University of Notre Dame,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Oslo,Norway,University of Oslo,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Oulu,Finland,University of Oulu,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Oxford,United Kingdom,University of Oxford,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Pennsylvania,United States of America,University of Pennsylvania,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Pittsburgh,United States of America,University of Pittsburgh,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Science and Technology of China (USTC),China,University of Science and Technology of China (USTC),Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Sheffield,United Kingdom,University of Sheffield,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Sherbrooke,Canada,University of Sherbrooke,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Siena,Italy,University of Siena,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Southern California,United States of America,University of Southern California,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Surrey,United Kingdom,University of Surrey,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Sydney,Australia,University of Sydney,manual: Located in Sydney,unchanged,explicit_review
+University of Technology Sydney,Australia,University of Technology Sydney,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Texas at Austin,United States of America,University of Texas at Austin,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Texas at Houston,United States of America,University of Texas at Houston,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Toronto,Canada,University of Toronto,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Trento,Italy,University of Trento,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Turku,Finland,University of Turku,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Vermont,United States of America,University of Vermont,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Warwick,United Kingdom,University of Warwick,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Washington,United States of America,University of Washington,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Waterloo,Canada,University of Waterloo,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of West London,United Kingdom,University of West London,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Western Ontario,Canada,University of Western Ontario,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+University of Wisconsin Madison,United States of America,University of Wisconsin Madison,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+University of Zagreb,Croatia,University of Zagreb,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Upstage,South Korea,Upstage,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+UT Austin,United States of America,UT Austin,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Utrecht University,Netherlands,Utrecht University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Vector Institute,Canada,Vector Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Visual Computing Institute,Germany,Visual Computing Institute,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Waseda University,Japan,Waseda University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Washington University in St Louis,United States of America,Washington University in St Louis,"manual: Located in St Louis, Missouri",unchanged,explicit_review
+Weizmann Institute of Science,Israel,Weizmann Institute of Science,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Wellesley College,United States of America,Wellesley College,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Westlake University,China,Westlake University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Williams College,United States of America,Williams College,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Writer,United States of America,Writer,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Wuhan AI Computing Center,China,Wuhan AI Computing Center,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Wuhan University,China,Wuhan University,manual: Located in Wuhan,unchanged,explicit_review
+xAI,United States of America,xAI,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Xi’an Jiaotong University,China,Xi’an Jiaotong University,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Xiaomi Corp,China,Xiaomi Corp,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Yahoo Research,United States of America,Yahoo Research,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Yonsei University,South Korea,Yonsei University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+York University,Canada,York University,Original Epoch label; no audit decision,original-label,unreviewed_original_label
+Z.ai (Zhipu AI),China,Z.ai (Zhipu AI),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Zhejiang University (ZJU),China,Zhejiang University (ZJU),Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3
+Zhuiyi Technology,China,Zhuiyi Technology,Bundled Chapter 3 affiliation map,grouped-in-original-chapter,derived_from_chapter_3

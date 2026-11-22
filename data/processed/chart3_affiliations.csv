@@ -1,0 +1,910 @@
+model,country,year,developer,family
+CCL,China,2016,Chinese Academy of Sciences,Chinese Academy of Sciences
+DAC-CSR,China,2016,Jiangnan University,Jiangnan University
+DenseNet-264,China,2016,Tsinghua University,Tsinghua University
+R-FCN,China,2016,Tsinghua University,Tsinghua University
+ResNet-200,China,2016,Microsoft Research Asia,Microsoft Research Asia (Beijing)
+SPIDER2,China,2016,Dezhou University,Dezhou University
+DL scaling Image,China,2017,Baidu,Baidu
+DL scaling LM,China,2017,Baidu,Baidu
+DL scaling speech,China,2017,Baidu,Baidu
+DnCNN,China,2017,Harbin Institute of Technology,Harbin Institute of Technology
+DnCNN,China,2017,ULSee Inc.,ULSee Inc.
+DnCNN,China,2017,Xi’an Jiaotong University,Xi’an Jiaotong University
+GSM,China,2017,Peking University,Peking University
+Mnemonic Reader,China,2017,Fudan University,Fudan University
+NeuMF (Pinterest),China,2017,Shandong University,Shandong University
+OR-WideResNet,China,2017,University of Chinese Academy of Sciences,University of Chinese Academy of Sciences
+SENet (ImageNet),China,2017,Chinese Academy of Sciences,Chinese Academy of Sciences
+ShuffleNet v1,China,2017,Megvii Inc,Megvii Inc
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2018)",China,2018,Microsoft Research Asia,Microsoft Research Asia (Beijing)
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2018)",China,2018,Peking University,Peking University
+EN^2AS with performance reward,China,2019,Beijing Institute of Technology,Beijing Institute of Technology
+MMLSTM (PTB),China,2019,Beijing University of Posts and Telecommunications,Beijing University of Posts and Telecommunications
+MMLSTM (WT-2),China,2019,Beijing University of Posts and Telecommunications,Beijing University of Posts and Telecommunications
+Neuro-Symbolic Concept Learner,China,2019,Tsinghua University,Tsinghua University
+True-Regularization+Finetune+Dynamic-Eval,China,2019,Mobvoi,Mobvoi
+trRosetta,China,2019,Nankai University,Nankai University
+trRosetta,China,2019,Tianjin University,Tianjin University
+CPM-Large,China,2020,Beijing Academy of Artificial Intelligence / BAAI,Beijing Academy of Artificial Intelligence / BAAI
+CPM-Large,China,2020,Tsinghua University,Tsinghua University
+ERNIE-Doc (247M),China,2020,Baidu,Baidu
+ERNIE-GEN (large),China,2020,Baidu,Baidu
+KEPLER,China,2020,Tsinghua University,Tsinghua University
+NAS+ESS (23M),China,2020,Kingsoft,Kingsoft
+NAS+ESS (23M),China,2020,NiuTrans Research,NiuTrans Research
+NAS+ESS (23M),China,2020,Northeastern University (China),Northeastern University (China)
+TCAN (WT2),China,2020,Ant Group,Ant Group
+TCAN (WT2),China,2020,Nanjing University,Nanjing University
+Theseus 6/768,China,2020,Beihang University,Beihang University
+TransformerXL + spectrum control,China,2020,JD.com,JD.com
+Adaptive Input Transformer + RD,China,2021,Microsoft Research Asia,Microsoft Research Asia (Beijing)
+AliceMind-MMU,China,2021,Alibaba,Alibaba
+CogView,China,2021,Alibaba DAMO Academy,Alibaba
+CogView,China,2021,Tsinghua University,Tsinghua University
+ERNIE 3.0,China,2021,Baidu,Baidu
+ERNIE 3.0 Titan,China,2021,Baidu,Baidu
+ERNIE 3.0 Titan,China,2021,Peng Cheng Laboratory,Peng Cheng Laboratory
+ERNIE-ViLG,China,2021,Baidu,Baidu
+EfficientZero,China,2021,Shanghai Qi Zhi institute,Shanghai Qi Zhi institute
+EfficientZero,China,2021,Tsinghua University,Tsinghua University
+M6-T,China,2021,Alibaba,Alibaba
+MedBERT,China,2021,Peng Cheng Laboratory,Peng Cheng Laboratory
+NÜWA,China,2021,Peking University,Peking University
+PLATO-XL,China,2021,Baidu,Baidu
+PLUG,China,2021,Alibaba,Alibaba
+PermuteFormer,China,2021,Peking University,Peking University
+ProtBERT-BFD,China,2021,Med AI Technology,Med AI Technology
+ProtT5-XL-U50,China,2021,Med AI Technology,Med AI Technology
+Swin Transformer V2 (SwinV2-G),China,2021,Microsoft Research Asia,Microsoft Research Asia (Beijing)
+TrOCR,China,2021,Beihang University,Beihang University
+TrOCR,China,2021,Microsoft Research Asia,Microsoft Research Asia (Beijing)
+YOLOX-X,China,2021,Megvii Inc,Megvii Inc
+Yuan 1.0,China,2021,Inspur,Inspur
+Zidong Taichu,China,2021,Chinese Academy of Sciences,Chinese Academy of Sciences
+Zidong Taichu,China,2021,Wuhan AI Computing Center,Wuhan AI Computing Center
+base LM+GNN+kNN,China,2021,Nanjing University,Nanjing University
+base LM+GNN+kNN,China,2021,Shannon.AI,Shannon.AI
+base LM+GNN+kNN,China,2021,Zhejiang University (ZJU),Zhejiang University (ZJU)
+ALM 1.0,China,2022,Beijing Academy of Artificial Intelligence / BAAI,Beijing Academy of Artificial Intelligence / BAAI
+AR-LDM,China,2022,Alibaba,Alibaba
+AltCLIP_M9,China,2022,Beijing Academy of Artificial Intelligence / BAAI,Beijing Academy of Artificial Intelligence / BAAI
+CogVideo,China,2022,Beijing Academy of Artificial Intelligence / BAAI,Beijing Academy of Artificial Intelligence / BAAI
+CogVideo,China,2022,Tsinghua University,Tsinghua University
+DITTO,China,2022,Tsinghua University,Tsinghua University
+DITTO,China,2022,Westlake University,Westlake University
+EVA-01,China,2022,Beijing Academy of Artificial Intelligence / BAAI,Beijing Academy of Artificial Intelligence / BAAI
+EVA-01,China,2022,Beijing Institute of Technology,Beijing Institute of Technology
+EVA-01,China,2022,Huazhong University of Science and Technology,Huazhong University of Science and Technology
+EVA-01,China,2022,Zhejiang University (ZJU),Zhejiang University (ZJU)
+GLM-130B,China,2022,Tsinghua University,Tsinghua University
+InternImage,China,2022,Nanjing University,Nanjing University
+InternImage,China,2022,Shanghai AI Lab,Shanghai AI Lab
+InternImage,China,2022,Tsinghua University,Tsinghua University
+OmegaPLM,China,2022,Westlake University,Westlake University
+OntoProtein,China,2022,Zhejiang University (ZJU),Zhejiang University (ZJU)
+SimCSE,China,2022,Tsinghua University,Tsinghua University
+Vega v2,China,2022,Chongqing University of Posts and Telecommunications,Chongqing University of Posts and Telecommunications
+Vega v2,China,2022,JD Explore Academy,JD Explore Academy
+Vega v2,China,2022,Shanghai AI Lab,Shanghai AI Lab
+Vega v2,China,2022,Wuhan University,Wuhan University
+AndesGPT,China,2023,Oppo Mobile Telecommunications,Oppo Mobile Telecommunications
+ChatGLM3-6B,China,2023,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+CoRe,China,2023,Tsinghua University,Tsinghua University
+CogAgent,China,2023,Tsinghua University,Tsinghua University
+CogAgent,China,2023,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+CogVLM-17B,China,2023,Beihang University,Beihang University
+CogVLM-17B,China,2023,Tsinghua University,Tsinghua University
+CogVLM-17B,China,2023,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+ERNIE 3.5,China,2023,Baidu,Baidu
+ERNIE 4.0,China,2023,Baidu,Baidu
+GGNN,China,2023,Tsinghua University,Tsinghua University
+GGNN,China,2023,Westlake University,Westlake University
+InternLM,China,2023,Shanghai AI Lab,Shanghai AI Lab
+ONE-PEACE,China,2023,Alibaba,Alibaba
+ONE-PEACE,China,2023,Huazhong University of Science and Technology,Huazhong University of Science and Technology
+PanGu-Σ,China,2023,Huawei Noah's Ark Lab,Huawei
+Pangu-Weather,China,2023,Huawei,Huawei
+Qwen-72B,China,2023,Alibaba,Alibaba
+Qwen-Audio-Chat,China,2023,Alibaba,Alibaba
+Qwen-VL,China,2023,Alibaba,Alibaba
+RoFormer,China,2023,Zhuiyi Technology,Zhuiyi Technology
+Robot Parkour,China,2023,Shanghai Qi Zhi institute,Shanghai Qi Zhi institute
+Robot Parkour,China,2023,Tsinghua University,Tsinghua University
+SPHINX (Llama 2 13B),China,2023,Shanghai AI Lab,Shanghai AI Lab
+SPHINX (Llama 2 13B),China,2023,ShanghaiTech University,ShanghaiTech University
+Skywork-13B,China,2023,Kunlun Inc.,Kunlun Inc.
+VideoMAE V2,China,2023,Nanjing University,Nanjing University
+VideoMAE V2,China,2023,Shanghai AI Lab,Shanghai AI Lab
+VideoMAE V2,China,2023,Shenzhen Institute of Advanced Technology,Shenzhen Institute of Advanced Technology
+Yi-34B,China,2023,01.AI,01.AI
+mPLUG-Owl2,China,2023,Alibaba,Alibaba
+xTrimoPGLM -100B,China,2023,BioMap Research,BioMap Research
+xTrimoPGLM -100B,China,2023,Tsinghua University,Tsinghua University
+DeepSeek-Coder-V2 236B,China,2024,DeepSeek,DeepSeek
+DeepSeek-V2.5,China,2024,DeepSeek,DeepSeek
+DeepSeek-V3,China,2024,DeepSeek,DeepSeek
+Doubao-pro,China,2024,ByteDance,ByteDance
+Ernie 4.0 Turbo,China,2024,Baidu,Baidu
+GLM-4 (0520),China,2024,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+GLM-4-Plus,China,2024,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+GR-2,China,2024,ByteDance,ByteDance
+Hairuo,China,2024,Inspur,Inspur
+Hunyuan Turbo,China,2024,Tencent,Tencent
+Hunyuan-Large,China,2024,Tencent,Tencent
+Infinity,China,2024,ByteDance,ByteDance
+Kimi Explorer,China,2024,Moonshot,Moonshot
+LLaVA-OV-72B,China,2024,ByteDance,ByteDance
+ManiGaussian,China,2024,Tsinghua University,Tsinghua University
+MegaScale (Production),China,2024,ByteDance,ByteDance
+MegaScale (Production),China,2024,Peking University,Peking University
+NVILA 15B,China,2024,Tsinghua University,Tsinghua University
+Oryx 34B,China,2024,Tencent,Tencent
+Oryx 34B,China,2024,Tsinghua University,Tsinghua University
+PixelDance,China,2024,ByteDance,ByteDance
+Qwen-VL-Max,China,2024,Alibaba,Alibaba
+Qwen1.5-72B,China,2024,Alibaba,Alibaba
+Qwen2-72B,China,2024,Alibaba,Alibaba
+Qwen2.5 Instruct (72B),China,2024,Alibaba,Alibaba
+Qwen2.5-32B,China,2024,Alibaba,Alibaba
+Qwen2.5-72B,China,2024,Alibaba,Alibaba
+RDT-1B,China,2024,Tsinghua University,Tsinghua University
+SeedEdit,China,2024,ByteDance,ByteDance
+Telechat2-115B,China,2024,China Telecom,China Telecom
+Yi-Large,China,2024,01.AI,01.AI
+Yi-Lightning,China,2024,01.AI,01.AI
+k0-math,China,2024,Moonshot,Moonshot
+AgentFounder-30B,China,2025,Alibaba,Alibaba
+DeepSeek-R1,China,2025,DeepSeek,DeepSeek
+DeepSeek-R1 (May 2025),China,2025,DeepSeek,DeepSeek
+DeepSeek-V3 (Mar 2025),China,2025,DeepSeek,DeepSeek
+DeepSeekMath-V2,China,2025,DeepSeek,DeepSeek
+Doubao-1.5-pro,China,2025,ByteDance,ByteDance
+ERNIE-4.5-VL-424B-A47B (文心大模型4.5),China,2025,Baidu,Baidu
+Eagle 2,China,2025,Nanjing University,Nanjing University
+Eagle 2,China,2025,Tsinghua University,Tsinghua University
+Eurus-2-7B-PRIME,China,2025,CUHK Shenzhen Research Institute,CUHK Shenzhen Research Institute
+Eurus-2-7B-PRIME,China,2025,Peking University,Peking University
+Eurus-2-7B-PRIME,China,2025,Shanghai AI Lab,Shanghai AI Lab
+Eurus-2-7B-PRIME,China,2025,Shanghai Jiao Tong University,Shanghai Jiao Tong University
+Eurus-2-7B-PRIME,China,2025,Tsinghua University,Tsinghua University
+GLM-4.5,China,2025,Tsinghua University,Tsinghua University
+GLM-4.5,China,2025,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+GLM-4.6,China,2025,Tsinghua University,Tsinghua University
+GLM-4.6,China,2025,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+GLM-4.7,China,2025,Z.ai (Zhipu AI),Z.ai (Zhipu AI)
+Hunyuan-TurboS,China,2025,Tencent,Tencent
+Kimi K2,China,2025,Moonshot,Moonshot
+Kimi K2 Thinking,China,2025,Moonshot,Moonshot
+Kimi k1.5,China,2025,Moonshot,Moonshot
+Ling-1T,China,2025,Ant Group,Ant Group
+LongCat-Flash,China,2025,Meituan Inc,Meituan Inc
+MindLink-72B,China,2025,Kunlun Inc.,Kunlun Inc.
+MiniMax-M2,China,2025,MiniMax,MiniMax
+MiniMax-M2.1,China,2025,MiniMax,MiniMax
+P1-235B-A22B,China,2025,Shanghai AI Lab,Shanghai AI Lab
+Pangu Ultra,China,2025,Huawei,Huawei
+QwQ-32B,China,2025,Alibaba,Alibaba
+Qwen Image,China,2025,Alibaba,Alibaba
+Qwen3 Embedding,China,2025,Alibaba,Alibaba
+Qwen3-235B-A22B,China,2025,Alibaba,Alibaba
+Qwen3-235B-A22B (Jul 2025),China,2025,Alibaba,Alibaba
+Qwen3-235B-A22B-Thinking (Jul 2025),China,2025,Alibaba,Alibaba
+Qwen3-Coder-480B-A35B,China,2025,Alibaba,Alibaba
+Qwen3-Max,China,2025,Alibaba,Alibaba
+Qwen3-Omni-30B-A3B,China,2025,Alibaba,Alibaba
+Seed-1.6-Thinking,China,2025,ByteDance,ByteDance
+Seed1.5-VL,China,2025,ByteDance,ByteDance
+Tongyi DeepResearch,China,2025,Alibaba,Alibaba
+CCL,Hong Kong,2016,Chinese University of Hong Kong (CUHK),Chinese University of Hong Kong (CUHK)
+CCL,Hong Kong,2016,SenseTime,SenseTime
+PolyNet,Hong Kong,2016,Chinese University of Hong Kong (CUHK),Chinese University of Hong Kong (CUHK)
+DnCNN,Hong Kong,2017,Hong Kong Polytechnic University,Hong Kong Polytechnic University
+PSPNet,Hong Kong,2017,Chinese University of Hong Kong (CUHK),Chinese University of Hong Kong (CUHK)
+DITTO,Hong Kong,2022,Chinese University of Hong Kong (CUHK),Chinese University of Hong Kong (CUHK)
+InternImage,Hong Kong,2022,Chinese University of Hong Kong (CUHK),Chinese University of Hong Kong (CUHK)
+InternImage,Hong Kong,2022,SenseTime,SenseTime
+InstructBLIP,Hong Kong,2023,Hong Kong University of Science and Technology (HKUST),Hong Kong University of Science and Technology (HKUST)
+InternLM,Hong Kong,2023,SenseTime,SenseTime
+SPHINX (Llama 2 13B),Hong Kong,2023,Chinese University of Hong Kong (CUHK),Chinese University of Hong Kong (CUHK)
+LLaVA-OV-72B,Hong Kong,2024,Chinese University of Hong Kong (CUHK),Chinese University of Hong Kong (CUHK)
+LLaVA-OV-72B,Hong Kong,2024,Hong Kong University of Science and Technology (HKUST),Hong Kong University of Science and Technology (HKUST)
+SenseChat 5.5,Hong Kong,2024,SenseTime,SenseTime
+Eagle 2,Hong Kong,2025,Hong Kong Polytechnic University,Hong Kong Polytechnic University
+3DMM-CNN,United States,2016,University of Southern California,University of Southern California
+A3C FF hs,United States,2016,Google,Google (incl. Google DeepMind)
+BIDAF,United States,2016,Allen Institute for AI,Allen Institute for AI
+BIDAF,United States,2016,University of Washington,University of Washington
+Character-enriched word2vec,United States,2016,Facebook AI Research,Meta (incl. FAIR)
+DTN (Domain Transfer Network),United States,2016,Facebook AI Research,Meta (incl. FAIR)
+DenseNet-264,United States,2016,Cornell University,Cornell University
+DenseNet-264,United States,2016,Facebook AI Research,Meta (incl. FAIR)
+Double DQN,United States,2016,Google DeepMind,Google (incl. Google DeepMind)
+Dueling DQN,United States,2016,Google DeepMind,Google (incl. Google DeepMind)
+GAN-Advancer,United States,2016,OpenAI,OpenAI
+GAWWN,United States,2016,University of Michigan,University of Michigan
+GNMT,United States,2016,Google,Google (incl. Google DeepMind)
+HR-ResNet101,United States,2016,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Image-to-image cGAN,United States,2016,University of California (UC) Berkeley,University of California (UC) Berkeley
+Inception-ResNet-V2,United States,2016,Google,Google (incl. Google DeepMind)
+Inceptionv4,United States,2016,Google,Google (incl. Google DeepMind)
+LF-MMI,United States,2016,Cornell University,Cornell University
+LF-MMI,United States,2016,Johns Hopkins University,Johns Hopkins University
+LRR-4X,United States,2016,UC Irvine,UC Irvine
+MS-ensemble-speech-recognition,United States,2016,Microsoft,Microsoft
+NAS with base 8 and shared embeddings,United States,2016,Google Brain,Google (incl. Google DeepMind)
+NASv3 (CIFAR-10),United States,2016,Google Brain,Google (incl. Google DeepMind)
+Named Entity Recognition model,United States,2016,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+PixelCNN,United States,2016,Google DeepMind,Google (incl. Google DeepMind)
+PointNet,United States,2016,Stanford University,Stanford University
+Pointer Sentinel-LSTM (medium),United States,2016,MetaMind Inc,Salesforce
+Pointer Sentinel-LSTM (medium),United States,2016,Salesforce,Salesforce
+R-FCN,United States,2016,Microsoft Research,Microsoft
+ResNeXt-101 (64×4d),United States,2016,Facebook,Meta (incl. FAIR)
+ResNeXt-101 (64×4d),United States,2016,University of California San Diego,University of California San Diego
+ResNeXt-50,United States,2016,Facebook,Meta (incl. FAIR)
+ResNeXt-50,United States,2016,University of California San Diego,University of California San Diego
+ResNet-1001,United States,2016,Microsoft,Microsoft
+SPIDER2,United States,2016,University of Iowa,University of Iowa
+Segmental RNN,United States,2016,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Segmental RNN,United States,2016,University of Washington,University of Washington
+SqueezeNet,United States,2016,DeepScale,DeepScale
+SqueezeNet,United States,2016,Stanford University,Stanford University
+SqueezeNet,United States,2016,University of California (UC) Berkeley,University of California (UC) Berkeley
+VD-LSTM+REAL Large,United States,2016,Salesforce Research,Salesforce
+VD-LSTM+REAL Large,United States,2016,Stanford University,Stanford University
+WaveNet,United States,2016,Google DeepMind,Google (incl. Google DeepMind)
+Xception,United States,2016,Google,Google (incl. Google DeepMind)
+YOLOv2,United States,2016,Allen Institute for AI,Allen Institute for AI
+YOLOv2,United States,2016,University of Washington,University of Washington
+Youtube recommendation model,United States,2016,Google,Google (incl. Google DeepMind)
+AWD-LSTM - 3-layer LSTM (tied) + continuous cache pointer (WT2),United States,2017,Salesforce Research,Salesforce
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2017)",United States,2017,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+ConvS2S (ensemble of 8 models),United States,2017,Meta AI,Meta (incl. FAIR)
+DCN+,United States,2017,Salesforce Research,Salesforce
+DeepLab (2017),United States,2017,Google,Google (incl. Google DeepMind)
+DeepLab (2017),United States,2017,Johns Hopkins University,Johns Hopkins University
+DeepLabV3,United States,2017,Google,Google (incl. Google DeepMind)
+GSM,United States,2017,Microsoft Research,Microsoft
+HRA,United States,2017,Microsoft,Microsoft
+ISS,United States,2017,Duke University,Duke University
+ISS,United States,2017,Microsoft,Microsoft
+JFT,United States,2017,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+JFT,United States,2017,Google Research,Google (incl. Google DeepMind)
+Libratus,United States,2017,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Mask R-CNN,United States,2017,Facebook AI Research,Meta (incl. FAIR)
+Mnemonic Reader,United States,2017,Microsoft Research,Microsoft
+MoE-Multi,United States,2017,Google Brain,Google (incl. Google DeepMind)
+MobileNet,United States,2017,Google,Google (incl. Google DeepMind)
+NASNet-A,United States,2017,Google Brain,Google (incl. Google DeepMind)
+NeuMF (Pinterest),United States,2017,Columbia University,Columbia University
+NeuMF (Pinterest),United States,2017,Texas A&M,Texas A&M
+OR-WideResNet,United States,2017,Duke University,Duke University
+OpenAI TI7 DOTA 1v1,United States,2017,OpenAI,OpenAI
+PhraseCond,United States,2017,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+PhraseCond,United States,2017,University of Pittsburgh,University of Pittsburgh
+PointNet++,United States,2017,Stanford University,Stanford University
+ProgressiveGAN,United States,2017,Nvidia,Nvidia
+Prototypical networks,United States,2017,Twitter,Twitter
+RetinaNet-R101,United States,2017,Facebook AI Research,Meta (incl. FAIR)
+RetinaNet-R50,United States,2017,Facebook AI Research,Meta (incl. FAIR)
+S-Norm,United States,2017,Allen Institute for AI,Allen Institute for AI
+S-Norm,United States,2017,University of Washington,University of Washington
+SRGAN,United States,2017,Twitter,Twitter
+Transformer,United States,2017,Google Brain,Google (incl. Google DeepMind)
+Transformer,United States,2017,Google Research,Google (incl. Google DeepMind)
+WGAN-GP,United States,2017,Courant Institute of Mathematical Sciences,Courant Institute of Mathematical Sciences
+4 layer QRNN (h=2500),United States,2018,Salesforce Research,Salesforce
+AWD-LSTM-MoS+PDR + dynamic evaluation (WT2),United States,2018,IBM,IBM
+BERT-Large,United States,2018,Google,Google (incl. Google DeepMind)
+Big Transformer for Back-Translation,United States,2018,Facebook AI Research,Meta (incl. FAIR)
+Big Transformer for Back-Translation,United States,2018,Google Brain,Google (incl. Google DeepMind)
+Big-Little Net,United States,2018,IBM,IBM
+Big-Little Net (speech),United States,2018,IBM,IBM
+Chinese - English translation,United States,2018,Microsoft,Microsoft
+DeepLabV3+,United States,2018,Google,Google (incl. Google DeepMind)
+Dropout-LSTM+Noise(Bernoulli) (WT2),United States,2018,Columbia University,Columbia University
+Dropout-LSTM+Noise(Bernoulli) (WT2),United States,2018,New York University (NYU),New York University (NYU)
+Dropout-LSTM+Noise(Bernoulli) (WT2),United States,2018,Princeton University,Princeton University
+ELMo,United States,2018,Allen Institute for AI,Allen Institute for AI
+ELMo,United States,2018,University of Washington,University of Washington
+GPT-1,United States,2018,OpenAI,OpenAI
+GPipe (Transformer),United States,2018,Google,Google (incl. Google DeepMind)
+LSTM+NeuralCache,United States,2018,Apple,Apple
+Mesh-TensorFlow Transformer 2.9B (translation),United States,2018,Google Brain,Google (incl. Google DeepMind)
+Mesh-TensorFlow Transformer 4.9B (language),United States,2018,Google Brain,Google (incl. Google DeepMind)
+MetaMimic,United States,2018,Google,Google (incl. Google DeepMind)
+MobileNetV2,United States,2018,Google,Google (incl. Google DeepMind)
+QRNN,United States,2018,Salesforce Research,Salesforce
+ResNeXt-101 32x48d,United States,2018,Facebook,Meta (incl. FAIR)
+SPN (ImageNet 128),United States,2018,Google Brain,Google (incl. Google DeepMind)
+StyleGAN,United States,2018,Nvidia,Nvidia
+T-DMCA,United States,2018,Google Brain,Google (incl. Google DeepMind)
+TCN (P-MNIST),United States,2018,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+TCN (P-MNIST),United States,2018,Intel Labs,Intel Labs
+Transformer (Adaptive Input Embeddings) WT103,United States,2018,Facebook AI Research,Meta (incl. FAIR)
+Transformer + Simple Recurrent Unit,United States,2018,ASAPP,ASAPP
+Transformer + Simple Recurrent Unit,United States,2018,Cornell University,Cornell University
+Transformer + Simple Recurrent Unit,United States,2018,Google,Google (incl. Google DeepMind)
+Transformer + Simple Recurrent Unit,United States,2018,Princeton University,Princeton University
+TrellisNet,United States,2018,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+TrellisNet,United States,2018,Intel Labs,Intel Labs
+YOLOv3,United States,2018,University of Washington,University of Washington
+ALBERT,United States,2019,Google Research,Google (incl. Google DeepMind)
+ALBERT,United States,2019,Toyota Technological Institute at Chicago,Toyota Technological Institute at Chicago
+AWD-LSTM + MoS + Partial Shuffled,United States,2019,University of Texas at Austin,University of Texas at Austin
+Adaptive Inputs + LayerDrop,United States,2019,Facebook AI Research,Meta (incl. FAIR)
+AlphaX-1,United States,2019,Brown University,Brown University
+AlphaX-1,United States,2019,Facebook AI Research,Meta (incl. FAIR)
+BART-large,United States,2019,Facebook AI,Meta (incl. FAIR)
+BERT-Large-CAS (PTB+WT2+WT103),United States,2019,Amazon,Amazon
+Base LM + kNN LM + Continuous Cache,United States,2019,Facebook AI Research,Meta (incl. FAIR)
+Base LM + kNN LM + Continuous Cache,United States,2019,Stanford University,Stanford University
+Big Transfer (BiT-L),United States,2019,Google Brain,Google (incl. Google DeepMind)
+BigBiGAN,United States,2019,Google,Google (incl. Google DeepMind)
+CPC v2,United States,2019,University of California (UC) Berkeley,University of California (UC) Berkeley
+CamemBERT,United States,2019,Facebook,Meta (incl. FAIR)
+Char-CNN-BiLSTM,United States,2019,Capital One,Capital One
+Cross-lingual alignment,United States,2019,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+DD-PPO,United States,2019,Facebook AI Research,Meta (incl. FAIR)
+DD-PPO,United States,2019,Georgia Institute of Technology,Georgia Institute of Technology
+DD-PPO,United States,2019,Oregon State University,Oregon State University
+DLRM-2020,United States,2019,Facebook AI,Meta (incl. FAIR)
+DistilBERT,United States,2019,Hugging Face,Hugging Face
+EfficientNet-L2,United States,2019,Google,Google (incl. Google DeepMind)
+FixRes ResNeXt-101 WSL,United States,2019,Facebook AI,Meta (incl. FAIR)
+GPT-2 (1.5B),United States,2019,OpenAI,OpenAI
+Hanabi 4 player,United States,2019,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Hanabi 4 player,United States,2019,Google Brain,Google (incl. Google DeepMind)
+KataGo,United States,2019,Jane Street,Jane Street
+LaNet-L (CIFAR-10),United States,2019,Brown University,Brown University
+LaNet-L (CIFAR-10),United States,2019,Facebook,Meta (incl. FAIR)
+M4-50B,United States,2019,Google,Google (incl. Google DeepMind)
+MT-DNN,United States,2019,Microsoft,Microsoft
+Megatron-BERT,United States,2019,Nvidia,Nvidia
+Megatron-LM (1.2B),United States,2019,Nvidia,Nvidia
+Megatron-LM (8.3B),United States,2019,Nvidia,Nvidia
+MoCo,United States,2019,Facebook AI,Meta (incl. FAIR)
+MuseNet,United States,2019,OpenAI,OpenAI
+NMT Transformer 437M,United States,2019,Google,Google (incl. Google DeepMind)
+Neuro-Symbolic Concept Learner,United States,2019,MIT-IBM Watson AI Lab,MIT-IBM Watson AI Lab
+Neuro-Symbolic Concept Learner,United States,2019,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+Noisy Student (L2),United States,2019,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Noisy Student (L2),United States,2019,Google,Google (incl. Google DeepMind)
+OpenAI Five,United States,2019,OpenAI,OpenAI
+OpenAI Five Rerun,United States,2019,OpenAI,OpenAI
+Pluribus,United States,2019,Facebook AI Research,Meta (incl. FAIR)
+RaptorX-Contact,United States,2019,Toyota Technological Institute at Chicago,Toyota Technological Institute at Chicago
+ResNeXt-101 Billion-scale,United States,2019,Facebook AI,Meta (incl. FAIR)
+RoBERTa Large,United States,2019,Facebook,Meta (incl. FAIR)
+RoBERTa Large,United States,2019,University of Washington,University of Washington
+SDE,United States,2019,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+SDE,United States,2019,Google Brain,Google (incl. Google DeepMind)
+Sandwich Transformer,United States,2019,Allen Institute for AI,Allen Institute for AI
+Sandwich Transformer,United States,2019,Facebook AI Research,Meta (incl. FAIR)
+SciBERT,United States,2019,Allen Institute for AI,Allen Institute for AI
+StyleGAN2,United States,2019,Nvidia,Nvidia
+T5-11B,United States,2019,Google,Google (incl. Google DeepMind)
+T5-3B,United States,2019,Google,Google (incl. Google DeepMind)
+Transformer - LibriVox + Decoding/Rescoring,United States,2019,Facebook,Meta (incl. FAIR)
+Transformer ELMo,United States,2019,Allen Institute for AI,Allen Institute for AI
+Transformer ELMo,United States,2019,University of Washington,University of Washington
+Transformer-XL (257M),United States,2019,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Transformer-XL (257M),United States,2019,Google Brain,Google (incl. Google DeepMind)
+Transformer-XL DeFINE (141M),United States,2019,Allen Institute for AI,Allen Institute for AI
+Transformer-XL DeFINE (141M),United States,2019,University of Washington,University of Washington
+Transformer-XL Large + Phrase Induction,United States,2019,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+Transformer-XL Large + Phrase Induction,United States,2019,University of Illinois Urbana-Champaign (UIUC),University of Illinois Urbana-Champaign (UIUC)
+True-Regularization+Finetune+Dynamic-Eval,United States,2019,Williams College,Williams College
+Walking Minotaur robot,United States,2019,Google Brain,Google (incl. Google DeepMind)
+Walking Minotaur robot,United States,2019,University of California (UC) Berkeley,University of California (UC) Berkeley
+WeNet (Penn Treebank),United States,2019,Amazon,Amazon
+XLM,United States,2019,Facebook,Meta (incl. FAIR)
+XLM-RoBERTa,United States,2019,Facebook AI,Meta (incl. FAIR)
+XLNet,United States,2019,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+XLNet,United States,2019,Google Brain,Google (incl. Google DeepMind)
+trRosetta,United States,2019,Harvard University,Harvard University
+trRosetta,United States,2019,University of Washington,University of Washington
+ALBERT-xxlarge,United States,2020,Google,Google (incl. Google DeepMind)
+ALBERT-xxlarge,United States,2020,Toyota Technological Institute at Chicago,Toyota Technological Institute at Chicago
+CT-MoS (WT2),United States,2020,Google,Google (incl. Google DeepMind)
+CURL,United States,2020,University of California (UC) Berkeley,University of California (UC) Berkeley
+Conformer,United States,2020,Google,Google (incl. Google DeepMind)
+Conformer + Wav2vec 2.0 + Noisy Student,United States,2020,Google,Google (incl. Google DeepMind)
+Conformer + Wav2vec 2.0 + Noisy Student,United States,2020,Google Brain,Google (incl. Google DeepMind)
+Conformer + Wav2vec 2.0 + Noisy Student,United States,2020,Google Research,Google (incl. Google DeepMind)
+ContextNet,United States,2020,Google,Google (incl. Google DeepMind)
+ContextNet + Noisy Student,United States,2020,Google,Google (incl. Google DeepMind)
+DETR,United States,2020,Facebook,Meta (incl. FAIR)
+DeLighT,United States,2020,Allen Institute for AI,Allen Institute for AI
+DeLighT,United States,2020,Facebook AI Research,Meta (incl. FAIR)
+DeLighT,United States,2020,University of Washington,University of Washington
+DensePhrases,United States,2020,Princeton University,Princeton University
+ELECTRA,United States,2020,Google,Google (incl. Google DeepMind)
+ELECTRA,United States,2020,Google Brain,Google (incl. Google DeepMind)
+ELECTRA,United States,2020,Stanford University,Stanford University
+ESM1b,United States,2020,Facebook AI Research,Meta (incl. FAIR)
+ESM1b,United States,2020,New York University (NYU),New York University (NYU)
+EfficientDet,United States,2020,Google Brain,Google (incl. Google DeepMind)
+FFN SwiGLU,United States,2020,Google,Google (incl. Google DeepMind)
+Feedback Transformer,United States,2020,Facebook AI Research,Meta (incl. FAIR)
+GPT-3 175B (davinci),United States,2020,OpenAI,OpenAI
+GShard (dense),United States,2020,Google,Google (incl. Google DeepMind)
+Go-explore,United States,2020,OpenAI,OpenAI
+Go-explore,United States,2020,Uber AI,Uber AI
+KEPLER,United States,2020,Princeton University,Princeton University
+LUKE,United States,2020,University of Washington,University of Washington
+Meena,United States,2020,Google Brain,Google (incl. Google DeepMind)
+MetNet,United States,2020,Google,Google (incl. Google DeepMind)
+Once for All,United States,2020,IBM,IBM
+Once for All,United States,2020,MIT-IBM Watson AI Lab,MIT-IBM Watson AI Lab
+Once for All,United States,2020,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+ProBERTa,United States,2020,Reed College,Reed College
+ProBERTa,United States,2020,University of Illinois Urbana-Champaign (UIUC),University of Illinois Urbana-Champaign (UIUC)
+Retrieval-Augmented Generator,United States,2020,Facebook,Meta (incl. FAIR)
+Retrieval-Augmented Generator,United States,2020,New York University (NYU),New York University (NYU)
+Routing Transformer (WT-103),United States,2020,Google Research,Google (incl. Google DeepMind)
+SemExp,United States,2020,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+SemExp,United States,2020,Facebook AI Research,Meta (incl. FAIR)
+SimCLR,United States,2020,Google Brain,Google (incl. Google DeepMind)
+Tensor-Transformer(1core)+PN (WT103),United States,2020,University of California (UC) Berkeley,University of California (UC) Berkeley
+Theseus 6/768,United States,2020,Microsoft,Microsoft
+Theseus 6/768,United States,2020,University of California San Diego,University of California San Diego
+TransformerXL + spectrum control,United States,2020,University of California Los Angeles (UCLA),University of California Los Angeles (UCLA)
+Turing-NLG,United States,2020,Microsoft,Microsoft
+UnifiedQA,United States,2020,Allen Institute for AI,Allen Institute for AI
+UnifiedQA,United States,2020,University of Washington,University of Washington
+ViT-Base/32,United States,2020,Google Brain,Google (incl. Google DeepMind)
+ViT-Huge/14,United States,2020,Google Brain,Google (incl. Google DeepMind)
+ViT-Huge/14,United States,2020,Google Research,Google (incl. Google DeepMind)
+mT5-XXL,United States,2020,Google,Google (incl. Google DeepMind)
+mT5-XXL,United States,2020,Google Research,Google (incl. Google DeepMind)
+wave2vec 2.0 LARGE,United States,2020,Facebook,Meta (incl. FAIR)
+6-Act Tether,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+6-Act Tether,United States,2021,Georgia Institute of Technology,Georgia Institute of Technology
+ADM,United States,2021,OpenAI,OpenAI
+ALIGN,United States,2021,Google Research,Google (incl. Google DeepMind)
+AlphaFold-Multimer,United States,2021,Google DeepMind,Google (incl. Google DeepMind)
+BASIC-L,United States,2021,Google,Google (incl. Google DeepMind)
+BigSSL,United States,2021,Apple,Apple
+BigSSL,United States,2021,Google,Google (incl. Google DeepMind)
+ByT5-XXL,United States,2021,Google,Google (incl. Google DeepMind)
+ByT5-XXL,United States,2021,Google Research,Google (incl. Google DeepMind)
+CLIP (ResNet-50),United States,2021,OpenAI,OpenAI
+CLIP (ViT L/14@336px),United States,2021,OpenAI,OpenAI
+CoAtNet,United States,2021,Google,Google (incl. Google DeepMind)
+CoAtNet,United States,2021,Google Brain,Google (incl. Google DeepMind)
+CoAtNet,United States,2021,Google Research,Google (incl. Google DeepMind)
+CodeT5-base,United States,2021,Salesforce,Salesforce
+Codex,United States,2021,OpenAI,OpenAI
+Contriever,United States,2021,Meta AI,Meta (incl. FAIR)
+DALL-E,United States,2021,OpenAI,OpenAI
+DLWP,United States,2021,Microsoft Research,Microsoft
+DLWP,United States,2021,University of Washington,University of Washington
+DNABERT,United States,2021,Northeastern University,Northeastern University
+DeBERTa,United States,2021,Microsoft,Microsoft
+DeiT-B,United States,2021,Meta AI,Meta (incl. FAIR)
+Denoising Diffusion Probabilistic Models (LSUN Bedroom),United States,2021,University of California (UC) Berkeley,University of California (UC) Berkeley
+EfficientNetV2-XL,United States,2021,Google,Google (incl. Google DeepMind)
+EfficientNetV2-XL,United States,2021,Google Brain,Google (incl. Google DeepMind)
+EfficientZero,United States,2021,University of California (UC) Berkeley,University of California (UC) Berkeley
+Eve,United States,2021,Harvard Medical School,Harvard Medical School
+FLAN 137B,United States,2021,Google Research,Google (incl. Google DeepMind)
+Florence,United States,2021,Microsoft,Microsoft
+Fold2Seq,United States,2021,IBM,IBM
+Fold2Seq,United States,2021,Texas A&M,Texas A&M
+GLaM,United States,2021,Google,Google (incl. Google DeepMind)
+Generative BST,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+HuBERT,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+LDM-1.45B,United States,2021,Runway,Runway
+LongT5,United States,2021,Google Research,Google (incl. Google DeepMind)
+MEB,United States,2021,Microsoft,Microsoft
+MSA Transformer,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+MSA Transformer,United States,2021,New York University (NYU),New York University (NYU)
+MSA Transformer,United States,2021,University of California (UC) Berkeley,University of California (UC) Berkeley
+Masked Autoencoders ViT-H,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+MedBERT,United States,2021,University of Texas at Houston,University of Texas at Houston
+Megatron-Turing NLG 530B,United States,2021,Microsoft,Microsoft
+Megatron-Turing NLG 530B,United States,2021,Nvidia,Nvidia
+Meta Pseudo Labels,United States,2021,Google AI,Google (incl. Google DeepMind)
+Meta Pseudo Labels,United States,2021,Google Brain,Google (incl. Google DeepMind)
+NÜWA,United States,2021,Microsoft Research,Microsoft
+ProtBERT-BFD,United States,2021,Google,Google (incl. Google DeepMind)
+ProtBERT-BFD,United States,2021,Nvidia,Nvidia
+ProtBERT-BFD,United States,2021,Oak Ridge National Laboratory,Oak Ridge National Laboratory
+ProtT5-XL-U50,United States,2021,Google,Google (incl. Google DeepMind)
+ProtT5-XL-U50,United States,2021,Nvidia,Nvidia
+ProtT5-XL-U50,United States,2021,Oak Ridge National Laboratory,Oak Ridge National Laboratory
+S4,United States,2021,Stanford University,Stanford University
+SEER,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+SRU++ Large,United States,2021,ASAPP,ASAPP
+StyleGAN3-R,United States,2021,Nvidia,Nvidia
+StyleGAN3-T,United States,2021,Nvidia,Nvidia
+Switch,United States,2021,Google,Google (incl. Google DeepMind)
+T-NLRv5 XXL,United States,2021,Microsoft,Microsoft
+Transformer local-attention (NesT-B),United States,2021,Google Cloud,Google (incl. Google DeepMind)
+Transformer local-attention (NesT-B),United States,2021,Google Research,Google (incl. Google DeepMind)
+Turing ULRv5,United States,2021,Microsoft,Microsoft
+Unicorn,United States,2021,Allen Institute for AI,Allen Institute for AI
+ViT-G/14,United States,2021,Google Brain,Google (incl. Google DeepMind)
+ViT-G/14,United States,2021,Google Research,Google (incl. Google DeepMind)
+ViT-G/14 (LiT),United States,2021,Google Research,Google (incl. Google DeepMind)
+W2v-BERT,United States,2021,Google Brain,Google (incl. Google DeepMind)
+W2v-BERT,United States,2021,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+XGLM-7.5B,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+XGLM-7.5B,United States,2021,Meta AI,Meta (incl. FAIR)
+XLMR-XXL,United States,2021,Facebook AI Research,Meta (incl. FAIR)
+AlexaTM 20B,United States,2022,Amazon,Amazon
+BEIT-3,United States,2022,Microsoft,Microsoft
+BLOOM-176B,United States,2022,Hugging Face,Hugging Face
+BlenderBot 3,United States,2022,Meta AI,Meta (incl. FAIR)
+CICERO,United States,2022,Meta AI,Meta (incl. FAIR)
+CoCa,United States,2022,Google Research,Google (incl. Google DeepMind)
+CodeT5-large,United States,2022,Salesforce,Salesforce
+DALL·E 2,United States,2022,OpenAI,OpenAI
+DITTO,United States,2022,Apple,Apple
+DeBERTaV3large + KEAR,United States,2022,Microsoft,Microsoft
+DeepNet,United States,2022,Microsoft Research,Microsoft
+Detic,United States,2022,Meta AI,Meta (incl. FAIR)
+Detic,United States,2022,University of Texas at Austin,University of Texas at Austin
+DiffDock,United States,2022,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+Diffusion-GAN,United States,2022,Microsoft,Microsoft
+Diffusion-GAN,United States,2022,UT Austin,UT Austin
+Diplodocus,United States,2022,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+Diplodocus,United States,2022,Meta AI,Meta (incl. FAIR)
+ESM2-15B,United States,2022,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+ESM2-15B,United States,2022,Meta AI,Meta (incl. FAIR)
+ESM2-15B,United States,2022,New York University (NYU),New York University (NYU)
+ESM2-15B,United States,2022,Stanford University,Stanford University
+EnCodec,United States,2022,Meta AI,Meta (incl. FAIR)
+Flan-PaLM 540B,United States,2022,Google,Google (incl. Google DeepMind)
+FourCastNet,United States,2022,California Institute of Technology,California Institute of Technology
+FourCastNet,United States,2022,"NERSC, Lawrence Berkeley National Laboratory","NERSC, Lawrence Berkeley National Laboratory"
+FourCastNet,United States,2022,Nvidia,Nvidia
+FourCastNet,United States,2022,Purdue University,Purdue University
+FourCastNet,United States,2022,Rice University,Rice University
+FourCastNet,United States,2022,University of Michigan,University of Michigan
+GPT-2 Medium (FlashAttention),United States,2022,Stanford University,Stanford University
+GPT-2 Medium (FlashAttention),United States,2022,University at Buffalo,University at Buffalo
+GPT-3.5 (davinci-002),United States,2022,OpenAI,OpenAI
+GPT-NeoX-20B,United States,2022,EleutherAI,EleutherAI
+Galactica,United States,2022,Meta AI,Meta (incl. FAIR)
+GenSLM,United States,2022,California Institute of Technology,California Institute of Technology
+GenSLM,United States,2022,Cerebras Systems,Cerebras Systems
+GenSLM,United States,2022,Harvard University,Harvard University
+GenSLM,United States,2022,Nvidia,Nvidia
+GenSLM,United States,2022,University of Chicago,University of Chicago
+Hybrid H3-2.7B,United States,2022,Stanford University,Stanford University
+Hybrid H3-2.7B,United States,2022,University at Buffalo,University at Buffalo
+Imagen,United States,2022,Google Brain,Google (incl. Google DeepMind)
+InstructGPT 1.3B,United States,2022,OpenAI,OpenAI
+InstructGPT 175B,United States,2022,OpenAI,OpenAI
+InstructGPT 6B,United States,2022,OpenAI,OpenAI
+LMSI-Palm,United States,2022,Google,Google (incl. Google DeepMind)
+LMSI-Palm,United States,2022,University of Illinois Urbana-Champaign (UIUC),University of Illinois Urbana-Champaign (UIUC)
+LaMDA,United States,2022,Google,Google (incl. Google DeepMind)
+Make-A-Scene,United States,2022,Meta AI,Meta (incl. FAIR)
+Make-A-Video,United States,2022,Meta AI,Meta (incl. FAIR)
+MaskGIT (ImageNet),United States,2022,Google Research,Google (incl. Google DeepMind)
+MegaSyn,United States,2022,Collaborations Pharmaceuticals,Collaborations Pharmaceuticals
+MetaLM,United States,2022,Microsoft Research,Microsoft
+Midjourney V1,United States,2022,Midjourney,Midjourney
+Minerva (540B),United States,2022,Google,Google (incl. Google DeepMind)
+NLLB,United States,2022,Meta AI,Meta (incl. FAIR)
+OPT-175B,United States,2022,Meta AI,Meta (incl. FAIR)
+OmegaPLM,United States,2022,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+PaLI,United States,2022,Google,Google (incl. Google DeepMind)
+PaLM (540B),United States,2022,Google Research,Google (incl. Google DeepMind)
+Parti,United States,2022,Google Research,Google (incl. Google DeepMind)
+Phenaki,United States,2022,Google Brain,Google (incl. Google DeepMind)
+Phenaki,United States,2022,University of Michigan,University of Michigan
+PolyCoder,United States,2022,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+ProGen2-xlarge,United States,2022,Columbia University,Columbia University
+ProGen2-xlarge,United States,2022,Johns Hopkins University,Johns Hopkins University
+ProGen2-xlarge,United States,2022,Salesforce Research,Salesforce
+ProteinBERT,United States,2022,Deep Trading,Deep Trading
+RT-1,United States,2022,Google,Google (incl. Google DeepMind)
+ST-MoE,United States,2022,Google,Google (incl. Google DeepMind)
+ST-MoE,United States,2022,Google Brain,Google (incl. Google DeepMind)
+ST-MoE,United States,2022,Google Research,Google (incl. Google DeepMind)
+"Segatron-XL large, M=384 + HCP",United States,2022,Microsoft Research,Microsoft
+SimCSE,United States,2022,Princeton University,Princeton University
+Sparse all-MLP,United States,2022,Meta AI,Meta (incl. FAIR)
+Stable Diffusion (LDM-KL-8-G),United States,2022,Runway,Runway
+Statement Curriculum Learning,United States,2022,OpenAI,OpenAI
+TranceptEve,United States,2022,Harvard Medical School,Harvard Medical School
+Tranception,United States,2022,Harvard Medical School,Harvard Medical School
+U-PaLM (540B),United States,2022,Google,Google (incl. Google DeepMind)
+UL2,United States,2022,Google Brain,Google (incl. Google DeepMind)
+UL2,United States,2022,Google Research,Google (incl. Google DeepMind)
+Vega v2,United States,2022,Washington University in St Louis,Washington University in St Louis
+ViT-G (model soup),United States,2022,Columbia University,Columbia University
+ViT-G (model soup),United States,2022,Google,Google (incl. Google DeepMind)
+ViT-G (model soup),United States,2022,Meta AI,Meta (incl. FAIR)
+ViT-G (model soup),United States,2022,University of Washington,University of Washington
+Whisper,United States,2022,OpenAI,OpenAI
+XMC-GAN,United States,2022,Google Research,Google (incl. Google DeepMind)
+data2vec (language),United States,2022,Meta AI,Meta (incl. FAIR)
+data2vec (speech),United States,2022,Meta AI,Meta (incl. FAIR)
+data2vec (vision),United States,2022,Meta AI,Meta (incl. FAIR)
+eDiff-I,United States,2022,Nvidia,Nvidia
+mT0-13B,United States,2022,Hugging Face,Hugging Face
+Agile Soccer Robot,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+AlphaMissense,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+Amazon Titan,United States,2023,Amazon,Amazon
+Ankh_large,United States,2023,Columbia University,Columbia University
+AudioGen,United States,2023,Meta AI,Meta (incl. FAIR)
+AudioLM,United States,2023,Google Research,Google (incl. Google DeepMind)
+BASIC-L + Lion,United States,2023,Google,Google (incl. Google DeepMind)
+BASIC-L + Lion,United States,2023,University of California Los Angeles (UCLA),University of California Los Angeles (UCLA)
+BLIP-2 (Q-Former),United States,2023,Salesforce Research,Salesforce
+BLUUMI,United States,2023,Hugging Face,Hugging Face
+BloombergGPT,United States,2023,Bloomberg,Bloomberg
+BloombergGPT,United States,2023,Johns Hopkins University,Johns Hopkins University
+CODEFUSION (Python),United States,2023,Microsoft,Microsoft
+CODEFUSION (Python),United States,2023,Microsoft Research,Microsoft
+CTM (CIFAR-10),United States,2023,Stanford University,Stanford University
+Claude,United States,2023,Anthropic,Anthropic
+Claude 2,United States,2023,Anthropic,Anthropic
+Claude 2.1,United States,2023,Anthropic,Anthropic
+CoEdiT-xxl,United States,2023,Grammarly,Grammarly
+CoEdiT-xxl,United States,2023,University of Minnesota,University of Minnesota
+CodeT5+,United States,2023,Salesforce,Salesforce
+DALL·E 3,United States,2023,OpenAI,OpenAI
+DINOv2,United States,2023,Facebook AI Research,Meta (incl. FAIR)
+DPO on Pythia-2.8B,United States,2023,CZ Biohub Network,CZ Biohub Network
+DPO on Pythia-2.8B,United States,2023,Stanford University,Stanford University
+DiT-XL/2,United States,2023,New York University (NYU),New York University (NYU)
+DiT-XL/2,United States,2023,University of California (UC) Berkeley,University of California (UC) Berkeley
+DiT-XL/2 + CADS,United States,2023,Disney Research,Disney Research
+Ferret (13B),United States,2023,Apple,Apple
+Ferret (13B),United States,2023,Columbia University,Columbia University
+FinGPT-13B,United States,2023,Columbia University,Columbia University
+FinGPT-13B,United States,2023,New York University (NYU),New York University (NYU)
+FinGPT-13B,United States,2023,University of California Los Angeles (UCLA),University of California Los Angeles (UCLA)
+Firefly,United States,2023,Adobe,Adobe
+FunSearch,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+GGNN,United States,2023,Toyota Technological Institute at Chicago,Toyota Technological Institute at Chicago
+GNoME for crystal discovery,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+GPT-3.5 Turbo,United States,2023,OpenAI,OpenAI
+GPT-3.5 Turbo Instruct,United States,2023,OpenAI,OpenAI
+GPT-4 (Jun 2023),United States,2023,OpenAI,OpenAI
+GPT-4 (Mar 2023),United States,2023,OpenAI,OpenAI
+GPT-4 Turbo (Nov 2023),United States,2023,OpenAI,OpenAI
+GPT-4V,United States,2023,OpenAI,OpenAI
+GPT3-2.7B (FlashAttention-2),United States,2023,Princeton University,Princeton University
+GPT3-2.7B (FlashAttention-2),United States,2023,Stanford University,Stanford University
+GQA-8-XXL,United States,2023,Google Research,Google (incl. Google DeepMind)
+Gemini 1.0 Pro,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 1.0 Ultra,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+Gemini Nano-1,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+Gemini Nano-2,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+Gen-1,United States,2023,Runway,Runway
+Gen-2,United States,2023,Runway,Runway
+GraphCast,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+Grok-1,United States,2023,xAI,xAI
+HyenaDNA,United States,2023,Harvard University,Harvard University
+HyenaDNA,United States,2023,Stanford University,Stanford University
+ImageBind,United States,2023,Meta AI,Meta (incl. FAIR)
+Incoder-6.7B,United States,2023,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Incoder-6.7B,United States,2023,Facebook AI Research,Meta (incl. FAIR)
+Incoder-6.7B,United States,2023,Toyota Technological Institute at Chicago,Toyota Technological Institute at Chicago
+Incoder-6.7B,United States,2023,University of California (UC) Berkeley,University of California (UC) Berkeley
+Incoder-6.7B,United States,2023,University of Washington,University of Washington
+Inflection-2,United States,2023,Inflection AI,Inflection AI
+InstructBLIP,United States,2023,Salesforce Research,Salesforce
+Jais,United States,2023,Cerebras Systems,Cerebras Systems
+LLaMA-65B,United States,2023,Meta AI,Meta (incl. FAIR)
+LLaVA,United States,2023,Columbia University,Columbia University
+LLaVA,United States,2023,Microsoft Research,Microsoft
+LLaVA,United States,2023,University of Wisconsin Madison,University of Wisconsin Madison
+LLaVA 1.5,United States,2023,Microsoft Research,Microsoft
+LLaVA 1.5,United States,2023,University of Wisconsin Madison,University of Wisconsin Madison
+LTM-1,United States,2023,Magic,Magic
+Llama 2-70B,United States,2023,Meta AI,Meta (incl. FAIR)
+Llama 2-7B,United States,2023,Meta AI,Meta (incl. FAIR)
+Llama Guard,United States,2023,Meta AI,Meta (incl. FAIR)
+Mamba-24M (SC09),United States,2023,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Mamba-24M (SC09),United States,2023,Princeton University,Princeton University
+Med-PaLM 2,United States,2023,Google Research,Google (incl. Google DeepMind)
+MultiBand Diffusion,United States,2023,Meta AI,Meta (incl. FAIR)
+MusicGen,United States,2023,Meta AI,Meta (incl. FAIR)
+MusicLM,United States,2023,Google,Google (incl. Google DeepMind)
+Nemotron-3-8B,United States,2023,Nvidia,Nvidia
+Nucleotide Transformer,United States,2023,Nvidia,Nvidia
+OmniVec,United States,2023,TensorTour,TensorTour
+PPLX-70B-Online,United States,2023,Perplexity,Perplexity
+PaLI-3,United States,2023,Google Cloud,Google (incl. Google DeepMind)
+PaLI-3,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+PaLI-3,United States,2023,Google Research,Google (incl. Google DeepMind)
+PaLI-X,United States,2023,Google Research,Google (incl. Google DeepMind)
+PaLM 2,United States,2023,Google,Google (incl. Google DeepMind)
+PaLM-E,United States,2023,Google,Google (incl. Google DeepMind)
+PeptideBERT,United States,2023,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+ProteinDT,United States,2023,California Institute of Technology,California Institute of Technology
+ProteinDT,United States,2023,Nvidia,Nvidia
+ProteinDT,United States,2023,Texas A&M,Texas A&M
+ProteinDT,United States,2023,University of California (UC) Berkeley,University of California (UC) Berkeley
+ProteinDT,United States,2023,University of Wisconsin Madison,University of Wisconsin Madison
+RT-2,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+RT-2-X,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+RT-Trajectory,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+RT-Trajectory,United States,2023,Stanford University,Stanford University
+RT-Trajectory,United States,2023,University of California San Diego,University of California San Diego
+Robot Parkour,United States,2023,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Robot Parkour,United States,2023,Stanford University,Stanford University
+RoseTTAFold All-Atom (RFAA),United States,2023,University of Washington,University of Washington
+SeamlessM4T,United States,2023,Facebook,Meta (incl. FAIR)
+SeamlessM4T,United States,2023,University of California (UC) Berkeley,University of California (UC) Berkeley
+Segment Anything Model,United States,2023,Meta AI,Meta (incl. FAIR)
+SigLIP 400M,United States,2023,Google DeepMind,Google (incl. Google DeepMind)
+StarCoder,United States,2023,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+StarCoder,United States,2023,Columbia University,Columbia University
+StarCoder,United States,2023,EleutherAI,EleutherAI
+StarCoder,United States,2023,Hugging Face,Hugging Face
+StarCoder,United States,2023,IBM,IBM
+StarCoder,United States,2023,Johns Hopkins University,Johns Hopkins University
+StarCoder,United States,2023,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+StarCoder,United States,2023,New York University (NYU),New York University (NYU)
+StarCoder,United States,2023,Northeastern University,Northeastern University
+StarCoder,United States,2023,Roblox,Roblox
+StarCoder,United States,2023,Saama,Saama
+StarCoder,United States,2023,ServiceNow,ServiceNow
+StarCoder,United States,2023,Stanford University,Stanford University
+StarCoder,United States,2023,University of Notre Dame,University of Notre Dame
+StarCoder,United States,2023,University of Vermont,University of Vermont
+StarCoder,United States,2023,Wellesley College,Wellesley College
+Swift,United States,2023,Intel Labs,Intel Labs
+VALL-E,United States,2023,Microsoft,Microsoft
+VILA-13B,United States,2023,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+VILA-13B,United States,2023,Nvidia,Nvidia
+ViT-22B,United States,2023,Google,Google (incl. Google DeepMind)
+W.A.L.T,United States,2023,Georgia Institute of Technology,Georgia Institute of Technology
+W.A.L.T,United States,2023,Google Research,Google (incl. Google DeepMind)
+W.A.L.T,United States,2023,Stanford University,Stanford University
+AFM-on-device,United States,2024,Apple,Apple
+AFM-server,United States,2024,Apple,Apple
+AlphaFold 3,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+AlphaGeometry,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+AlphaGeometry,United States,2024,New York University (NYU),New York University (NYU)
+AlphaProteo,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+Amazon Nova Pro,United States,2024,Amazon,Amazon
+Apollo 7B,United States,2024,Meta AI,Meta (incl. FAIR)
+Apollo 7B,United States,2024,Stanford University,Stanford University
+Aya,United States,2024,Brown University,Brown University
+Aya,United States,2024,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Aya,United States,2024,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+CHAI-1,United States,2024,Chai discovery,Chai discovery
+Cambrian-1-34B,United States,2024,New York University (NYU),New York University (NYU)
+Claude 3 Opus,United States,2024,Anthropic,Anthropic
+Claude 3 Sonnet,United States,2024,Anthropic,Anthropic
+Claude 3.5 Sonnet,United States,2024,Anthropic,Anthropic
+DBRX,United States,2024,Databricks,Databricks
+ESM3 (98B),United States,2024,EvolutionaryScale,EvolutionaryScale
+ESM3 (98B),United States,2024,University of California (UC) Berkeley,University of California (UC) Berkeley
+Fugatto 1,United States,2024,Nvidia,Nvidia
+GPT-4 Turbo (Apr 2024),United States,2024,OpenAI,OpenAI
+GPT-4o,United States,2024,OpenAI,OpenAI
+GPT-4o (Aug 2024),United States,2024,OpenAI,OpenAI
+GPT-4o (Nov 2024),United States,2024,OpenAI,OpenAI
+GPT-4o mini,United States,2024,OpenAI,OpenAI
+Gemini 1.5 Pro,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 2.0 Pro,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+Gemini-Exp-1114,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+GenCast,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+Grok-2,United States,2024,xAI,xAI
+Inflection-2.5,United States,2024,Inflection AI,Inflection AI
+Llama 3-70B,United States,2024,Meta AI,Meta (incl. FAIR)
+Llama 3.1-405B,United States,2024,Meta AI,Meta (incl. FAIR)
+Llama 3.2 11B,United States,2024,Meta AI,Meta (incl. FAIR)
+Llama 3.3 70B,United States,2024,Meta AI,Meta (incl. FAIR)
+Llama-3.1-Nemotron-70B-Instruct,United States,2024,Meta AI,Meta (incl. FAIR)
+Llama-3.1-Nemotron-70B-Instruct,United States,2024,Nvidia,Nvidia
+MM1-30B,United States,2024,Apple,Apple
+ManiGaussian,United States,2024,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Movie Gen Video,United States,2024,Meta AI,Meta (incl. FAIR)
+NVILA 15B,United States,2024,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+NVILA 15B,United States,2024,Nvidia,Nvidia
+NVILA 15B,United States,2024,University of California (UC) Berkeley,University of California (UC) Berkeley
+NVILA 15B,United States,2024,University of California San Diego,University of California San Diego
+NVILA 15B,United States,2024,University of Washington,University of Washington
+NVLM-D 72B,United States,2024,Nvidia,Nvidia
+NVLM-H 72B,United States,2024,Nvidia,Nvidia
+NVLM-X 72B,United States,2024,Nvidia,Nvidia
+Nemotron-4 340B,United States,2024,Nvidia,Nvidia
+Octo-Base,United States,2024,Carnegie Mellon University (CMU),Carnegie Mellon University (CMU)
+Octo-Base,United States,2024,Stanford University,Stanford University
+Octo-Base,United States,2024,University of California (UC) Berkeley,University of California (UC) Berkeley
+OpenVLA,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+OpenVLA,United States,2024,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+OpenVLA,United States,2024,Physical Intelligence,Physical Intelligence
+OpenVLA,United States,2024,Stanford University,Stanford University
+OpenVLA,United States,2024,Toyota Research Institute,Toyota Research Institute
+OpenVLA,United States,2024,University of California (UC) Berkeley,University of California (UC) Berkeley
+Palmyra X 003,United States,2024,Writer,Writer
+Palmyra X 004,United States,2024,Writer,Writer
+ReALM,United States,2024,Apple,Apple
+Reka Core,United States,2024,Reka AI,Reka AI
+STORM-B/8,United States,2024,Georgia Institute of Technology,Georgia Institute of Technology
+STORM-B/8,United States,2024,Nvidia,Nvidia
+STORM-B/8,United States,2024,Stanford University,Stanford University
+STORM-B/8,United States,2024,University of Southern California,University of Southern California
+Sora,United States,2024,OpenAI,OpenAI
+Sora Turbo,United States,2024,OpenAI,OpenAI
+Suno v4,United States,2024,Suno,Suno
+Table Tennis Agent,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+VILA1.5-13B,United States,2024,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT)
+VILA1.5-13B,United States,2024,Nvidia,Nvidia
+Veo 2,United States,2024,Google DeepMind,Google (incl. Google DeepMind)
+o1,United States,2024,OpenAI,OpenAI
+o1-mini,United States,2024,OpenAI,OpenAI
+o1-preview,United States,2024,OpenAI,OpenAI
+o3,United States,2024,OpenAI,OpenAI
+Claude 3.7 Sonnet,United States,2025,Anthropic,Anthropic
+Claude Haiku 4.5,United States,2025,Anthropic,Anthropic
+Claude Opus 4,United States,2025,Anthropic,Anthropic
+Claude Opus 4.1,United States,2025,Anthropic,Anthropic
+Claude Opus 4.5,United States,2025,Anthropic,Anthropic
+Claude Sonnet 4,United States,2025,Anthropic,Anthropic
+Claude Sonnet 4.5,United States,2025,Anthropic,Anthropic
+Computer-Using Agent (CUA),United States,2025,OpenAI,OpenAI
+Diffusion Renderer,United States,2025,Nvidia,Nvidia
+Diffusion Renderer,United States,2025,University of Illinois Urbana-Champaign (UIUC),University of Illinois Urbana-Champaign (UIUC)
+Eagle 2,United States,2025,Johns Hopkins University,Johns Hopkins University
+Eagle 2,United States,2025,New York University (NYU),New York University (NYU)
+Eagle 2,United States,2025,Nvidia,Nvidia
+Eurus-2-7B-PRIME,United States,2025,University of Illinois Urbana-Champaign (UIUC),University of Illinois Urbana-Champaign (UIUC)
+FGN,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+GPT-4.5,United States,2025,OpenAI,OpenAI
+GPT-4o (Jan 2025),United States,2025,OpenAI,OpenAI
+GPT-4o (Mar 2025),United States,2025,OpenAI,OpenAI
+GPT-5,United States,2025,OpenAI,OpenAI
+GPT-5 Pro,United States,2025,OpenAI,OpenAI
+GPT-5 mini,United States,2025,OpenAI,OpenAI
+GPT-5 nano,United States,2025,OpenAI,OpenAI
+GPT-5.1,United States,2025,OpenAI,OpenAI
+GPT-5.1 Instant,United States,2025,OpenAI,OpenAI
+GPT-5.1-Codex,United States,2025,OpenAI,OpenAI
+GPT-5.1-Codex-Max,United States,2025,OpenAI,OpenAI
+GPT-5.2,United States,2025,OpenAI,OpenAI
+GPT-5.2 Codex,United States,2025,OpenAI,OpenAI
+GPT-5.2 Pro,United States,2025,OpenAI,OpenAI
+Gemini 2.5 Deep Think,United States,2025,Google,Google (incl. Google DeepMind)
+Gemini 2.5 Deep Think,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 2.5 Flash Image (Nano Banana),United States,2025,Google,Google (incl. Google DeepMind)
+Gemini 2.5 Pro (Jun 2025),United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 2.5 Pro (Mar 2025),United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 2.5 Pro (May 2025),United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 3 Deep Think,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 3 Pro,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini 3 Pro Image (Nano Banana Pro),United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini Embedding,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Gemini Robotics-ER 1.5,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Grok 3,United States,2025,xAI,xAI
+Grok 4,United States,2025,xAI,xAI
+Grok 4 Heavy,United States,2025,xAI,xAI
+Grok 4.1,United States,2025,xAI,xAI
+Grok 4.1 Fast,United States,2025,xAI,xAI
+INTELLECT-MATH,United States,2025,Prime Intellect,Prime Intellect
+Imagen 4,United States,2025,Google,Google (incl. Google DeepMind)
+Kaiju Large,United States,2025,Character.ai,Character.ai
+Kaiju Medium,United States,2025,Character.ai,Character.ai
+Kaiju Small,United States,2025,Character.ai,Character.ai
+Llama 4 Behemoth (preview),United States,2025,Meta AI,Meta (incl. FAIR)
+Llama 4 Maverick,United States,2025,Meta AI,Meta (incl. FAIR)
+Llama 4 Scout,United States,2025,Meta AI,Meta (incl. FAIR)
+Mercury,United States,2025,Inception Labs,Inception Labs
+Meta's Generative Ads Model (GEM),United States,2025,Meta AI,Meta (incl. FAIR)
+Nemotron 3-Nano-30B-A3B,United States,2025,Nvidia,Nvidia
+Olmo 3,United States,2025,Allen Institute for AI,Allen Institute for AI
+SIMA 2,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Sora 2.0,United States,2025,OpenAI,OpenAI
+Stable Point Aware 3D (SPAR3D),United States,2025,University of Illinois Urbana-Champaign (UIUC),University of Illinois Urbana-Champaign (UIUC)
+Veo 3,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+Veo 3.1,United States,2025,Google DeepMind,Google (incl. Google DeepMind)
+gpt-image-1,United States,2025,OpenAI,OpenAI
+gpt-oss-120b,United States,2025,OpenAI,OpenAI
+gpt-oss-20b,United States,2025,OpenAI,OpenAI
+o1-pro,United States,2025,OpenAI,OpenAI
+o3-mini,United States,2025,OpenAI,OpenAI
+π0.6 (pi-0.6),United States,2025,Physical Intelligence,Physical Intelligence

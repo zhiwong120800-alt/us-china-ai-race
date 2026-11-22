@@ -1,0 +1,27 @@
+org,country,parent,evidence,rule
+Alibaba DAMO Academy,China,Alibaba,epoch positional match (1 rows),merged (same company)
+Chongqing University of Posts and Telecommunications,China,Chongqing University of Posts and Telecommunications,manual: Located in Chongqing,unchanged
+DeepMind,United Kingdom,Google (incl. Google DeepMind),epoch positional match (44 rows),merged (same company)
+Disney Research,United States of America,Disney Research,manual: Only row (DiT-XL/2 + CADS) lists US alongside ETH Zurich's Switzerland,unchanged
+Facebook,United States of America,Meta (incl. FAIR),epoch positional match (13 rows),merged (same company)
+Facebook AI,United States of America,Meta (incl. FAIR),epoch positional match (6 rows),merged (same company)
+Facebook AI Research,United States of America,Meta (incl. FAIR),"manual: HQ Menlo Park; Epoch lists FAIR as 'United States of America,France' (Paris lab)",merged (same company)
+Google,United States of America,Google (incl. Google DeepMind),epoch positional match (82 rows),relabelled (location added)
+Google AI,United States of America,Google (incl. Google DeepMind),epoch positional match (1 rows),merged (same company)
+Google Brain,United States of America,Google (incl. Google DeepMind),epoch positional match (31 rows),merged (same company)
+Google Cloud,United States of America,Google (incl. Google DeepMind),epoch positional match (2 rows),merged (same company)
+Google DeepMind,United States of America,Google (incl. Google DeepMind),epoch positional match (50 rows),merged (same company)
+Google Research,United States of America,Google (incl. Google DeepMind),epoch positional match (30 rows),merged (same company)
+Huawei Noah's Ark Lab,China,Huawei,epoch positional match (2 rows),merged (same company)
+JD Explore Academy,China,JD Explore Academy,"manual: Research arm of JD.com, Beijing",unchanged
+Meta AI,United States of America,Meta (incl. FAIR),epoch positional match (42 rows),merged (same company)
+MetaMind Inc,United States of America,Salesforce,epoch positional match (1 rows),merged (same company)
+Microsoft Research,United States of America,Microsoft,epoch positional match (17 rows),merged (same company)
+Microsoft Research Asia,China,Microsoft Research Asia (Beijing),epoch positional match (5 rows),relabelled (location added)
+Salesforce Research,United States of America,Salesforce,epoch positional match (8 rows),merged (same company)
+Samsung R&D Institute Russia,Russia,Samsung,epoch positional match (1 rows),merged (same company)
+Simon Fraser University,Canada,Simon Fraser University,"manual: Located in Burnaby, BC",unchanged
+University of Lorraine,France,University of Lorraine,manual: Located in Nancy/Metz,unchanged
+University of Sydney,Australia,University of Sydney,manual: Located in Sydney,unchanged
+Washington University in St Louis,United States of America,Washington University in St Louis,"manual: Located in St Louis, Missouri",unchanged
+Wuhan University,China,Wuhan University,manual: Located in Wuhan,unchanged

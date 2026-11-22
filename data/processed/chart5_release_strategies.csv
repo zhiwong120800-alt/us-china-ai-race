@@ -1,18 +1,55 @@
 Year,Country,Release_Strategy,count,total,percentage
-2023,China,API/Hosted,3,14,21.428571428571427
-2023,China,Open Weights,8,14,57.14285714285714
-2023,China,Unreleased,3,14,21.428571428571427
-2023,United States,API/Hosted,20,50,40.0
-2023,United States,Open Weights,15,50,30.0
-2023,United States,Unreleased,15,50,30.0
-2024,China,API/Hosted,12,26,46.15384615384615
-2024,China,Open Weights,12,26,46.15384615384615
-2024,China,Unreleased,2,26,7.6923076923076925
-2024,United States,API/Hosted,27,45,60.0
-2024,United States,Open Weights,10,45,22.22222222222222
-2024,United States,Unreleased,8,45,17.77777777777778
-2025,China,API/Hosted,7,31,22.58064516129032
-2025,China,Open Weights,24,31,77.41935483870968
-2025,United States,API/Hosted,46,59,77.96610169491525
-2025,United States,Open Weights,7,59,11.864406779661017
-2025,United States,Unreleased,6,59,10.16949152542373
+2016,United States,API / hosted,1,36,2.777778
+2016,United States,Open weights,9,36,25.000000
+2016,United States,Unknown,15,36,41.666667
+2016,United States,Unreleased,11,36,30.555556
+2017,United States,Unknown,20,29,68.965517
+2017,United States,Unreleased,9,29,31.034483
+2018,United States,Open weights,8,27,29.629630
+2018,United States,Unknown,7,27,25.925926
+2018,United States,Unreleased,12,27,44.444444
+2019,United States,Open weights,27,56,48.214286
+2019,United States,Unreleased,29,56,51.785714
+2020,United States,API / hosted,1,37,2.702703
+2020,United States,Open weights,21,37,56.756757
+2020,United States,Unreleased,15,37,40.540541
+2021,United States,API / hosted,4,54,7.407407
+2021,United States,Open weights,31,54,57.407407
+2021,United States,Unreleased,19,54,35.185185
+2022,United States,API / hosted,11,68,16.176471
+2022,United States,Open weights,32,68,47.058824
+2022,United States,Unknown,1,68,1.470588
+2022,United States,Unreleased,24,68,35.294118
+2023,United States,API / hosted,20,86,23.255814
+2023,United States,Open weights,37,86,43.023256
+2023,United States,Unreleased,29,86,33.720930
+2024,United States,API / hosted,27,57,47.368421
+2024,United States,Open weights,20,57,35.087719
+2024,United States,Unreleased,10,57,17.543860
+2025,United States,API / hosted,47,64,73.437500
+2025,United States,Open weights,11,64,17.187500
+2025,United States,Unreleased,6,64,9.375000
+2016,China,Open weights,2,6,33.333333
+2016,China,Unknown,1,6,16.666667
+2016,China,Unreleased,3,6,50.000000
+2017,China,Unknown,7,10,70.000000
+2017,China,Unreleased,3,10,30.000000
+2018,China,Unreleased,1,1,100.000000
+2019,China,Open weights,1,6,16.666667
+2019,China,Unreleased,5,6,83.333333
+2020,China,Open weights,4,8,50.000000
+2020,China,Unreleased,4,8,50.000000
+2021,China,API / hosted,3,21,14.285714
+2021,China,Open weights,10,21,47.619048
+2021,China,Unreleased,8,21,38.095238
+2022,China,API / hosted,1,12,8.333333
+2022,China,Open weights,7,12,58.333333
+2022,China,Unreleased,4,12,33.333333
+2023,China,API / hosted,3,23,13.043478
+2023,China,Open weights,13,23,56.521739
+2023,China,Unreleased,7,23,30.434783
+2024,China,API / hosted,12,31,38.709677
+2024,China,Open weights,16,31,51.612903
+2024,China,Unreleased,3,31,9.677419
+2025,China,API / hosted,7,35,20.000000
+2025,China,Open weights,28,35,80.000000
