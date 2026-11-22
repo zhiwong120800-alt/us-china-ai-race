@@ -12,6 +12,7 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 import hashlib
+import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data/raw/epoch_notable_ai_models_20261020.csv"
@@ -92,7 +93,11 @@ def main():
     reviewed = {r["org"]: r for r in manual3}
     family = {r["developer"]: r["family"] for r in aff3}
     mapping = []
-    for org in sorted(names, key=lambda x: x.casefold()):
+    def browser_sort_key(value):
+        normalized = unicodedata.normalize("NFKD", value)
+        normalized = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+        return normalized.casefold().replace("’","").replace("‘","").replace("'","")
+    for org in sorted(names, key=browser_sort_key):
         explicit = reviewed.get(org)
         observed = source_countries[org]
         mapping.append({
