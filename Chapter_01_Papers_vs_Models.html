@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--paper:#FAF9F5;--ink:#202C29;--muted:#647168;--line:#D8DFD8;--us:#27679B;--cn:#B45339;--soft:#F0F3EE}
+*{box-sizing:border-box}
+html,body{padding:0;margin:0;overflow-x:hidden;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+button,select{font:inherit}
+button:focus-visible,select:focus-visible,.ledger tr:focus-visible{outline:2px solid var(--us);outline-offset:3px}
+button{cursor:pointer}
+.viz{width:100%;padding:0 2px 18px;overflow:hidden}
+.toolbar{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;border-bottom:1px solid #AAB9AD;padding:12px 0 23px}
+.toolbar h3{font:400 1.5rem/1.15 Georgia,serif;margin:0 0 5px;color:#202D28;letter-spacing:-.02em}
+.toolbar p{color:#647168;font-size:.82rem;margin:0;max-width:395px;line-height:1.5}
+.control-group{display:flex;align-items:center;gap:11px;flex-wrap:wrap;justify-content:flex-end}
+.segment{display:flex;padding:3px;background:#E9EEE8;border:1px solid #D3DDD4;border-radius:8px;gap:3px}
+.segment button{border:0;border-radius:6px;background:transparent;color:#5B6A60;padding:9px 13px;font-size:.8rem;font-weight:650;white-space:nowrap;transition:background .2s,color .2s}
+.segment button[aria-pressed="true"]{background:#FFF;color:#154B3A;box-shadow:0 1px 4px rgba(29,60,45,.12)}
+.years-control{display:flex;align-items:center;gap:5px;color:#67736A;font-size:.8rem}
+.years-control select{appearance:none;border:1px solid #CBD7CC;border-radius:6px;background:#FFF;color:#253830;padding:9px 22px 9px 9px;font-weight:600;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%23526058' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:10px 7px;background-position:right 7px center}
+.replay{border:1px solid #C5D3C8;color:#1D5642;background:transparent;border-radius:6px;font-size:.78rem;font-weight:650;padding:9px 11px;white-space:nowrap}
+.replay:hover{background:#EDF3EC}
+.legend{display:flex;align-items:center;gap:23px;padding:18px 0 5px;color:#4E5C53;font-size:.81rem}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:19px;height:3px;border-radius:2px;display:inline-block}
+.legend .us{background:var(--us)}.legend .cn{background:var(--cn)}
+.panel{padding:21px 0 16px;border-bottom:1px solid var(--line)}
+.panel-heading{display:flex;align-items:baseline;gap:15px;margin:0 0 9px}
+.panel-heading h4{font:400 1.72rem/1.22 Georgia,serif;color:#23302A;margin:0}
+.panel-heading span{color:#6E7970;font-size:.78rem;letter-spacing:.01em}
+.panel-grid{display:grid;grid-template-columns:minmax(0,1fr) 164px;gap:17px;align-items:center}
+svg.plot{width:100%;height:238px;display:block;overflow:visible}
+.gridline{stroke:#DBE3DC;stroke-width:1;vector-effect:non-scaling-stroke}
+.parity{stroke:#839587;stroke-width:1.2;stroke-dasharray:5 5;opacity:.6;vector-effect:non-scaling-stroke}
+.ax-label{font:11px system-ui,sans-serif;fill:#79867C}
+.year-label{font:10.5px system-ui,sans-serif;fill:#76857A}
+.vertical-focus{stroke:#8DA699;stroke-width:1.35;stroke-dasharray:3 5;vector-effect:non-scaling-stroke}
+.chart-line{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.5;vector-effect:non-scaling-stroke}
+.chart-dot{stroke:#FAF9F5;stroke-width:2;vector-effect:non-scaling-stroke}
+.dot-focus{stroke:#FAF9F5;stroke-width:3;vector-effect:non-scaling-stroke}
+.hit{cursor:pointer;fill:transparent}
+.selected-label{font:700 12px system-ui,sans-serif;paint-order:stroke fill;stroke:var(--paper);stroke-width:4;stroke-linejoin:round}
+.panel-readout{background:#F0F3EE;align-self:center;padding:17px 15px 14px;min-height:175px}
+.panel-readout .read-year{font-size:.72rem;letter-spacing:.1em;color:#69786D;margin:0 0 14px}
+.read-line{display:flex;flex-direction:column;gap:2px;margin:0 0 12px}
+.read-name{font-size:.75rem;font-weight:650;color:#68756C}
+.read-line strong{font:400 1.5rem/1.14 Georgia,serif;font-variant-numeric:tabular-nums}
+.read-line.us strong{color:var(--us)}.read-line.cn strong{color:var(--cn)}
+.read-unit{font-size:.69rem;color:#6A796E}
+.timeline{display:flex;align-items:center;gap:7px;padding:16px 0 15px}
+.timeline-label{font-size:.74rem;font-weight:700;color:#69786B;margin-right:auto}
+.year-button{font-variant-numeric:tabular-nums;border:1px solid #D4DFD4;color:#647368;padding:7px 8px;background:transparent;border-radius:4px;font-size:.73rem;min-width:48px}
+.year-button[aria-pressed="true"]{background:#164E3D;color:#FFF;border-color:#164E3D}
+.year-button:hover:not([aria-pressed="true"]){background:#E8EFE7}
+.insight{display:flex;align-items:center;gap:24px;padding:20px 24px;background:#EAF0E8;border-top:1px solid #D7E1D6;border-bottom:1px solid #D7E1D6}
+.insight strong{font:400 1.4rem/1.28 Georgia,serif;color:#204132;min-width:250px}
+.insight p{margin:0;font-size:.88rem;line-height:1.55;color:#526157;max-width:660px}
+.ledger-head{display:flex;align-items:baseline;justify-content:space-between;gap:15px;margin:31px 0 11px}
+.ledger-head h4{font:400 1.61rem/1.2 Georgia,serif;margin:0;color:#26352D}
+.ledger-head p{margin:0;color:#6B786E;font-size:.76rem}
+.table-shell{width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+table.ledger{width:100%;border-collapse:collapse;border-spacing:0;font-size:.8rem;font-variant-numeric:tabular-nums}
+.ledger th{font-weight:650;text-align:right;border-bottom:1px solid #ACB8AF;padding:12px 9px;color:#55655B;white-space:nowrap}
+.ledger th:first-child,.ledger td:first-child{text-align:left}
+.ledger td{padding:11px 9px;text-align:right;border-bottom:1px solid #E0E6DE;color:#3B493F;white-space:nowrap}
+.ledger tbody tr{cursor:pointer}
+.ledger tbody tr:focus-visible{outline-offset:-2px}
+.ledger tbody tr:hover{background:#EDF1EA}
+.ledger tbody tr.active{background:#E5EEE5}
+.ledger tbody tr.active td:first-child{font-weight:750;color:#175C45}
+.ledger tbody tr td:nth-child(3),.ledger tbody tr td:nth-child(5){color:#9D5139}
+.table-note{color:#758177;font-size:.73rem;margin:12px 0 0;line-height:1.6}
+@media(max-width:1000px){.toolbar{align-items:flex-start;flex-direction:column}.control-group{justify-content:flex-start}.panel-grid{grid-template-columns:minmax(0,1fr) 146px;gap:7px}.insight strong{min-width:210px}}
+@media(max-width:680px){.toolbar{padding-top:10px}.control-group{gap:8px}.segment{width:100%}.segment button{flex:1}.panel-heading{display:flex;flex-direction:column;gap:1px}.panel-grid{grid-template-columns:1fr;gap:0}svg.plot{height:210px}.panel-readout{display:flex;justify-content:space-between;min-height:0;gap:7px;padding:12px}.panel-readout .read-year{display:none}.read-line{margin:0}.read-line strong{font-size:1.2rem}.timeline{gap:3px;flex-wrap:wrap}.timeline-label{flex-basis:100%;margin-bottom:5px}.year-button{min-width:0;flex:1;font-size:.7rem;padding:7px 4px}.insight{display:block;padding:19px}.insight strong{display:block;margin-bottom:8px}.ledger-head{flex-direction:column;gap:4px}.ledger th,.ledger td{padding:10px 6px;font-size:.74rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style><style>:root{--paper:#FAF9F5;--ink:#202C29;--pine:#103E34;--forest:#0F6E56;--muted:#58665E;--line:#D8DFD8;--warm:#E8D6AB;--light:#F0F3EE}
+html{scroll-behavior:smooth}
+body,[data-testid="stAppViewContainer"]{background:var(--paper);color:var(--ink)}
+[data-testid="stHeader"],[data-testid="stToolbar"],#MainMenu,[data-testid="stDecoration"],footer{display:none!important}
+[data-testid="stAppViewBlockContainer"],.block-container{padding-top:85px!important;padding-bottom:2.5rem!important;max-width:1216px!important}
+[data-testid="stVerticalBlock"]{gap:0!important}
+a{text-underline-offset:3px}
+.c1-navbar{position:fixed;top:0;right:0;left:0;z-index:2000;height:67px;background:rgba(250,249,245,.985);border-bottom:1px solid var(--line);font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+.c1-navinner{max-width:1216px;margin:auto;padding:0 14px;height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.c1-logo{font-size:.86rem;font-weight:790;letter-spacing:.055em;color:var(--ink)!important;text-decoration:none!important;white-space:nowrap}
+.c1-mark{display:inline-block;width:9px;height:9px;background:var(--forest);border-radius:2px;transform:rotate(45deg);margin-right:12px}
+.c1-logohint{margin-left:12px;opacity:.53;font-weight:400;letter-spacing:.02em}
+.c1-navbar nav{display:flex;gap:29px}
+.c1-navbar nav a{font-size:.82rem;color:#49544E!important;text-decoration:none!important;font-weight:550}
+.c1-navbar nav a:hover{color:var(--forest)!important}
+.c1-progress{color:var(--muted);font-size:.78rem;white-space:nowrap;letter-spacing:.06em}
+.c1-progress b{color:var(--forest)}
+.c1-offset{position:relative;top:-80px;visibility:hidden;height:0}
+.c1-hero{background:var(--pine);color:#F8F8F2;padding:72px 70px 62px;display:grid;grid-template-columns:minmax(0,1.65fr) minmax(250px,.70fr);gap:56px;position:relative;overflow:hidden}
+.c1-hero::after{content:'';position:absolute;right:-42px;bottom:-155px;width:420px;height:420px;border:1px solid rgba(255,255,255,.09);border-radius:50%;pointer-events:none}
+.c1-hero h1{font-family:Georgia,serif;font-size:clamp(2.55rem,5vw,5rem);font-weight:400;letter-spacing:-.028em;line-height:1.07;color:#FFF;margin:0 0 26px}
+.c1-hero h1 em{color:#B3D0BF;font-style:normal}
+.c1-intro{font-size:1.06rem;line-height:1.7;color:#CFDDD4;max-width:560px;margin:0 0 32px}
+.c1-jump{font-size:.94rem;font-weight:650;color:#F2F8F4!important;text-decoration:none!important;border-bottom:1px solid #BDD5C5;padding-bottom:8px}
+.c1-jump span{padding-left:12px}
+.c1-hero-aside{border-left:1px solid rgba(255,255,255,.24);padding-left:32px;display:flex;flex-direction:column;gap:20px;z-index:1}
+.c1-hero-side-title{font-size:.74rem;letter-spacing:.13em;color:#BCD2C6;margin:0}
+.c1-hero-outcome{display:flex;flex-direction:column;gap:4px;border-bottom:1px solid rgba(255,255,255,.22);padding-bottom:18px}
+.c1-hero-outcome span{font-size:.85rem;color:#B5CEC0}
+.c1-hero-outcome strong{font:400 2rem/1.13 Georgia,serif;color:white}
+.c1-hero-outcome small{font-size:.83rem;color:#C6DACE}
+.c1-hero-small{font-size:.78rem;line-height:1.5;color:#B5C9BE;margin-top:4px}
+.c1-chapter-rail{display:grid;grid-template-columns:repeat(6,1fr);gap:7px;margin:28px 0 7px}
+.c1-chapter-rail span{height:4px;background:#D9E0DB}
+.c1-chapter-rail span.active{background:var(--forest)}
+.c1-chapter-label{text-align:right;color:var(--muted);font-size:.75rem;margin:0 0 58px}
+.c1-section-title{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-top:1px solid var(--line);padding:25px 0 16px}
+.c1-section-title h2{font:400 clamp(1.8rem,3vw,2.65rem)/1.15 Georgia,serif;letter-spacing:-.018em;color:var(--ink);margin:0 0 9px}
+.c1-section-title p{max-width:680px;color:#536259;font-size:.95rem;line-height:1.55;margin:0}
+.c1-section-title strong{font-size:.75rem;color:var(--forest);letter-spacing:.09em;white-space:nowrap}
+.c1-method{border-top:1px solid var(--line);padding:35px 0 30px;display:grid;grid-template-columns:1fr 1.2fr;gap:70px}
+.c1-method h2{font:400 2.3rem/1.16 Georgia,serif;color:var(--ink);margin:0 0 19px}
+.c1-method p{font-size:.93rem;line-height:1.68;color:#4E5C54}
+.c1-method-detail h3{font:400 1.65rem/1.3 Georgia,serif;margin:0 0 18px;color:var(--ink)}
+.c1-method-detail p{margin:0 0 14px}
+.c1-method-detail a{color:#176046!important}
+.c1-next{background:#EAF0E9;display:flex;justify-content:space-between;align-items:center;gap:22px;padding:38px 42px;margin:24px 0 42px}
+.c1-next h2{font:400 1.92rem/1.18 Georgia,serif;margin:0 0 8px;color:var(--ink)}
+.c1-next p{margin:0;font-size:.91rem;color:#526058}
+.c1-next span{font-size:.8rem;letter-spacing:.06em;color:#28634F;font-weight:700;white-space:nowrap}
+.c1-footer{border-top:1px solid var(--line);padding:20px 0;display:flex;justify-content:space-between;font-size:.8rem;color:#77847B}
+.c1-navbar a:focus-visible,.c1-jump:focus-visible,.c1-method a:focus-visible{outline:2px solid #68B293;outline-offset:4px}
+@media(max-width:900px){.c1-hero{grid-template-columns:1fr;gap:30px;padding:55px 40px}.c1-hero-aside{border-left:0;border-top:1px solid rgba(255,255,255,.22);padding:27px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.c1-hero-side-title,.c1-hero-small{grid-column:1/-1}.c1-method{grid-template-columns:1fr;gap:22px}.c1-progress{display:none}}
+@media(max-width:600px){[data-testid="stAppViewBlockContainer"],.block-container{padding:78px 16px 24px!important}.c1-navinner{padding:0 16px}.c1-logohint{display:none}.c1-navbar nav{gap:11px}.c1-navbar nav a{font-size:.72rem}.c1-hero{margin:0 -16px;padding:43px 23px}.c1-hero h1{font-size:2.75rem}.c1-hero-aside{display:block}.c1-hero-outcome{margin-bottom:16px}.c1-section-title{flex-direction:column;align-items:flex-start}.c1-next{margin:22px -16px 25px;padding:26px 23px;flex-direction:column;align-items:flex-start}.c1-next span{white-space:normal}.c1-footer{flex-direction:column;gap:5px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::after,*::before{animation:none!important;transition:none!important}}
+
+/* Keep the integrated figure accessible at smaller widths without an inner scrollbar. */
+@media(max-width:1050px) and (min-width:681px){
+ [data-testid="stIFrame"] iframe,iframe[data-testid="stIFrame"]{height:1670px!important;min-height:1670px!important}
+}
+@media(max-width:680px){
+ [data-testid="stIFrame"] iframe,iframe[data-testid="stIFrame"]{height:1920px!important;min-height:1920px!important}
+}
+
+.preview-frame{max-width:1216px;margin:auto;padding:80px 14px 0}.preview-frame .c1-navbar{z-index:1000}@media(max-width:620px){.preview-frame{padding:76px 14px 0}}</style></head>
+<body><div class="preview-frame"><div class="c1-navbar"><div class="c1-navinner"><a class="c1-logo" href="#top"><span class="c1-mark"></span>THE AI RACE <span class="c1-logohint">DATA NARRATIVE</span></a><nav><a href="#explore">Explore</a><a href="#sources">Sources</a></nav><span class="c1-progress">CHAPTER <b>01</b> / 06</span></div></div><div id="top"></div><section class="c1-hero"><div class="c1-hero-main"><h1>More research.<br><em>Different leaders.</em></h1><p class="c1-intro">Does publishing more AI research mean producing more notable AI models? In 2024, the two scoreboards pointed in opposite directions.</p><a class="c1-jump" href="#explore">Follow the evidence ↓</a></div><aside class="c1-hero-aside"><p class="c1-hero-side-title">THE 2024 SPLIT</p><div class="c1-hero-outcome"><span>AI research papers</span><strong>China</strong><small>116,434 vs 50,810 · US</small></div><div class="c1-hero-outcome"><span>Notable AI models</span><strong>United States</strong><small>57 vs 31 · China</small></div><p class="c1-hero-small">Eight of nine years have different leaders; two distinct datasets.</p></aside></section><div class="c1-chapter-rail"><span class="active"></span><span></span><span></span><span></span><span></span><span></span></div><p class="c1-chapter-label">Research chapter 1 of 6 · Papers versus models</p><div id="explore" class="c1-section-title"><div><h2>Follow both trajectories.</h2><p>Explore absolute counts or China's share of the combined US–China totals. Select a year to compare the same moment on both scoreboards.</p></div><strong>2016 — 2024</strong></div><main class="viz" id="chart1-root">
+  <header class="toolbar">
+    <div><h3>Two measures. One question.</h3><p>Change the measure, narrow the years, or select a year in either chart. All 18 underlying records are available below.</p></div>
+    <div class="control-group">
+      <div class="segment" role="group" aria-label="Comparison mode"><button type="button" id="modeCounts" aria-pressed="true">Absolute counts</button><button type="button" id="modeShare" aria-pressed="false">China's share</button></div>
+      <div class="years-control"><label for="startYear">From</label><select id="startYear" aria-label="First year"></select><label for="endYear">to</label><select id="endYear" aria-label="Last year"></select></div>
+      <button type="button" class="replay" id="replay" aria-label="Replay line-drawing animation">↻ Replay</button>
+    </div>
+  </header>
+  <div class="legend" id="legend"><span><i class="us"></i>United States</span><span><i class="cn"></i>China</span></div>
+  <section class="panel" aria-labelledby="paper-title">
+    <header class="panel-heading"><h4 id="paper-title">Research output</h4><span id="paperSub">AI scholarly publications · annual count</span></header>
+    <div class="panel-grid"><svg id="paperPlot" class="plot" viewBox="0 0 820 245" preserveAspectRatio="xMidYMid meet" role="img" aria-label="US and China annual AI research publication counts from 2016 to 2024"></svg><aside class="panel-readout" id="paperRead" aria-live="polite"></aside></div>
+  </section>
+  <section class="panel" aria-labelledby="model-title">
+    <header class="panel-heading"><h4 id="model-title">Model development</h4><span id="modelSub">Epoch notable AI models · annual count</span></header>
+    <div class="panel-grid"><svg id="modelPlot" class="plot" viewBox="0 0 820 245" preserveAspectRatio="xMidYMid meet" role="img" aria-label="US and China annual counts of Epoch notable AI models from 2016 to 2024"></svg><aside class="panel-readout" id="modelRead" aria-live="polite"></aside></div>
+  </section>
+  <nav class="timeline" id="yearTimeline" aria-label="Select year"><span class="timeline-label">FOCUS A YEAR</span></nav>
+  <div class="insight" id="insight" aria-live="polite"></div>
+  <div class="ledger-head"><h4>Read every value.</h4><p>Click a year to focus both charts · no hover required</p></div>
+  <div class="table-shell" role="region" aria-label="Scrollable full data table" tabindex="0"><table class="ledger" aria-label="Underlying AI paper and Epoch model counts with two-country shares">
+    <thead><tr><th>Year</th><th>US papers</th><th>China papers</th><th>US models</th><th>China models</th><th>China paper share</th><th>China model share</th></tr></thead>
+    <tbody id="ledgerBody"></tbody>
+  </table></div>
+  <p class="table-note">Two-country shares = China / (China + US). The counts do not represent the global share, and a research paper is not linked to a particular model. Data snapshot: 20 October 2026.</p>
+</main><div id="sources" class="c1-method"><div><h2>Different populations, different answers.</h2><p>Papers and models describe different outputs. A lead on one measure cannot be translated into another measure of research quality or conversion efficiency.</p></div><div class="c1-method-detail"><h3>Sources and limitations</h3><p><b>AI papers:</b> <a target="_blank" href="https://ourworldindata.org/grapher/annual-scholarly-publications-on-artificial-intelligence">CSET via OWID</a>, English title/abstract coverage, 2016–2024.</p><p><b>Notable models:</b> <a target="_blank" href="https://epoch.ai/data/ai-models">Epoch AI</a>, curated sample, not a census.</p><p><b>Counting:</b> whole country counts, models can appear in both national totals. Shares are only within US + China.</p><p><b>Snapshot:</b> 20 October 2026; latest observation 2024.</p></div></div><section class="c1-next"><div><h2>Counting is only the first question.</h2><p>Next: how do differences in frontier training compute change the picture?</p></div><span>CHAPTER 02 · FRONTIER COMPUTE</span></section><div class="c1-footer"><span>THE AI RACE · UTS 36104 · Data Visualisation &amp; Narratives</span><span>Source data frozen 20 Oct 2026</span></div></div>
+<script>
+(()=>{
+'use strict';
+const rows=[{"year":2016,"country":"China","papers":21986,"models":6,"paperShare":49.4501,"modelShare":14.2857},{"year":2016,"country":"US","papers":22475,"models":36,"paperShare":50.5499,"modelShare":85.7143},{"year":2017,"country":"China","papers":26614,"models":10,"paperShare":51.0238,"modelShare":25.641},{"year":2017,"country":"US","papers":25546,"models":29,"paperShare":48.9762,"modelShare":74.359},{"year":2018,"country":"China","papers":35864,"models":1,"paperShare":52.8119,"modelShare":3.5714},{"year":2018,"country":"US","papers":32045,"models":27,"paperShare":47.1881,"modelShare":96.4286},{"year":2019,"country":"China","papers":47618,"models":6,"paperShare":54.3014,"modelShare":9.6774},{"year":2019,"country":"US","papers":40074,"models":56,"paperShare":45.6986,"modelShare":90.3226},{"year":2020,"country":"China","papers":55081,"models":8,"paperShare":53.7046,"modelShare":17.7778},{"year":2020,"country":"US","papers":47482,"models":37,"paperShare":46.2954,"modelShare":82.2222},{"year":2021,"country":"China","papers":71746,"models":21,"paperShare":58.54,"modelShare":28.0},{"year":2021,"country":"US","papers":50813,"models":54,"paperShare":41.46,"modelShare":72.0},{"year":2022,"country":"China","papers":82350,"models":12,"paperShare":65.3043,"modelShare":15.0},{"year":2022,"country":"US","papers":43752,"models":68,"paperShare":34.6957,"modelShare":85.0},{"year":2023,"country":"China","papers":104198,"models":23,"paperShare":67.3031,"modelShare":21.1009},{"year":2023,"country":"US","papers":50621,"models":86,"paperShare":32.6969,"modelShare":78.8991},{"year":2024,"country":"China","papers":116434,"models":31,"paperShare":69.6192,"modelShare":35.2273},{"year":2024,"country":"US","papers":50810,"models":57,"paperShare":30.3808,"modelShare":64.7727}];
+const BYYEAR=new Map();
+for(const r of rows){if(!BYYEAR.has(r.year))BYYEAR.set(r.year,{}); BYYEAR.get(r.year)[r.country]=r;}
+const allYears=[...BYYEAR.keys()].sort((a,b)=>a-b);
+const state={start:allYears[0],end:allYears[allYears.length-1],year:allYears[allYears.length-1],mode:'counts'};
+const color={US:'#27679B',China:'#B45339'};
+const ns='http://www.w3.org/2000/svg';
+const root=document.getElementById('chart1-root');
+const paperPlot=document.getElementById('paperPlot'),modelPlot=document.getElementById('modelPlot');
+const reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let started=false;
+function el(name,attrs={},content){const e=document.createElementNS(ns,name);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,String(v));if(content!==undefined)e.textContent=String(content);return e;}
+function fmt(v){return Math.round(v).toLocaleString('en-US');}
+function p(v){return Number(v).toFixed(1)+'%';}
+function opt(year){const e=document.createElement('option');e.value=String(year);e.textContent=String(year);return e;}
+for(const y of allYears){document.getElementById('startYear').append(opt(y));document.getElementById('endYear').append(opt(y));}
+const startSel=document.getElementById('startYear'),endSel=document.getElementById('endYear');
+startSel.value=String(state.start);endSel.value=String(state.end);
+const viewYears=()=>allYears.filter(y=>y>=state.start&&y<=state.end);
+function maxNice(max){if(max<=0)return 1;const p10=Math.pow(10,Math.floor(Math.log10(max)));const normalized=max/p10;return (normalized<=1?1:normalized<=1.2?1.2:normalized<=1.5?1.5:normalized<=2?2:normalized<=2.5?2.5:normalized<=3?3:normalized<=4?4:normalized<=5?5:normalized<=6?6:normalized<=8?8:10)*p10;}
+function dataFor(country,metric){return viewYears().map(y=>BYYEAR.get(y)[country][metric]);}
+function renderSide(metric){const metricName=metric==='papers'?'paper':'model';const r=BYYEAR.get(state.year);const box=document.getElementById(metricName+'Read');
+ const us=state.mode==='counts'?fmt(r.US[metric]):p(r.US[metric==='papers'?'paperShare':'modelShare']);
+ const cn=state.mode==='counts'?fmt(r.China[metric]):p(r.China[metric==='papers'?'paperShare':'modelShare']);
+ const unit=state.mode==='counts'?metric==='papers'?'papers':'models':'US + China total';
+ box.innerHTML='<p class="read-year">'+state.year+' · '+(state.mode==='counts'?'COUNTS':'TWO-COUNTRY SHARE')+'</p>'+
+ '<div class="read-line us"><span class="read-name">United States</span><strong>'+us+'</strong></div>'+
+ '<div class="read-line cn"><span class="read-name">China</span><strong>'+cn+'</strong></div>'+
+ '<span class="read-unit">'+unit+'</span>';
+}
+function draw(svg,metric){
+ svg.replaceChildren();
+ const years=viewYears(), x0=61,x1=789,y0=17,y1=210;
+ const xpos=(year)=>years.length===1?(x0+x1)/2:x0+(year-years[0])/(years[years.length-1]-years[0])*(x1-x0);
+ const counts=years.flatMap(y=>[BYYEAR.get(y).US[metric],BYYEAR.get(y).China[metric]]);
+ const upper=state.mode==='share'?100:maxNice(Math.max(...counts)*1.09);
+ const ypos=(v)=>y1-v/upper*(y1-y0);
+ const ticks=state.mode==='share'?[0,50,100]:[0,upper/2,upper];
+ const label=(v)=>state.mode==='share'?fmt(v)+'%':metric==='papers'?(v===0?'0':fmt(v/1000)+'k'):fmt(v);
+ for(const tick of ticks){const y=ypos(tick);svg.append(el('line',{x1:x0,y1:y,x2:x1,y2:y,class:'gridline'}));
+  svg.append(el('text',{x:x0-14,y:y+4,'text-anchor':'end',class:'ax-label'},label(tick)));}
+ if(state.mode==='share'){svg.append(el('line',{x1:x0,y1:ypos(50),x2:x1,y2:ypos(50),class:'parity'}));}
+ const fy=xpos(state.year);svg.append(el('line',{x1:fy,y1:y0,x2:fy,y2:y1,class:'vertical-focus'}));
+ const order=state.mode==='counts'?['US','China']:['China'];
+ for(const country of order){
+  const key=state.mode==='counts'?metric:(metric==='papers'?'paperShare':'modelShare');
+  const pts=years.map(y=>({x:xpos(y),y:ypos(BYYEAR.get(y)[country][key]),year:y,value:BYYEAR.get(y)[country][key]}));
+  const path=el('path',{d:pts.map((pt,i)=>(i?'L':'M')+pt.x.toFixed(1)+' '+pt.y.toFixed(1)).join(' '),class:'chart-line',stroke:color[country],'data-stroke':country});
+  svg.append(path);
+  for(const pt of pts){svg.append(el('circle',{cx:pt.x,cy:pt.y,r:pt.year===state.year?6:3.3,fill:color[country],class:pt.year===state.year?'dot-focus':'chart-dot'}));}
+  const pick=pts.find(pt=>pt.year===state.year);
+  if(pick){const pointY=pick.y;let ly=pointY-12;
+   if(state.mode==='counts'&&country==='China'&&Math.abs(pick.y-ypos(BYYEAR.get(state.year).US[metric]))<17)ly=pointY+22;
+   if(state.mode==='counts'&&country==='US'&&Math.abs(pick.y-ypos(BYYEAR.get(state.year).China[metric]))<17)ly=pointY-16;
+   ly=Math.max(13,Math.min(y1-7,ly));
+   const txt=state.mode==='counts'?fmt(pick.value):p(pick.value);
+   svg.append(el('text',{x:pick.x+(pick.x>750?-10:10),y:ly,fill:color[country],class:'selected-label','text-anchor':pick.x>750?'end':'start'},txt));
+  }
+ }
+ for(const year of years){svg.append(el('text',{x:xpos(year),y:y1+20,class:'year-label','text-anchor':'middle'},String(year)));}
+ for(const year of years){const r=el('rect',{x:xpos(year)-(years.length===1?110:24),y:y0,width:years.length===1?220:48,height:y1-y0,class:'hit',role:'button',tabindex:'0','aria-label':'Focus '+year});
+  r.addEventListener('click',()=>focus(year));r.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();focus(year)}});svg.append(r);}
+}
+function renderTimeline(){const nav=document.getElementById('yearTimeline');nav.replaceChildren();const span=document.createElement('span');span.className='timeline-label';span.textContent='FOCUS A YEAR';nav.append(span);
+ for(const y of viewYears()){const b=document.createElement('button');b.type='button';b.className='year-button';b.textContent=String(y);b.setAttribute('aria-pressed',String(state.year===y));b.addEventListener('click',()=>focus(y));nav.append(b);}}
+function renderInsight(){const r=BYYEAR.get(state.year);const paperLead=r.China.papers>r.US.papers?'China':r.China.papers<r.US.papers?'the United States':'neither country';const modelLead=r.China.models>r.US.models?'China':r.China.models<r.US.models?'the United States':'neither country';const mismatch=paperLead!==modelLead;
+ const strong=mismatch?'Different leaders, same year.':'Two measures, one leader.';
+ const text=mismatch?state.year+': '+paperLead+' leads in paper counts while '+modelLead+' leads in notable-model counts. They are different outputs, not a conversion rate.':state.year+': '+paperLead+' leads on both measures here. This describes curated counts, not a measure of innovation quality.';
+ const el=document.getElementById('insight');el.replaceChildren();const a=document.createElement('strong');a.textContent=strong;const b=document.createElement('p');b.textContent=text;el.append(a,b);
+}
+function renderLedger(){const body=document.getElementById('ledgerBody');body.replaceChildren();for(const y of viewYears()){
+ const r=BYYEAR.get(y),tr=document.createElement('tr');tr.tabIndex=0;tr.className=y===state.year?'active':'';tr.setAttribute('aria-selected',String(y===state.year));
+ const vals=[y,fmt(r.US.papers),fmt(r.China.papers),fmt(r.US.models),fmt(r.China.models),p(r.China.paperShare),p(r.China.modelShare)];
+ for(const v of vals){const td=document.createElement('td');td.textContent=String(v);tr.append(td);}
+ tr.addEventListener('click',()=>focus(y));tr.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();focus(y)}});body.append(tr);
+}}
+function render(animateNow=false){
+ const labels=document.getElementById('legend');
+ labels.innerHTML=state.mode==='counts'?'<span><i class="us"></i>United States</span><span><i class="cn"></i>China</span>':'<span><i class="cn"></i>China’s share of the two-country total</span><span style="color:#79867C">Dashed line = parity (50%)</span>';
+ document.getElementById('modeCounts').setAttribute('aria-pressed',String(state.mode==='counts'));
+ document.getElementById('modeShare').setAttribute('aria-pressed',String(state.mode==='share'));
+ document.getElementById('paperSub').textContent=state.mode==='counts'?'AI scholarly publications · annual count':'China share of US + China AI paper counts';
+ document.getElementById('modelSub').textContent=state.mode==='counts'?'Epoch notable AI models · annual count':'China share of US + China notable-model counts';
+ draw(paperPlot,'papers');draw(modelPlot,'models');renderSide('papers');renderSide('models');renderTimeline();renderInsight();renderLedger();
+ if(animateNow&&started)play();
+}
+function focus(y){if(y<state.start||y>state.end)return;state.year=y;render(false);}
+function play(){if(reduced)return;for(const [svg,delay] of [[paperPlot,0],[modelPlot,160]]){
+  const paths=[...svg.querySelectorAll('.chart-line')];paths.forEach((path,i)=>{const len=path.getTotalLength();if(len<1)return;
+   path.animate([{strokeDasharray:String(len),strokeDashoffset:String(len)},{strokeDasharray:String(len),strokeDashoffset:'0'}],{duration:850,delay:delay+i*110,easing:'cubic-bezier(.22,1,.36,1)',fill:'none'});
+  });
+ }}
+function updateRange(which){const left=+startSel.value,right=+endSel.value;
+ if(left>right){if(which==='start'){state.start=left;state.end=left;endSel.value=String(left)}else{state.end=right;state.start=right;startSel.value=String(right)}}else{state.start=left;state.end=right;}
+ if(state.year<state.start||state.year>state.end)state.year=state.end;
+ render(true);
+}
+startSel.addEventListener('change',()=>updateRange('start'));
+endSel.addEventListener('change',()=>updateRange('end'));
+document.getElementById('modeCounts').addEventListener('click',()=>{if(state.mode!=='counts'){state.mode='counts';render(true)}});
+document.getElementById('modeShare').addEventListener('click',()=>{if(state.mode!=='share'){state.mode='share';render(true)}});
+document.getElementById('replay').addEventListener('click',()=>{started=true;play()});
+render(false);
+if(!reduced&&'IntersectionObserver' in window){const io=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){started=true;play();io.disconnect();}},{root:null,threshold:.3});io.observe(document.getElementById('paperPlot'));}
+else{started=true;}
+})();
+</script></body></html>

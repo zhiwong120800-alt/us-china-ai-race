@@ -1,2 +1,0 @@
-Artefact,Who,Tool,What was asked,What came back,How it was verified,Outcome
-app.py and chart5.py,Maris,ChatGPT/Claude,Help write the Python and Plotly code for the Chart 5 stacked bar chart and Streamlit layout.,Pandas data filtering and Plotly express bar chart code.,Ran the data pipeline in Colab; verified the chart displays 100% for each country/year grouping and tested the empty filter state.,Code deployed successfully to the live Streamlit app.
