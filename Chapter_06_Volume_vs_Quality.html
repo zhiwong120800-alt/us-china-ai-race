@@ -44,6 +44,16 @@
 .story-pager-nav a{border-bottom:1px solid rgba(210,228,217,.45);padding:6px 0}.story-pager-nav a:hover{color:white;border-bottom-color:white}
 @media(max-width:720px){.story-pager{padding:32px 22px 28px;margin-top:52px}.story-pager-middle{align-items:flex-start;flex-direction:column;gap:28px}.story-pager-button{width:100%;justify-content:space-between}.story-pager h2{font-size:37px}.story-pager-nav{margin-top:30px}.story-pager-progress{display:none}}
 @media(prefers-reduced-motion:reduce){.story-pager-button{transition:none}}
+
+/* Instant point identification + a direct model lookup */
+.trend-finder{display:flex;align-items:flex-end;justify-content:space-between;gap:14px 22px;flex-wrap:wrap;margin:0 0 12px;padding:13px 16px;border:1px solid #d8e5db;background:#edf3ee;border-radius:3px}
+.trend-find-field{flex:1 1 300px;max-width:480px;min-width:0}.trend-find-field label{display:block;font-size:12px;font-weight:750;color:#365646;margin:0 0 7px}
+.trend-find-field select{width:100%;height:40px;padding:8px 12px;border:1px solid #b9ccbf;border-radius:6px;background:#fff;color:#253e31;font-size:13px}
+.trend-finder p{flex:1 1 240px;max-width:490px;color:#607568;font-size:12px;line-height:1.55;margin:0}
+.model-tooltip{position:absolute;z-index:12;max-width:min(300px,calc(100% - 20px));min-width:180px;padding:12px 14px;border-radius:6px;background:#163a30;color:#f6faf7;box-shadow:0 8px 22px rgba(14,40,29,.2);pointer-events:none;line-height:1.5}
+.model-tooltip[hidden]{display:none}.model-tooltip strong{font-size:14px;font-weight:750;line-height:1.35;display:block;overflow-wrap:anywhere}.model-tooltip span{display:block;font-size:11px;color:#cadfd2;margin:5px 0 7px}.model-tooltip b{display:block;font-size:13px;font-variant-numeric:tabular-nums}
+#trendSVG .point{cursor:crosshair}#trendSVG .point:hover,#trendSVG .point:focus-visible{opacity:1;stroke:#163a30;stroke-width:2.5}#trendSVG .point.selected{opacity:1;stroke:#102d23;stroke-width:3;filter:drop-shadow(0 0 2px white)}
+@media(max-width:680px){.trend-finder{padding:12px;gap:9px}.trend-find-field{flex-basis:100%;max-width:none}.trend-finder p{flex-basis:100%}}
 </style></head><body>
 <header class="topnav"><a class="brand" href="#top"><i></i>THE AI RACE <span>DATA NARRATIVE</span></a><nav aria-label="On this page"><a href="#frontier">Explore</a><a href="#compute">Compare</a><a href="#records">Model records</a><a href="#methods">Methods</a></nav><div class="chapter">CHAPTER <b>06</b> / 06</div></header>
 <main id="top" class="wrap">
@@ -56,7 +66,8 @@
 
   <section id="frontier" class="section"><div class="section-head"><div><h2>The capability frontier moves.</h2><p>Each dot is one ECI-evaluated model. The step lines mark the highest observed ECI score released up to each date. Explore the full evaluated sample—not only the subset with compute estimates.</p></div><div class="eyebrow">Measured capability</div></div>
     <div class="line-controls"><div><span class="control-label">Country</span><div id="trendCountries" class="tabs" role="group" aria-label="Trend countries"><button class="active" data-value="Both">Both</button><button data-value="US">United States</button><button data-value="China">China</button></div></div><div><span class="control-label">Release period</span><div id="trendPeriods" class="tabs" role="group" aria-label="Trend period"><button class="active" data-value="all">2023–26</button><button data-value="recent">2025 onward</button><button data-value="latest">2026 only</button></div></div><button id="replayTrend" class="replay" type="button">↻ Replay lines</button></div>
-    <div class="graph-shell" id="trendTarget"><div class="plot-title"><span><b>Epoch Capabilities Index · model release date</b></span><div class="swatches"><span><i style="background:#286db7"></i>United States</span><span><i style="background:#d55d36"></i>China</span></div></div><svg id="trendSVG" class="plot" viewBox="0 0 1140 418" role="img" aria-label="Release dates and ECI scores for 237 benchmark-evaluated models. Interactive controls filter years and countries."></svg></div>
+    <div class="trend-finder"><div class="trend-find-field"><label for="trendModelPicker">Find a model by name</label><select id="trendModelPicker" aria-label="Choose a visible model to highlight"><option value="">Loading models…</option></select></div><p>Hover over any dot to identify the model. Choose its name to highlight it and inspect its details below.</p></div>
+    <div class="graph-shell" id="trendTarget"><div class="plot-title"><span><b>Epoch Capabilities Index · model release date</b></span><div class="swatches"><span><i style="background:#286db7"></i>United States</span><span><i style="background:#d55d36"></i>China</span></div></div><svg id="trendSVG" class="plot" viewBox="0 0 1140 418" role="img" aria-label="Release dates and ECI scores for 237 benchmark-evaluated models. Interactive controls filter years and countries."></svg><div id="trendTooltip" class="model-tooltip" role="tooltip" hidden><strong id="trendTipName"></strong><span id="trendTipMeta"></span><b id="trendTipScore"></b></div></div>
     <div class="view-insight"><div><strong id="trendHeadline">Selected ECI frontiers are not model-count rankings.</strong><p id="trendNarrative">The visible curves summarize the highest observed score to date; lower-scoring models remain part of the sample.</p></div><span class="data-tag" id="trendCount">237 ECI records</span></div>
     <div class="readout" aria-live="polite"><div><h4 id="trendDetailTitle">Click a model to inspect it.</h4><p id="trendDetailText">Model-level values, release dates and published ECI uncertainty intervals will appear here.</p></div><strong class="readout-number" id="trendDetailScore">ECI</strong></div>
     <p class="smallprint">Dates and country tags are taken from ECI itself. The ECI score is an index (not percent); the vertical axis starts at 60 index points to make variation readable. Lines show cumulative observed maxima and carry forward earlier releases in a narrowed time window. Source snapshot: 20 Oct 2026; newest ECI release date: 7 Oct 2026.</p>
@@ -90,7 +101,7 @@ const DATA={"trend":[{"Model":"Claude Opus 5.5","country":"US","release_date":"2
 
 const US='#286db7',CN='#d55d36',INK='#294236',TICK='#6f8578',SVGNS='http://www.w3.org/2000';
 const dates={all:['2023-01-01','2026-10-08'],recent:['2025-01-01','2026-10-08'],latest:['2026-01-01','2026-10-08']};
-const E=id=>document.getElementById(id);let state={trendCountry:'Both',trendPeriod:'all',scatterCountry:'Both',scatterPeriod:'all',recordScope:'trend',recordCountry:'Both',recordSearch:'',more:15};let trendAnimated=false,scatterAnimated=false;
+const E=id=>document.getElementById(id);let trendVisible=[];let selectedTrendKey='';let state={trendCountry:'Both',trendPeriod:'all',scatterCountry:'Both',scatterPeriod:'all',recordScope:'trend',recordCountry:'Both',recordSearch:'',more:15};let trendAnimated=false,scatterAnimated=false;
 const nfmt=n=>new Intl.NumberFormat('en-US').format(n),frac=(x,d=2)=>Number(x).toFixed(d),clean=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const fcomp=x=>{if(x==null||!Number.isFinite(+x))return 'Not published';let e=Math.floor(Math.log10(+x)),m=(+x)/Math.pow(10,e);return `${m.toFixed(2)} × 10^${e} FLOP`;};
 const cc=c=>c==='US'?US:CN,clabel=c=>c==='US'?'United States':'China';
@@ -108,17 +119,58 @@ return {Y,X,h,left,right,top,bottom};}
 function frontierEvents(list,start,end,left,right,Y){let before=list.filter(r=>r.release_date<start),inside=list.filter(r=>r.release_date>=start&&r.release_date<end);let max=-Infinity,path='';if(before.length)max=Math.max(...before.map(r=>r.eci));if(Number.isFinite(max))path=`M ${left} ${Y(max)}`;for(const r of inside){const x=xDate(r.release_date,start,end,left,right);if(r.eci>max){if(Number.isFinite(max))path+=` L ${x} ${Y(max)} L ${x} ${Y(r.eci)}`;else path=`M ${x} ${Y(r.eci)}`;max=r.eci;}}if(Number.isFinite(max))path+=` L ${right} ${Y(max)}`;return {path,peak:max};}
 function showTrendDetail(r){E('trendDetailTitle').textContent=r.Model+' · '+clabel(r.country);E('trendDetailText').textContent=`Released ${r.release_date} · ECI interval: ${conf(r)}. This score belongs to one model, not to an entire country.`;E('trendDetailScore').textContent=frac(r.eci);E('trendDetailScore').className='readout-number '+(r.country==='US'?'us':'cn');}
 function showScatterDetail(r){E('scatterDetailTitle').textContent=r.Model+' · '+clabel(r.country);E('scatterDetailText').textContent=`Released ${r.eci_release_date} · Training compute ${fcomp(r.training_compute_flop)} · ECI interval ${conf(r)}.`;E('scatterDetailScore').textContent=frac(r.eci);E('scatterDetailScore').className='readout-number '+(r.country==='US'?'us':'cn');}
+function trendKey(r){return r.Model+'|'+r.country;}
+function positionTrendTip(clientX,clientY){
+ const tip=E('trendTooltip'),box=E('trendTarget').getBoundingClientRect(),w=tip.offsetWidth||230,h=tip.offsetHeight||90;
+ tip.style.left=Math.max(10,Math.min(clientX-box.left+16,box.width-w-10))+'px';
+ tip.style.top=Math.max(10,Math.min(clientY-box.top+16,box.height-h-10))+'px';
+}
+function showTrendTip(r,x,y){
+ E('trendTipName').textContent=r.Model;
+ E('trendTipMeta').textContent=clabel(r.country)+' · Released '+r.release_date;
+ E('trendTipScore').textContent='ECI '+frac(r.eci)+' index points';
+ E('trendTooltip').hidden=false;
+ positionTrendTip(x,y);
+}
+function hideTrendTip(){E('trendTooltip').hidden=true;}
+function selectTrendDot(node,r,i){
+ E('trendSVG').querySelectorAll('.point').forEach(z=>z.classList.remove('selected'));
+ node.classList.add('selected');node.parentNode.appendChild(node);
+ E('trendModelPicker').value=String(i);selectedTrendKey=trendKey(r);showTrendDetail(r);
+}
 function renderTrend({replay=false}={}){
 const period=state.trendPeriod,[start,end]=dates[period],all=DATA.trend.filter(r=>state.trendCountry==='Both'||r.country===state.trendCountry),visible=all.filter(r=>r.release_date>=start&&r.release_date<end);
+trendVisible=visible;hideTrendTip();
 const min=numericDate(start),max=numericDate(end);let ticks=period==='all'?[2023,2024,2025,2026].map(y=>({x:numericDate(y+'-07-01'),label:String(y)})):period==='recent'?[2025,2026].map(y=>({x:numericDate(y+'-07-01'),label:String(y)})):[1,4,7,10].map(m=>({x:numericDate(`2026-${String(m).padStart(2,'0')}-01`),label:['Jan','Apr','Jul','Oct'][[1,4,7,10].indexOf(m)]}));
 const f=svgFrame({x0:min,x1:max,xTicks:ticks,xlabel:'ECI model release date'});let h=f.h,peak={};
 for(const c of ['US','China']){if(state.trendCountry!=='Both'&&state.trendCountry!==c)continue;const records=DATA.trend.filter(r=>r.country===c).sort((a,b)=>a.release_date.localeCompare(b.release_date));const x=frontierEvents(records,start,end,f.left,f.right,f.Y);peak[c]=x.peak;h+=`<path class="frontier" stroke="${cc(c)}" d="${x.path}"/>`;}
-for(const r of visible){let x=xDate(r.release_date,start,end,f.left,f.right),y=f.Y(r.eci);h+=`<circle class="point" role="button" tabindex="0" aria-label="${clean(r.Model)}; ${clabel(r.country)}; ECI ${r.eci}" data-name="${clean(r.Model)}" data-country="${r.country}" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4.6" fill="${cc(r.country)}"><title>${clean(r.Model)} · ECI ${r.eci}</title></circle>`;}
+visible.forEach((r,i)=>{let x=xDate(r.release_date,start,end,f.left,f.right),y=f.Y(r.eci);h+=`<circle class="point" role="button" tabindex="0" aria-label="${clean(r.Model)}; ${clabel(r.country)}; released ${r.release_date}; ECI ${r.eci}" data-index="${i}" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="5.4" fill="${cc(r.country)}"></circle>`;});
 const grouped=DATA.trend.filter(r=>r.release_date<end),pUS=Math.max(...grouped.filter(r=>r.country==='US').map(r=>r.eci)),pCN=Math.max(...grouped.filter(r=>r.country==='China').map(r=>r.eci));const both=state.trendCountry==='Both';E('trendSVG').innerHTML=h;
 E('trendCount').textContent=`${visible.length} shown · ${all.length} in full ECI sample`;
 E('trendHeadline').textContent=both?`Observed top ECI: US ${frac(pUS)} · China ${frac(pCN)}`:`${clabel(state.trendCountry)} · observed frontier ${frac(state.trendCountry==='US'?pUS:pCN)} ECI`;
 E('trendNarrative').textContent=period==='all'?'Frontier lines trace the best score observed as each model appears; they do not count how many other models were released.':'These windows retain the best score from releases before the chosen start date; the rightmost frontier reflects all earlier observed models.';
-E('trendSVG').querySelectorAll('circle[role=button]').forEach(node=>{let fn=()=>{const r=visible.find(d=>d.Model===node.dataset.name&&d.country===node.dataset.country);if(!r)return;E('trendSVG').querySelectorAll('.point').forEach(z=>z.classList.remove('selected'));node.classList.add('selected');showTrendDetail(r);};node.addEventListener('click',fn);node.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();fn();}});});
+const picker=E('trendModelPicker');
+ const choices=visible.map((r,i)=>({r,i})).sort((a,b)=>a.r.Model.localeCompare(b.r.Model)||a.r.country.localeCompare(b.r.country));
+ picker.innerHTML='<option value="">Choose from '+visible.length+' visible models…</option>'+choices.map(({r,i})=>`<option value="${i}">${clean(r.Model)} · ${clabel(r.country)} · ${frac(r.eci)} ECI</option>`).join('');
+ picker.disabled=!visible.length;
+ E('trendSVG').querySelectorAll('circle[role=button]').forEach(node=>{
+  const i=Number(node.dataset.index),r=visible[i],choose=()=>selectTrendDot(node,r,i);
+  node.addEventListener('pointerenter',e=>showTrendTip(r,e.clientX,e.clientY));
+  node.addEventListener('pointermove',e=>positionTrendTip(e.clientX,e.clientY));
+  node.addEventListener('pointerleave',hideTrendTip);
+  node.addEventListener('focus',()=>{const b=node.getBoundingClientRect();showTrendTip(r,b.right,b.top);});
+  node.addEventListener('blur',hideTrendTip);
+  node.addEventListener('click',choose);
+  node.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});
+ });
+ const keep=visible.findIndex(r=>trendKey(r)===selectedTrendKey);
+ if(keep>=0)selectTrendDot(E('trendSVG').querySelector('circle[data-index="'+keep+'"]'),visible[keep],keep);
+ else{
+  selectedTrendKey='';picker.value='';
+  E('trendDetailTitle').textContent='Hover over a dot or choose a model by name.';
+  E('trendDetailText').textContent='Select a model to inspect its release date, ECI score and uncertainty interval.';
+  E('trendDetailScore').textContent='ECI';E('trendDetailScore').className='readout-number';
+ }
 if(replay||(!trendAnimated&&window.matchMedia('(prefers-reduced-motion: no-preference)').matches)){E('trendSVG').querySelectorAll('path.frontier').forEach((p,i)=>{const len=p.getTotalLength();p.style.strokeDasharray=String(len);p.style.strokeDashoffset=String(len);p.getBoundingClientRect();p.style.transition=`stroke-dashoffset 1.35s ease-out ${i*.25}s`;requestAnimationFrame(()=>p.style.strokeDashoffset='0');});trendAnimated=true;}
 }
 function renderYearTable(){let html='';for(const y of [2023,2024,2025,2026]){const picks={};for(const c of ['US','China']){const d=DATA.trend.filter(r=>r.country===c&&r.year<=y);const n=DATA.trend.filter(r=>r.country===c&&r.year===y).length;const best=d.reduce((a,b)=>a==null||b.eci>a.eci?b:a,null);picks[c]={n,best};}let a=picks.US.best,b=picks.China.best;html+=`<tr><td><b>${y}</b></td><td class="num">${frac(a.eci)}<br><span class="mini-note">${clean(a.Model)}</span></td><td class="num">${picks.US.n}</td><td class="num">${frac(b.eci)}<br><span class="mini-note">${clean(b.Model)}</span></td><td class="num">${picks.China.n}</td><td class="num">+${frac(a.eci-b.eci)} ECI</td></tr>`;}E('yearTable').innerHTML=html;}
@@ -133,7 +185,15 @@ function currentRecords(){let d=state.recordScope==='trend'?DATA.trend.map(x=>({
 function renderRecords(){let d=currentRecords();E('recordCount').textContent=`${d.length} model–country assignments`;let html='';for(const r of d.slice(0,state.more)){html+=`<tr><td><b>${clean(r.Model)}</b></td><td style="color:${cc(r.country)};font-weight:700">${r.country==='US'?'United States':'China'}</td><td>${r.eci_release_date}</td><td class="num">${frac(r.eci)}</td><td>${conf(r)}</td><td class="num">${r.training_compute_flop?clean(fcomp(r.training_compute_flop)):'—'}</td></tr>`;}E('modelRows').innerHTML=html||'<tr><td colspan="6">No matching models. Clear the filters or search for a different name.</td></tr>';E('recordShown').textContent=`Showing ${Math.min(d.length,state.more)} of ${d.length}`;E('showMore').hidden=d.length<=state.more;E('downloadCsv').disabled=!d.length;}
 function dlCsv(){const rows=currentRecords();const head=['Model','country','release_date','eci','eci_ci_low','eci_ci_high','training_compute_flop'];const quote=x=>'"'+String(x??'').replaceAll('"','""')+'"';const text='\ufeff'+head.join(',')+'\n'+rows.map(r=>[r.Model,r.country,r.eci_release_date,r.eci,r.eci_ci_low,r.eci_ci_high,r.training_compute_flop??''].map(quote).join(',')).join('\n');const blob=new Blob([text],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='chart6_filtered_model_records.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1800);}
 function setupTabs(id,key,render){E(id).querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{state[key]=b.dataset.value;E(id).querySelectorAll('button').forEach(z=>{z.classList.toggle('active',z===b);z.setAttribute('aria-pressed',String(z===b));});render();}));}
-setupTabs('trendCountries','trendCountry',renderTrend);setupTabs('trendPeriods','trendPeriod',renderTrend);setupTabs('scatterCountries','scatterCountry',renderScatter);setupTabs('scatterPeriods','scatterPeriod',renderScatter);E('replayTrend').onclick=()=>renderTrend({replay:true});E('replayScatter').onclick=()=>renderScatter({replay:true});
+setupTabs('trendCountries','trendCountry',renderTrend);setupTabs('trendPeriods','trendPeriod',renderTrend);setupTabs('scatterCountries','scatterCountry',renderScatter);setupTabs('scatterPeriods','scatterPeriod',renderScatter);E('trendModelPicker').addEventListener('change',e=>{
+ const raw=e.target.value,i=Number(raw);
+ if(raw===''||!trendVisible[i])return;
+ const node=E('trendSVG').querySelector('circle[data-index="'+i+'"]');
+ if(!node)return;
+ selectTrendDot(node,trendVisible[i],i);
+ const box=node.getBoundingClientRect();showTrendTip(trendVisible[i],box.right,box.top);
+});
+E('replayTrend').onclick=()=>renderTrend({replay:true});E('replayScatter').onclick=()=>renderScatter({replay:true});
 E('recordScope').onchange=e=>{state.recordScope=e.target.value;state.more=15;renderRecords();};E('recordCountry').onchange=e=>{state.recordCountry=e.target.value;state.more=15;renderRecords();};E('recordSearch').oninput=e=>{state.recordSearch=e.target.value.trim();state.more=15;renderRecords();};E('showMore').onclick=()=>{state.more+=15;renderRecords();};E('downloadCsv').onclick=dlCsv;
 renderYearTable();renderCoverage();renderTrend();renderScatter();renderRecords();
 if('IntersectionObserver' in window){const obs=new IntersectionObserver(entries=>{for(const e of entries){if(e.isIntersecting){if(e.target.id==='trendTarget')renderTrend({replay:true});if(e.target.id==='scatterTarget')renderScatter({replay:true});obs.unobserve(e.target);}}},{threshold:.2});obs.observe(E('trendTarget'));obs.observe(E('scatterTarget'));}
