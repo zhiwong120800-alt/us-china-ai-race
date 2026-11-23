@@ -48,7 +48,18 @@ The project combines individually developed analysis with subsequent integration
 | **Manasvi** | Chapter 03 — Who Builds It?: original developer-concentration analysis, organisation groupings and country attribution review. |
 | **Maris** | Chart 05 — Open vs Closed: original Streamlit/Plotly release-strategy visualisation. |
 
-All chapters underwent further integration and review. GitHub commits, the data-review inputs and reconstruction scripts document the integration process; a single account's commit history does not independently establish authorship of every original contribution.
+### Zhi Wang — project-wide technical integration and quality assurance
+
+Zhi Wang served as the **project integration lead**, taking responsibility for turning the independently contributed analyses into one assessable, navigable and reproducible portfolio. This was cross-cutting work beyond authoring any single chart:
+
+1. **Application architecture and delivery:** built and maintained the central `app.py` Streamlit wrapper for the introduction, six analytical chapters and conclusion; integrated the HTML visualisations under `static/` and aligned page structure, sidebar navigation and Previous/Next flow.
+2. **User experience and debugging:** worked on chapter-link navigation, restoring the page to the top when changing chapters, hover/detail accessibility, interaction behaviour and browser acceptance tests. Relevant implementation: `app.py`, `static/`, `scripts/browser_acceptance.py`.
+3. **Cross-chapter data integrity:** reconciled the source-lineage and classification rules used in Chapters 03–05 so the combined analyses use the **667 model–country observations (514 US, 153 China)** consistently; checked organisation mappings, dates, country assignments, concentration denominators and accessibility categories against the canonical **1,078-row Epoch snapshot**. Relevant evidence: `data/review/`, `data/processed/`, `scripts/rebuild_chapter_data.py`.
+4. **Reproducibility and quantitative checks:** prepared or integrated the scripts that regenerate the analytical tables and check the model counts, classification rules and ECI matching; documented the source snapshots, methodological qualifications and reconstruction instructions. Relevant evidence: `scripts/`, `docs/data_dictionary.md`, `docs/REPRODUCIBILITY.md`.
+5. **Assessment readiness and repository stewardship:** assembled and maintained the final repository structure, AI provenance matrix, data/AI disclosure, README and checklist; incorporated teammates' submitted provenance; mapped the final portfolio against the **30 binary marking checks**. Relevant evidence: `docs/ai_provenance_matrix.csv`, `docs/data_ai_disclosure.md`, `docs/FINAL_SUBMISSION_CHECKLIST.md`, `.github/workflows/portfolio-checks.yml`.
+
+**Credit boundary:** Aditi, Manasvi and Maris retain credit for their original chapter/chart contributions, as described above. The responsibilities here describe Zhi Wang's subsequent integration, validation, debugging and submission preparation; they should not be interpreted as claiming sole authorship of all original analyses. The commit history records repository changes but does not, by itself, establish the source of every contribution.
+
 
 ## Data and reconstruction
 
