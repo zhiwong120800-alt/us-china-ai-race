@@ -37,6 +37,19 @@ GitHub Pages [read-only preview](https://zhiwong120800-alt.github.io/us-china-ai
 | 06 Volume vs Quality | Does a model count or compute estimate establish capability? | 237 ECI model–country observations, including 44 exact name/compute matches |
 | Conclusion | Do all six perspectives agree? | Integrative answer with study limits and cross-referenced literature |
 
+## Team Contributions
+
+The project combines individually developed analysis with subsequent integration, data validation and quality assurance. The following distinguishes original chapter work from project-wide integration.
+
+| Member | Documented contribution |
+|---|---|
+| **Zhi Wang — Project Integration Lead** | Integrated the six-chapter narrative into the Streamlit application; implemented and debugged navigation and interactions; reconciled cross-chapter counting and model-level classifications; prepared data-validation and reproducibility scripts, automated acceptance checks, repository documentation and final rubric audit. |
+| **Aditi** | Chapter 02 — Frontier Gap: original analysis and visualisation of AI training-compute trends. |
+| **Manasvi** | Chapter 03 — Who Builds It?: original developer-concentration analysis, organisation groupings and country attribution review. |
+| **Maris** | Chart 05 — Open vs Closed: original Streamlit/Plotly release-strategy visualisation. |
+
+All chapters underwent further integration and review. GitHub commits, the data-review inputs and reconstruction scripts document the integration process; a single account's commit history does not independently establish authorship of every original contribution.
+
 ## Data and reconstruction
 
 **Frozen download / processing date: 20 October 2026.** OWID paper latest observation: **2024** (upstream metadata updated 27 April 2026). Epoch Notable latest model publication date: **30 September 2026**. ECI latest model release date: **7 October 2026**.
@@ -62,7 +75,7 @@ The CI workflow .github/workflows/portfolio-checks.yml runs source-to-output che
 
 ## Data and AI use
 
-See docs/ai_provenance_matrix.csv and docs/data_ai_disclosure.md. A complete AI-use record must be provided by *every* group member, each with a verification that could have failed. **The confirmed records currently cover Maris and Wang; Aditi and Manasvi still require their own verified entries and team sign-off. Do not claim this criterion is complete until they provide them.**
+See docs/ai_provenance_matrix.csv and docs/data_ai_disclosure.md. A complete AI-use record must be provided by *every* group member, each with a verification that could have failed. **Four members are listed. Aditi and Manasvi have confirmed their chapter contributions and authorised delegated maintenance of the matrix; their individual AI tool/prompt/output and verification details are not yet documented. These rows must not be treated as verified AI-use records until those particulars are established.**
 
 ## Final Part 2 delivery
 
