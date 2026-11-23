@@ -75,7 +75,7 @@ The CI workflow .github/workflows/portfolio-checks.yml runs source-to-output che
 
 ## Data and AI use
 
-See docs/ai_provenance_matrix.csv and docs/data_ai_disclosure.md. A complete AI-use record must be provided by *every* group member, each with a verification that could have failed. **Four members are listed. Aditi's Claude-assisted Chart 2 work, reported checks and limitations are now documented from her 23 November 2026 provenance submission. Manasvi has confirmed GPT assistance throughout her Chapter 03 workflow and that she personally checked the data. Her matrix entry records these facts and project-level reproducibility checks; the specific personal verification steps have not been described.**
+See docs/ai_provenance_matrix.csv and docs/data_ai_disclosure.md. A complete AI-use record must be provided by *every* group member, each with a verification that could have failed. **Four members are listed. Aditi's Claude-assisted Chart 2 work, reported checks and limitations are now documented from her 23 November 2026 provenance submission. Manasvi's 23 November 2026 Chart 3 provenance reports Claude assistance with organisation research, chart presentation and captions, plus 24 tests and manual Excel checks including the 291-versus-288 investigation. Her self-reported source export contained 1,079 models; the integrated snapshot is the 1,078-row canonical file. The matrix records these details without implying that her separate tests were rerun during integration.**
 
 ## Final Part 2 delivery
 
